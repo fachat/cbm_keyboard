@@ -85,9 +85,11 @@ Please note that it took me about 100+ hours just to print the full set of keys 
 After printing you have to remove the supports that anchor the stem to the outside of the keycaps so it does
 not break away when printing.
 
+For your convenience there is an open project at PCBWay to print the key caps, see the links.
+
 * [Keycaps for resin printing](https://www.tinkercad.com/things/5lsn5LsNa8Z-commodore-pet-caps-for-n-keyboard-m3-resin)
 * [Master file for keycaps](https://www.tinkercad.com/things/d6KLWAxGR4K-master-commodore-pet-caps-for-n-keyboard)
-
+* [Open project at PCBWay 3D printing](https://www.pcbway.com/project/shareproject/Commodore_PET_N_type_keycaps_c1c2d1a0.html)
 
 ### Switches
 
@@ -100,8 +102,8 @@ I found the MX1A-C1NW a good compromise for me.
 
 ## Gallery
 
-![Assembled keyboard with white resin printed caps](images/whiteresin.jpg), with key prints painted with black alcohol ink
-![Assembled keyboard with black PLA printed caps](images/blackpla.jpg), with key prints painted with white alcohol ink
-![Assembled keyboard with black PLA printed caps](images/case-with-caps.jpg), with key prints painted with white alcohol ink
+![Assembled keyboard with white resin printed caps](images/whiteresin.jpg) Assembled keyboard with white resin printed caps, with key prints painted with black alcohol ink
+![Assembled keyboard with black PLA printed caps](images/blackpla.jpg) Assembled keyboard with black PLA printed caps, with key prints painted with white alcohol ink
+![Assembled keyboard with black PLA printed caps](images/case-with-caps.jpg) Assembled keyboard with black PLA printed caps
 
  
