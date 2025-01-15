@@ -80,7 +80,7 @@ into tinkercad, I had to make screenshots from each character, and convert these
 
 The front characters are all from an [SVG file from wikipedia](https://en.wikipedia.org/wiki/Commodore_PET#/media/File:PET_Keyboard_improved.svg), from which I also took screenshots and converted to SVG as above.
 
-You can find the STL files [here](keycaps/), in four parts due to its size.
+You can find an oder version of the the STL files [here](keycaps/), in four parts due to its size. The current version is linked from tinkercad below.
 Please note that it took me about 100+ hours just to print the full set of keys on my Snapmaker printer in high quality.
 After printing you have to remove the supports that anchor the stem to the outside of the keycaps so it does
 not break away when printing.
@@ -100,5 +100,8 @@ I found the MX1A-C1NW a good compromise for me.
 
 ## Gallery
 
-![First showing the boot menu during the build process](images/boot_during_build.jpg)
+![Assembled keyboard with white resin printed caps](images/whiteresin.jpg), with key prints painted with black alcohol ink
+![Assembled keyboard with black PLA printed caps](images/blackpla.jpg), with key prints painted with white alcohol ink
+![Assembled keyboard with black PLA printed caps](images/case-with-caps.jpg), with key prints painted with white alcohol ink
+
  
