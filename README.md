@@ -19,9 +19,11 @@ This keyboard is the typewriter-stlye keyboard used in most 40 column models, ex
 For my builds I am using the N-type keyboard PCB by Steve Gray from his [MX replacement keyboards projects](http://cbmsteve.ca/mxkeyboards/index.html)
 
 As Steve only has the PCB, I designed a 3D-printable base support for the PCB.
-It is available on tinkercad.
+It is available on tinkercad and the STL files are also available here.
 
 * [support structure for Steve's N-type keyboard at tinkercad](https://www.tinkercad.com/things/cUVlushPB3j-sjg-keybd-full-support-v07).
+* [left part of the support](PET-Keyboard-Support-SJG-N-v07-left.stl)
+* [right part of the support](PET-Keyboard-Support-SJG-N-v07-right.stl)
 
 #### Texelec Petskey keyboard
 
