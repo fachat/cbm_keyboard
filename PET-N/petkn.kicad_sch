@@ -11,670 +11,6 @@
 		(company "Steve J. Gray")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x20"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x20"
-				(at 0 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x20_1_1"
-				(rectangle
-					(start -1.27 24.13)
-					(end 1.27 -26.67)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 22.987)
-					(end 0 22.733)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 20.447)
-					(end 0 20.193)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 17.907)
-					(end 0 17.653)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 15.367)
-					(end 0 15.113)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 12.827)
-					(end 0 12.573)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 10.287)
-					(end 0 10.033)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -12.573)
-					(end 0 -12.827)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -15.113)
-					(end 0 -15.367)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -17.653)
-					(end 0 -17.907)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -20.193)
-					(end 0 -20.447)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -22.733)
-					(end 0 -22.987)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -25.273)
-					(end 0 -25.527)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 22.86 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 20.32 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 17.78 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 15.24 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 12.7 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 10.16 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 3.81)
-					(name "Pin_15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -15.24 0)
-					(length 3.81)
-					(name "Pin_16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -17.78 0)
-					(length 3.81)
-					(name "Pin_17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -20.32 0)
-					(length 3.81)
-					(name "Pin_18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -22.86 0)
-					(length 3.81)
-					(name "Pin_19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -25.4 0)
-					(length 3.81)
-					(name "Pin_20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -1133,10 +469,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "petkn:Extended_PET_keyboard_connector"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1144,17 +477,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
+			(property "Reference" "J"
+				(at 1.143 25.781 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
+			(property "Value" "Extended_PET_keyboard_connector"
+				(at 4.445 -27.305 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1162,7 +494,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 5.08 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1171,15 +503,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1188,7 +511,16 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 4.064 29.718 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1197,13 +529,863 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_0_1"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Extended_PET_keyboard_connector_1_1"
+				(rectangle
+					(start -0.635 24.13)
+					(end 4.445 -26.67)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -0.635 22.987)
+					(end 0.635 22.733)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 20.447)
+					(end 0.635 20.193)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 17.907)
+					(end 0.635 17.653)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 15.367)
+					(end 0.635 15.113)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 12.827)
+					(end 0.635 12.573)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 10.287)
+					(end 0.635 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 7.747)
+					(end 0.635 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 5.207)
+					(end 0.635 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 2.667)
+					(end 0.635 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 0.127)
+					(end 0.635 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 -2.413)
+					(end 0.635 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 -4.953)
+					(end 0.635 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 -7.493)
+					(end 0.635 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 -10.033)
+					(end 0.635 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 -12.573)
+					(end 0.635 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 -15.113)
+					(end 0.635 -15.367)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 -17.653)
+					(end 0.635 -17.907)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 -20.193)
+					(end 0.635 -20.447)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 -22.733)
+					(end 0.635 -22.987)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 -25.273)
+					(end 0.635 -25.527)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.445 -0.635)
+					(end 10.16 -26.67)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -4.445 22.86 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -4.445 20.32 0)
+					(length 3.81)
+					(name "key"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -4.445 17.78 0)
+					(length 3.81)
+					(name "R10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -4.445 15.24 0)
+					(length 3.81)
+					(name "R9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -4.445 12.7 0)
+					(length 3.81)
+					(name "R8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -4.445 10.16 0)
+					(length 3.81)
+					(name "R7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -4.445 7.62 0)
+					(length 3.81)
+					(name "R6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -4.445 5.08 0)
+					(length 3.81)
+					(name "R5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -4.445 2.54 0)
+					(length 3.81)
+					(name "R4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -4.445 0 0)
+					(length 3.81)
+					(name "R3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -4.445 -2.54 0)
+					(length 3.81)
+					(name "R2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -4.445 -5.08 0)
+					(length 3.81)
+					(name "R1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -4.445 -7.62 0)
+					(length 3.81)
+					(name "C8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -4.445 -10.16 0)
+					(length 3.81)
+					(name "C7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -4.445 -12.7 0)
+					(length 3.81)
+					(name "C6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -4.445 -15.24 0)
+					(length 3.81)
+					(name "C5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -4.445 -17.78 0)
+					(length 3.81)
+					(name "C4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -4.445 -20.32 0)
+					(length 3.81)
+					(name "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -4.445 -22.86 0)
+					(length 3.81)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -4.445 -25.4 0)
+					(length 3.81)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -2.54 180)
+					(length 3.81)
+					(name "RESTORE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -5.08 180)
+					(length 3.81)
+					(name "SCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -7.62 180)
+					(length 3.81)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -10.16 180)
+					(length 3.81)
+					(name "VCC33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -12.7 180)
+					(length 3.81)
+					(name "VCC5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -15.24 180)
+					(length 3.81)
+					(name "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -17.78 180)
+					(length 3.81)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -20.32 180)
+					(length 3.81)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -22.86 180)
+					(length 3.81)
+					(name "S0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -25.4 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "petkn:MX Key with LED Unit"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.778 2.921 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MX Key with LED Unit_1_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1215,7 +1397,7 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1226,7 +1408,7 @@
 					(radius 0.508)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1238,7 +1420,7 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1266,6 +1448,104 @@
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MX Key with LED Unit_2_1"
+				(polyline
+					(pts
+						(xy -3.048 -3.302) (xy -4.572 -4.826) (xy -3.81 -4.826) (xy -4.572 -4.826) (xy -4.572 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy -3.302 -4.826) (xy -2.54 -4.826) (xy -3.302 -4.826) (xy -3.302 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -1.27) (xy -1.27 -2.54) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 -2.54 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -2.54 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1397,17 +1677,6 @@
 		)
 		(uuid "65089744-f344-46a9-8776-dd500fb95b5b")
 	)
-	(text "Two connectors for flexible\nmounting, or for connecting\na secondary keyboard or\njoystick board ;-)"
-		(exclude_from_sim no)
-		(at 235.585 88.9 0)
-		(effects
-			(font
-				(size 1.5494 1.5494)
-			)
-			(justify left bottom)
-		)
-		(uuid "67d401cf-f00b-4681-800c-ac7c860a873c")
-	)
 	(text "7"
 		(exclude_from_sim no)
 		(at 121.92 31.115 0)
@@ -1462,7 +1731,7 @@
 	)
 	(text "KEY"
 		(exclude_from_sim no)
-		(at 255.27 30.48 0)
+		(at 243.84 30.48 0)
 		(effects
 			(font
 				(size 1.5494 1.5494)
@@ -1605,17 +1874,6 @@
 			(justify left bottom)
 		)
 		(uuid "a580d524-8096-49d7-846a-9020dbc0df8e")
-	)
-	(text "KEY"
-		(exclude_from_sim no)
-		(at 235.585 30.48 0)
-		(effects
-			(font
-				(size 1.5494 1.5494)
-			)
-			(justify left bottom)
-		)
-		(uuid "a69a1042-61e2-4800-89e8-c04a3ac64f6e")
 	)
 	(text "SWITCH67"
 		(exclude_from_sim no)
@@ -1782,17 +2040,6 @@
 		)
 		(uuid "cbb6dc7b-634e-43dd-aa03-96376dff3a1e")
 	)
-	(text "GROUND"
-		(exclude_from_sim no)
-		(at 250.19 27.94 0)
-		(effects
-			(font
-				(size 1.5494 1.5494)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6e49b9d-837e-4598-8028-77eaf33ac8e2")
-	)
 	(text "5"
 		(exclude_from_sim no)
 		(at 95.885 31.115 0)
@@ -1818,17 +2065,6 @@
 			(justify left bottom)
 		)
 		(uuid "d7b4ad9f-4f2c-4e68-8d1f-7c323e877a5c")
-	)
-	(text "GROUND"
-		(exclude_from_sim no)
-		(at 230.505 27.94 0)
-		(effects
-			(font
-				(size 1.5494 1.5494)
-			)
-			(justify left bottom)
-		)
-		(uuid "f6adda4a-a982-434b-94b2-3f9711540d69")
 	)
 	(text "E"
 		(exclude_from_sim no)
@@ -2715,20 +2951,8 @@
 		(uuid "fdb23e44-b8b0-4f1f-ab14-4409f7d86f16")
 	)
 	(no_connect
-		(at 260.985 26.67)
-		(uuid "4f8380bf-9448-4221-aea5-e7d62f2a31bf")
-	)
-	(no_connect
-		(at 241.3 29.21)
-		(uuid "550b06d0-29f4-439c-a00f-ce2dee05861c")
-	)
-	(no_connect
-		(at 260.985 29.21)
+		(at 251.46 29.21)
 		(uuid "893c1ca0-a40d-4a3d-8eaf-fa27a53ab5c5")
-	)
-	(no_connect
-		(at 241.3 26.67)
-		(uuid "aab8f4ce-4c4a-4eb0-8e9d-1539f84670e3")
 	)
 	(wire
 		(pts
@@ -2769,6 +2993,16 @@
 			(type default)
 		)
 		(uuid "01d3f7d1-f1ca-46fa-aae4-f73e268a26f7")
+	)
+	(wire
+		(pts
+			(xy 269.875 52.07) (xy 271.78 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0260f822-c4fe-4c2d-a1b7-e5a0aeca70f7")
 	)
 	(wire
 		(pts
@@ -2822,6 +3056,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 59.69) (xy 249.555 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b367a40-b9b3-4823-b553-a5d82057bf59")
+	)
+	(wire
+		(pts
 			(xy 53.975 146.685) (xy 53.975 160.02)
 		)
 		(stroke
@@ -2849,6 +3093,16 @@
 			(type default)
 		)
 		(uuid "0cf88454-9248-4d98-adcd-bc9dbd843df8")
+	)
+	(wire
+		(pts
+			(xy 251.46 67.31) (xy 249.555 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e4fb814-50ef-422d-ba64-3903719e699b")
 	)
 	(wire
 		(pts
@@ -2882,6 +3136,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 46.99) (xy 249.555 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c17ba4-0f75-49f0-9056-cbb498fbe808")
+	)
+	(wire
+		(pts
 			(xy 51.435 106.68) (xy 51.435 111.125)
 		)
 		(stroke
@@ -2899,6 +3163,16 @@
 			(type default)
 		)
 		(uuid "12a26d85-f3f6-4209-ba20-8ba56c1927c7")
+	)
+	(wire
+		(pts
+			(xy 251.46 64.77) (xy 249.555 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d35c2e-6487-4111-bbc5-92a394681171")
 	)
 	(wire
 		(pts
@@ -2992,6 +3266,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.875 54.61) (xy 271.78 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fbb53fb-be2e-4f31-ad5a-58164ccfd735")
+	)
+	(wire
+		(pts
 			(xy 77.47 133.35) (xy 77.47 137.795)
 		)
 		(stroke
@@ -3062,6 +3346,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.875 64.77) (xy 271.78 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ff7090-1078-4f30-915b-96959e287256")
+	)
+	(wire
+		(pts
 			(xy 102.87 84.455) (xy 90.17 84.455)
 		)
 		(stroke
@@ -3112,6 +3406,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.875 67.31) (xy 271.78 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d4528fd-8e19-4a62-a3e0-17874b460f64")
+	)
+	(wire
+		(pts
 			(xy 41.275 146.685) (xy 41.275 160.02)
 		)
 		(stroke
@@ -3149,6 +3453,16 @@
 			(type default)
 		)
 		(uuid "313e8fdf-0a6b-47a7-942d-68be288dbf40")
+	)
+	(wire
+		(pts
+			(xy 249.555 26.67) (xy 251.46 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3256e35d-c776-436a-a885-949cd348f655")
 	)
 	(wire
 		(pts
@@ -3219,6 +3533,16 @@
 			(type default)
 		)
 		(uuid "36906d4b-88db-4ea8-a612-1d6b21ce9746")
+	)
+	(wire
+		(pts
+			(xy 251.46 62.23) (xy 249.555 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38600fee-25dd-43d8-924d-a1e43762cdd4")
 	)
 	(wire
 		(pts
@@ -3352,6 +3676,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 34.29) (xy 249.555 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "411ebcda-7e11-49e9-b82a-2566de1e0a67")
+	)
+	(wire
+		(pts
 			(xy 92.71 66.675) (xy 92.71 80.01)
 		)
 		(stroke
@@ -3359,6 +3693,26 @@
 			(type default)
 		)
 		(uuid "41a6e29b-0be7-418f-bcf0-f1ada8c11ecf")
+	)
+	(wire
+		(pts
+			(xy 269.875 69.85) (xy 271.78 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42288962-39e4-4ce4-93f8-5ab41f1518b5")
+	)
+	(wire
+		(pts
+			(xy 269.875 72.39) (xy 271.78 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42368024-46bd-461c-83ea-c0c079070668")
 	)
 	(wire
 		(pts
@@ -3439,6 +3793,16 @@
 			(type default)
 		)
 		(uuid "4f91c953-55be-4df4-abf0-8714f687a84b")
+	)
+	(wire
+		(pts
+			(xy 251.46 69.85) (xy 249.555 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "516b494a-3308-467a-9acb-f6c56a0f840f")
 	)
 	(wire
 		(pts
@@ -3702,6 +4066,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 54.61) (xy 249.555 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f70dc32-01f3-4d6e-8bf0-07dd0abbe4d4")
+	)
+	(wire
+		(pts
 			(xy 105.41 93.345) (xy 105.41 106.68)
 		)
 		(stroke
@@ -3902,6 +4276,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 44.45) (xy 249.555 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81da8558-972d-492c-8242-e0f0ec51f700")
+	)
+	(wire
+		(pts
 			(xy 51.435 84.455) (xy 29.845 84.455)
 		)
 		(stroke
@@ -4012,6 +4396,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 49.53) (xy 249.555 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9241b9d8-3f0f-4749-946d-888e996c845e")
+	)
+	(wire
+		(pts
 			(xy 92.71 106.68) (xy 92.71 120.015)
 		)
 		(stroke
@@ -4029,6 +4423,16 @@
 			(type default)
 		)
 		(uuid "95b3822d-4a00-4bbb-9329-13911baf6166")
+	)
+	(wire
+		(pts
+			(xy 251.46 74.93) (xy 249.555 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95c43990-99ed-48d6-8bcc-0713d5834a9f")
 	)
 	(wire
 		(pts
@@ -4089,6 +4493,16 @@
 			(type default)
 		)
 		(uuid "9e482917-1dfd-4b35-bbbf-b8acf58956df")
+	)
+	(wire
+		(pts
+			(xy 269.875 59.69) (xy 271.78 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e6e4ab3-ab99-4775-b8a8-1e65401e3bbe")
 	)
 	(wire
 		(pts
@@ -4202,6 +4616,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 57.15) (xy 249.555 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c50174-f335-44f5-86c4-686ee5b336ae")
+	)
+	(wire
+		(pts
 			(xy 128.905 84.455) (xy 115.57 84.455)
 		)
 		(stroke
@@ -4219,6 +4643,16 @@
 			(type default)
 		)
 		(uuid "a6153209-88e0-4b2f-8183-5654bb02833c")
+	)
+	(wire
+		(pts
+			(xy 269.875 74.93) (xy 271.78 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6a4c064-162e-43d2-b91d-ffdf15d3147b")
 	)
 	(wire
 		(pts
@@ -4249,6 +4683,16 @@
 			(type default)
 		)
 		(uuid "aa3b3ae9-d1e6-4e6c-8a86-7d6ae078e2a3")
+	)
+	(wire
+		(pts
+			(xy 251.46 31.75) (xy 249.555 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd1ba37-76c3-40d6-bd11-96c6cf7b8b3b")
 	)
 	(wire
 		(pts
@@ -4309,6 +4753,16 @@
 			(type default)
 		)
 		(uuid "b122fae8-6863-4e7e-a35d-01562e3d817d")
+	)
+	(wire
+		(pts
+			(xy 269.875 62.23) (xy 271.78 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b308ddbf-bfaf-4eeb-a7db-fc5d8e268abb")
 	)
 	(wire
 		(pts
@@ -4512,6 +4966,26 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 36.83) (xy 249.555 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d74765-595b-4285-b908-60edbbd6bcc4")
+	)
+	(wire
+		(pts
+			(xy 251.46 52.07) (xy 249.555 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c834b5e1-bf2a-438f-bd11-2b1bd51b60db")
+	)
+	(wire
+		(pts
 			(xy 77.47 71.12) (xy 90.17 71.12)
 		)
 		(stroke
@@ -4549,6 +5023,16 @@
 			(type default)
 		)
 		(uuid "cbc043db-6a81-4c6b-a0ef-bc4b1aabd828")
+	)
+	(wire
+		(pts
+			(xy 251.46 39.37) (xy 249.555 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbc70c1f-30fc-42c3-a6a9-78d3e16ecee2")
 	)
 	(wire
 		(pts
@@ -4642,6 +5126,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 72.39) (xy 249.555 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d50eaef9-25d7-452b-88c4-47fb26b2396e")
+	)
+	(wire
+		(pts
 			(xy 64.135 84.455) (xy 51.435 84.455)
 		)
 		(stroke
@@ -4659,6 +5153,16 @@
 			(type default)
 		)
 		(uuid "d53e5a46-c7d1-44a7-9c11-3df7f8333154")
+	)
+	(wire
+		(pts
+			(xy 251.46 41.91) (xy 249.555 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6f981f0-66a8-4a86-9f39-de87b113d863")
 	)
 	(wire
 		(pts
@@ -4942,6 +5446,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.875 57.15) (xy 271.78 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f48a7365-2a8e-495c-9b94-aa45dd9bb18d")
+	)
+	(wire
+		(pts
 			(xy 141.605 106.68) (xy 141.605 111.125)
 		)
 		(stroke
@@ -5062,7 +5576,7 @@
 	)
 	(global_label "C6"
 		(shape input)
-		(at 260.985 62.23 180)
+		(at 249.555 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5071,7 +5585,7 @@
 		)
 		(uuid "039fa31b-df0e-4d83-acfe-bdf1c77c63e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.985 62.23 0)
+			(at 249.555 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5596,7 @@
 	)
 	(global_label "C2"
 		(shape input)
-		(at 260.985 72.39 180)
+		(at 249.555 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5091,7 +5605,7 @@
 		)
 		(uuid "05506688-80c1-4746-851b-9b4d765609c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.985 72.39 0)
+			(at 249.555 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5102,7 +5616,7 @@
 	)
 	(global_label "C8"
 		(shape input)
-		(at 260.985 57.15 180)
+		(at 249.555 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5111,11 +5625,33 @@
 		)
 		(uuid "0897b55b-f3ca-427b-87c7-64bf28e45ac6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.985 57.15 0)
+			(at 249.555 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCA"
+		(shape input)
+		(at 271.78 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c69d124-9eec-443c-bad3-615a3f01f7fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.6791 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5142,7 +5678,7 @@
 	)
 	(global_label "R10"
 		(shape input)
-		(at 260.985 31.75 180)
+		(at 249.555 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5151,7 +5687,7 @@
 		)
 		(uuid "1cb0314b-3097-4459-a4f2-356532a925f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.985 31.75 0)
+			(at 249.555 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5162,7 +5698,7 @@
 	)
 	(global_label "C3"
 		(shape input)
-		(at 260.985 69.85 180)
+		(at 249.555 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5171,7 +5707,7 @@
 		)
 		(uuid "2042fe19-bb50-4f1d-84a9-2014779f9fef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.985 69.85 0)
+			(at 249.555 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5302,7 +5838,7 @@
 	)
 	(global_label "C1"
 		(shape input)
-		(at 260.985 74.93 180)
+		(at 249.555 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5311,7 +5847,7 @@
 		)
 		(uuid "2c9d90cb-969e-49f3-83a1-e250ae356925")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.985 74.93 0)
+			(at 249.555 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5320,9 +5856,31 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 249.555 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d1bfa26-1867-4820-8ae5-75df2a602982")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.3535 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "R6"
 		(shape input)
-		(at 260.985 41.91 180)
+		(at 249.555 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5331,27 +5889,7 @@
 		)
 		(uuid "32438cda-d769-43ae-948b-3dbbb8ab6ece")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.985 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "R7"
-		(shape input)
-		(at 241.3 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "39925177-59ae-4210-8581-7ab6566ebbf7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 39.37 0)
+			(at 249.555 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5402,7 +5940,7 @@
 	)
 	(global_label "R3"
 		(shape input)
-		(at 260.985 49.53 180)
+		(at 249.555 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5411,7 +5949,7 @@
 		)
 		(uuid "456b1182-783e-46f8-8ff7-74cdec6b14ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.985 49.53 0)
+			(at 249.555 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,22 +5978,24 @@
 			)
 		)
 	)
-	(global_label "R2"
+	(global_label "S2"
 		(shape input)
-		(at 241.3 52.07 180)
+		(at 271.78 67.31 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "4ca11bc9-0d2b-471c-8b12-c71c50d6afa2")
+		(uuid "4eeaee5e-431c-4f0f-a12d-03fe033ebdc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 52.07 0)
+			(at 276.53 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5500,6 +6040,28 @@
 			)
 		)
 	)
+	(global_label "VCC33"
+		(shape input)
+		(at 271.78 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5975c27e-eb9e-4699-a0d5-fc32bde5d5b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.1586 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "R6"
 		(shape input)
 		(at 29.845 97.79 180)
@@ -5516,6 +6078,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 271.78 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "604014df-1008-4c7e-890d-24e6d73425ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.6186 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5560,46 +6144,6 @@
 			)
 		)
 	)
-	(global_label "R4"
-		(shape input)
-		(at 241.3 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6b6cfa98-b23e-477d-9db6-2d2b06ce09a1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "C4"
-		(shape input)
-		(at 241.3 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6b9f2161-2e99-4bcb-b412-a63e4f332c61")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "XR3"
 		(shape input)
 		(at 173.355 75.565 0)
@@ -5616,6 +6160,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC5"
+		(shape input)
+		(at 271.78 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73c3ee33-dfe4-4492-a4d0-0f66077943ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.9491 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5720,22 +6286,24 @@
 			)
 		)
 	)
-	(global_label "C2"
+	(global_label "S0"
 		(shape input)
-		(at 241.3 72.39 180)
+		(at 271.78 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "7a319789-a1f9-462c-9920-bb394c5b6287")
+		(uuid "7b86eccf-e89e-4f02-838d-3b307a45c9cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 72.39 0)
+			(at 276.53 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5762,7 +6330,7 @@
 	)
 	(global_label "C4"
 		(shape input)
-		(at 260.985 67.31 180)
+		(at 249.555 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5771,7 +6339,7 @@
 		)
 		(uuid "7cf18ba8-81c5-4341-a3dd-7fcc0191ca5e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.985 67.31 0)
+			(at 249.555 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5800,9 +6368,31 @@
 			)
 		)
 	)
+	(global_label "S1"
+		(shape input)
+		(at 271.78 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e127f68-ae73-4f25-93ae-30e02641fa1a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "R4"
 		(shape input)
-		(at 260.985 46.99 180)
+		(at 249.555 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5811,7 +6401,7 @@
 		)
 		(uuid "7e60cf73-e8a2-4848-b31c-a5ca850ecbeb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.985 46.99 0)
+			(at 249.555 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5822,7 +6412,7 @@
 	)
 	(global_label "R1"
 		(shape input)
-		(at 260.985 54.61 180)
+		(at 249.555 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5831,11 +6421,33 @@
 		)
 		(uuid "7fbc0c04-dfdb-46ab-afa9-3ff5f1a304fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.985 54.61 0)
+			(at 249.555 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 271.78 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84ad34dd-b101-4934-9a74-5cee47f48c21")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.9815 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5882,7 +6494,7 @@
 	)
 	(global_label "R7"
 		(shape input)
-		(at 260.985 39.37 180)
+		(at 249.555 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5891,7 +6503,7 @@
 		)
 		(uuid "86a944ed-b125-4a30-b0a3-79e4d4627ea1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.985 39.37 0)
+			(at 249.555 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6000,26 +6612,6 @@
 			)
 		)
 	)
-	(global_label "R1"
-		(shape input)
-		(at 241.3 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "962df5ac-7453-43a0-8250-6e33d2c50336")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "XR3"
 		(shape input)
 		(at 203.2 130.81 0)
@@ -6060,26 +6652,6 @@
 			)
 		)
 	)
-	(global_label "R6"
-		(shape input)
-		(at 241.3 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a3831e2b-77df-4dcf-b8f6-3a13dd152c78")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "XC3"
 		(shape input)
 		(at 203.2 128.27 0)
@@ -6100,49 +6672,9 @@
 			)
 		)
 	)
-	(global_label "R3"
-		(shape input)
-		(at 241.3 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a7a48b38-8b71-44fa-9126-dbaac33059e2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "C8"
-		(shape input)
-		(at 241.3 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a8c6e552-7c4d-4fda-99a7-734d371e84ab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "R8"
 		(shape input)
-		(at 260.985 36.83 180)
+		(at 249.555 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6151,7 +6683,7 @@
 		)
 		(uuid "af67e991-868a-41c6-9021-e8edfe5a2d38")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.985 36.83 0)
+			(at 249.555 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6220,29 +6752,9 @@
 			)
 		)
 	)
-	(global_label "C7"
-		(shape input)
-		(at 241.3 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b45657e4-e22a-474a-9212-d0460e7a80c6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "R9"
 		(shape input)
-		(at 260.985 34.29 180)
+		(at 249.555 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6251,27 +6763,7 @@
 		)
 		(uuid "b6e809c9-59b1-430a-99cc-1490b89e0d60")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.985 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "C5"
-		(shape input)
-		(at 241.3 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ba0af4a9-44cc-4c80-a638-25e1b1c5a801")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 64.77 0)
+			(at 249.555 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6282,7 +6774,7 @@
 	)
 	(global_label "C7"
 		(shape input)
-		(at 260.985 59.69 180)
+		(at 249.555 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6291,7 +6783,7 @@
 		)
 		(uuid "bc115703-fa57-45c9-8337-22b7d0527909")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.985 59.69 0)
+			(at 249.555 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6312,26 +6804,6 @@
 		(uuid "c8340c3b-bf6e-45d2-b1ec-227f807c62b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 201.93 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "R9"
-		(shape input)
-		(at 241.3 34.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c953f377-b21a-48a8-b026-f318515ae644")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6362,7 +6834,7 @@
 	)
 	(global_label "R5"
 		(shape input)
-		(at 260.985 44.45 180)
+		(at 249.555 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6371,7 +6843,7 @@
 		)
 		(uuid "cd389d3d-c9d8-4177-8d7d-244a3e23b934")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.985 44.45 0)
+			(at 249.555 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6400,26 +6872,6 @@
 			)
 		)
 	)
-	(global_label "C1"
-		(shape input)
-		(at 241.3 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d1061e2d-9cd1-4629-ad19-8f23462e1356")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "R9"
 		(shape input)
 		(at 201.93 43.18 0)
@@ -6440,49 +6892,9 @@
 			)
 		)
 	)
-	(global_label "C3"
-		(shape input)
-		(at 241.3 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "da316a27-8499-46a4-bf4e-253f876a9bc6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "C6"
-		(shape input)
-		(at 241.3 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ddb2f2d8-eb36-4388-b94b-fd2ed86b9cc0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "C5"
 		(shape input)
-		(at 260.985 64.77 180)
+		(at 249.555 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6491,11 +6903,33 @@
 		)
 		(uuid "e09a9cdc-dfd9-4551-b7c3-b03e183b7e4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.985 64.77 0)
+			(at 249.555 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3"
+		(shape input)
+		(at 271.78 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0c936d7-9366-429e-bdba-71bf6cf58b63")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.53 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6562,7 +6996,7 @@
 	)
 	(global_label "R2"
 		(shape input)
-		(at 260.985 52.07 180)
+		(at 249.555 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6571,7 +7005,7 @@
 		)
 		(uuid "ef33ae93-5a31-4215-897c-7ded5a3ddf3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.985 52.07 0)
+			(at 249.555 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6600,22 +7034,24 @@
 			)
 		)
 	)
-	(global_label "R8"
+	(global_label "RESTORE"
 		(shape input)
-		(at 241.3 36.83 180)
+		(at 271.78 52.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "f45f5762-1bc6-4a39-947d-d160fb88e650")
+		(uuid "f80e0918-f416-48c6-b806-b9e99cfe292b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 36.83 0)
+			(at 282.4566 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6660,48 +7096,8 @@
 			)
 		)
 	)
-	(global_label "R5"
-		(shape input)
-		(at 241.3 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "feebaa10-7284-473d-97db-171b48c2052d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "R10"
-		(shape input)
-		(at 241.3 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ff81c107-61c1-423a-8fcb-8780b9c9548e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 46.355 40.005 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6725,8 +7121,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 46.355 34.925 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 46.355 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6735,7 +7131,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.355 34.925 0)
+			(at 46.355 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6749,6 +7145,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6756,6 +7153,12 @@
 		)
 		(pin "2"
 			(uuid "0860cee8-81bc-4877-8c18-bad9cadb5a4b")
+		)
+		(pin "1"
+			(uuid "0b2d47d8-55c5-4834-abf2-351c237aa1a2")
+		)
+		(pin "2"
+			(uuid "cda471bb-b0ab-4225-930d-64adf2a06aa7")
 		)
 		(instances
 			(project ""
@@ -6767,7 +7170,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 59.055 40.005 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6791,8 +7194,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 59.055 34.925 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 59.055 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6801,7 +7204,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.055 34.925 0)
+			(at 59.055 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6815,6 +7218,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6822,6 +7226,12 @@
 		)
 		(pin "2"
 			(uuid "219ae1c3-d735-4833-8611-872eabbc5d20")
+		)
+		(pin "2"
+			(uuid "3405c351-119c-4360-88e6-1ed132f1157b")
+		)
+		(pin "1"
+			(uuid "861ab589-0b97-4f73-a324-57062e00e148")
 		)
 		(instances
 			(project ""
@@ -6833,7 +7243,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 168.275 75.565 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6857,8 +7267,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX1A_1.25u_PCB"
-			(at 168.275 70.485 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.25u_PCB_with_LED"
+			(at 168.275 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6867,7 +7277,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.275 70.485 0)
+			(at 168.275 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6881,6 +7291,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6888,6 +7299,12 @@
 		)
 		(pin "2"
 			(uuid "31bd0420-432f-49b3-a96d-6153de360ea2")
+		)
+		(pin "1"
+			(uuid "93f26fec-a8e9-4f0e-9789-6543767e8762")
+		)
+		(pin "2"
+			(uuid "c6bb0d23-14a5-4f3f-8ea9-1faa90bdb0c2")
 		)
 		(instances
 			(project ""
@@ -6899,7 +7316,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 85.09 40.005 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6923,8 +7340,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 85.09 34.925 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 85.09 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6933,7 +7350,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 34.925 0)
+			(at 85.09 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,6 +7364,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6954,6 +7372,12 @@
 		)
 		(pin "2"
 			(uuid "9f03acb1-c893-468c-a966-aefd0af92f1f")
+		)
+		(pin "1"
+			(uuid "8fd5522d-bd8b-488c-afdb-2a003a184b28")
+		)
+		(pin "2"
+			(uuid "11b6a178-280a-4f77-a6fe-976c2d60a78c")
 		)
 		(instances
 			(project ""
@@ -6965,7 +7389,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 97.79 40.005 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6989,8 +7413,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 97.79 34.925 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 97.79 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6999,7 +7423,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 34.925 0)
+			(at 97.79 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7013,6 +7437,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7020,6 +7445,12 @@
 		)
 		(pin "2"
 			(uuid "32b46744-c39d-4f59-9bb2-46c0a5395bb0")
+		)
+		(pin "1"
+			(uuid "ca3a30c2-5d55-4bad-a8a0-b9150992526d")
+		)
+		(pin "2"
+			(uuid "44241f21-c3c5-4d6e-bf74-49e37bf7222d")
 		)
 		(instances
 			(project ""
@@ -7031,7 +7462,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 110.49 40.005 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7055,8 +7486,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX1A_6.25u_PCB"
-			(at 110.49 34.925 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_6.25u_PCB_with_LED"
+			(at 110.49 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7065,7 +7496,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 34.925 0)
+			(at 110.49 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7079,6 +7510,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7086,6 +7518,12 @@
 		)
 		(pin "2"
 			(uuid "90d66e62-a2f4-489d-820b-12d441f0c50b")
+		)
+		(pin "1"
+			(uuid "3b9cee6a-2883-4a0b-960c-814743799c46")
+		)
+		(pin "2"
+			(uuid "cd4cc933-a7bf-4c86-ba60-e5f85a593376")
 		)
 		(instances
 			(project ""
@@ -7097,7 +7535,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 123.825 40.005 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7121,8 +7559,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 123.825 34.925 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 123.825 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7131,7 +7569,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.825 34.925 0)
+			(at 123.825 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7145,6 +7583,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7152,6 +7591,12 @@
 		)
 		(pin "2"
 			(uuid "b7949e49-f210-43c5-ab22-5bb601fad8a4")
+		)
+		(pin "1"
+			(uuid "b614b03d-4c31-42cf-a3b7-6efa4655924c")
+		)
+		(pin "2"
+			(uuid "70cdbfbe-5701-4523-b74e-f3faad959ba1")
 		)
 		(instances
 			(project ""
@@ -7163,7 +7608,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 136.525 40.005 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7187,8 +7632,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX1A_1.50u_PCB"
-			(at 136.525 34.925 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.50u_PCB_with_LED"
+			(at 136.525 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7197,7 +7642,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 136.525 34.925 0)
+			(at 136.525 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7211,6 +7656,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7218,6 +7664,12 @@
 		)
 		(pin "2"
 			(uuid "e34d9369-480c-4b60-b1a3-bc99dffdc2bf")
+		)
+		(pin "1"
+			(uuid "4d735962-9ffc-4a07-9402-d0ba6a3aa826")
+		)
+		(pin "2"
+			(uuid "ebe05211-7698-48f4-bbb8-03d5a5212aa4")
 		)
 		(instances
 			(project ""
@@ -7229,7 +7681,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 46.355 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7253,8 +7705,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 46.355 48.26 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 46.355 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,7 +7715,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.355 48.26 0)
+			(at 46.355 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7277,6 +7729,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7284,6 +7737,12 @@
 		)
 		(pin "2"
 			(uuid "4d783623-3c35-45dd-878f-154fbc79f483")
+		)
+		(pin "1"
+			(uuid "6d29d8e8-0739-4a40-a14d-492286156676")
+		)
+		(pin "2"
+			(uuid "1c237df7-fa37-4a0b-b4bf-28523331d5eb")
 		)
 		(instances
 			(project ""
@@ -7295,7 +7754,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 59.055 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7319,8 +7778,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 59.055 48.26 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 59.055 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7329,7 +7788,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.055 48.26 0)
+			(at 59.055 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7343,6 +7802,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7350,6 +7810,12 @@
 		)
 		(pin "2"
 			(uuid "c8885ebb-6e2a-472a-bf08-b47626d149a3")
+		)
+		(pin "1"
+			(uuid "64b40695-b8f6-45e1-adf8-5a6d861dee6f")
+		)
+		(pin "2"
+			(uuid "93daee75-efbc-481c-9815-47f384c8feaa")
 		)
 		(instances
 			(project ""
@@ -7361,7 +7827,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 72.39 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7385,8 +7851,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_PCB"
-			(at 72.39 48.26 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_2.00u_PCB_with_LED"
+			(at 72.39 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7395,7 +7861,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 48.26 0)
+			(at 72.39 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7409,6 +7875,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7416,6 +7883,12 @@
 		)
 		(pin "2"
 			(uuid "04396baa-b1d3-400e-a14f-a6c018c08709")
+		)
+		(pin "2"
+			(uuid "4dcdf27d-70cd-445c-9728-806cfd4b65c8")
+		)
+		(pin "1"
+			(uuid "26577111-3e80-4954-9610-97149bc7150f")
 		)
 		(instances
 			(project ""
@@ -7427,7 +7900,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 85.09 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7451,8 +7924,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 85.09 48.26 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 85.09 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7461,7 +7934,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 48.26 0)
+			(at 85.09 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7475,6 +7948,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7482,6 +7956,12 @@
 		)
 		(pin "2"
 			(uuid "19532929-d71e-439a-b71c-3a945cbd4db8")
+		)
+		(pin "1"
+			(uuid "99499dde-063c-44d5-b87e-d3f84a3720f8")
+		)
+		(pin "2"
+			(uuid "1ebe173e-9b02-48d0-940b-358b7021e4da")
 		)
 		(instances
 			(project ""
@@ -7493,7 +7973,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 110.49 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7517,8 +7997,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 110.49 48.26 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 110.49 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7527,7 +8007,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 48.26 0)
+			(at 110.49 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7541,6 +8021,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7548,6 +8029,12 @@
 		)
 		(pin "2"
 			(uuid "f0f73435-e634-47c9-8f16-5c64d0f3ba2a")
+		)
+		(pin "1"
+			(uuid "e9388a59-ad1c-4a13-880d-5001c898bf91")
+		)
+		(pin "2"
+			(uuid "6bf0ad40-3976-4882-97b8-72fa3506d032")
 		)
 		(instances
 			(project ""
@@ -7559,7 +8046,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 123.825 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7583,8 +8070,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 123.825 48.26 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 123.825 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7593,7 +8080,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.825 48.26 0)
+			(at 123.825 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7607,6 +8094,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7614,6 +8102,12 @@
 		)
 		(pin "2"
 			(uuid "b0ea8fca-aafb-42b0-955f-9a5b5fb80e35")
+		)
+		(pin "2"
+			(uuid "36db6685-e443-40a0-90bd-d8bc1e392ad5")
+		)
+		(pin "1"
+			(uuid "000ccc0a-3426-4fd8-a1af-4fe21ae5b236")
 		)
 		(instances
 			(project ""
@@ -7625,7 +8119,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 136.525 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7649,8 +8143,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_PCB"
-			(at 136.525 48.26 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_2.00u_PCB_with_LED"
+			(at 136.525 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7659,7 +8153,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 136.525 48.26 0)
+			(at 136.525 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7673,6 +8167,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7680,6 +8175,12 @@
 		)
 		(pin "2"
 			(uuid "ed5fc72d-c7ba-43cd-9c77-04e175bbaa88")
+		)
+		(pin "1"
+			(uuid "8047db40-1977-4859-aed5-890757aa6bad")
+		)
+		(pin "2"
+			(uuid "b029dc7c-c474-4f93-98aa-d053efcb00cb")
 		)
 		(instances
 			(project ""
@@ -7691,7 +8192,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 46.355 66.675 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7715,8 +8216,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 46.355 61.595 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 46.355 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7725,7 +8226,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.355 61.595 0)
+			(at 46.355 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7739,6 +8240,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7746,6 +8248,12 @@
 		)
 		(pin "2"
 			(uuid "76447992-9263-483d-9ace-6e7f87770702")
+		)
+		(pin "1"
+			(uuid "a0153158-f4e9-4574-9843-b1a16825f3bc")
+		)
+		(pin "2"
+			(uuid "bcab48ff-1f09-4e06-89b2-12a985df07df")
 		)
 		(instances
 			(project ""
@@ -7757,7 +8265,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 59.055 66.675 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7781,8 +8289,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 59.055 61.595 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 59.055 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7791,7 +8299,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.055 61.595 0)
+			(at 59.055 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7805,6 +8313,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7812,6 +8321,12 @@
 		)
 		(pin "2"
 			(uuid "60bbb6f0-dd2e-4cc4-9ad6-3af724f84dcb")
+		)
+		(pin "1"
+			(uuid "ea0cca1b-944c-435a-a935-66a7f8501fd0")
+		)
+		(pin "2"
+			(uuid "2b552fa3-493f-4099-a2c2-9f467b7d5a4c")
 		)
 		(instances
 			(project ""
@@ -7823,7 +8338,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 85.09 66.675 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7847,8 +8362,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 85.09 61.595 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 85.09 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7857,7 +8372,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 61.595 0)
+			(at 85.09 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7871,6 +8386,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7878,6 +8394,12 @@
 		)
 		(pin "2"
 			(uuid "4c4397d6-0e97-423c-a7ed-caf23743a224")
+		)
+		(pin "1"
+			(uuid "cc5dfb56-8c08-4581-909f-2a14bc7070fc")
+		)
+		(pin "2"
+			(uuid "780e58b7-d863-44af-8f6c-598ef859c70d")
 		)
 		(instances
 			(project ""
@@ -7889,7 +8411,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 97.79 66.675 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7913,8 +8435,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 97.79 61.595 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 97.79 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7923,7 +8445,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 61.595 0)
+			(at 97.79 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7937,6 +8459,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7944,6 +8467,12 @@
 		)
 		(pin "2"
 			(uuid "00fcdecc-a8d2-44a3-8cbe-6c9b6ad2b21b")
+		)
+		(pin "2"
+			(uuid "e27de86f-7151-4791-b046-bbc74666acad")
+		)
+		(pin "1"
+			(uuid "5399f291-b62c-4c49-90e9-6f8c2c1cb1d8")
 		)
 		(instances
 			(project ""
@@ -7955,7 +8484,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 110.49 66.675 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7979,8 +8508,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 110.49 61.595 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 110.49 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7989,7 +8518,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 61.595 0)
+			(at 110.49 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8003,6 +8532,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8010,6 +8540,12 @@
 		)
 		(pin "2"
 			(uuid "fe887c51-458d-4535-807c-054f30397564")
+		)
+		(pin "1"
+			(uuid "80e77df4-bbdb-45d7-85bb-b9901fb7329a")
+		)
+		(pin "2"
+			(uuid "22292a7c-7b5b-4034-8264-e21865a81afe")
 		)
 		(instances
 			(project ""
@@ -8021,7 +8557,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 123.825 66.675 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8045,8 +8581,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 123.825 61.595 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 123.825 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8055,7 +8591,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.825 61.595 0)
+			(at 123.825 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8069,6 +8605,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8076,6 +8613,12 @@
 		)
 		(pin "2"
 			(uuid "e751ba53-23f8-4036-8ca4-4790cc943215")
+		)
+		(pin "1"
+			(uuid "696df3c4-a12d-45a7-9432-7622db5c03e2")
+		)
+		(pin "2"
+			(uuid "f3b0c1e7-980e-4602-90fa-b1cd6c47006c")
 		)
 		(instances
 			(project ""
@@ -8087,7 +8630,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 136.525 66.675 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8111,8 +8654,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 136.525 61.595 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 136.525 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8121,7 +8664,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 136.525 61.595 0)
+			(at 136.525 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8135,6 +8678,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8142,6 +8686,12 @@
 		)
 		(pin "2"
 			(uuid "ee78e25f-8d33-4024-8d84-a9d0b7662a89")
+		)
+		(pin "1"
+			(uuid "95097861-1094-44a9-8a21-82e02c73de27")
+		)
+		(pin "2"
+			(uuid "5d72f284-d453-47da-8d44-487fae669096")
 		)
 		(instances
 			(project ""
@@ -8153,7 +8703,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 46.355 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8177,8 +8727,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 46.355 74.93 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 46.355 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8187,7 +8737,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.355 74.93 0)
+			(at 46.355 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8201,6 +8751,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8208,6 +8759,12 @@
 		)
 		(pin "2"
 			(uuid "75466139-872b-42f2-9abf-d9b6689c45db")
+		)
+		(pin "1"
+			(uuid "66dd3c2b-b48e-4b2a-994d-35b461dabdc2")
+		)
+		(pin "2"
+			(uuid "7f958f41-ac5e-4fa1-82dc-c7652cddbe82")
 		)
 		(instances
 			(project ""
@@ -8219,7 +8776,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 59.055 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8243,8 +8800,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 59.055 74.93 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 59.055 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8253,7 +8810,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.055 74.93 0)
+			(at 59.055 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8267,6 +8824,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8274,6 +8832,12 @@
 		)
 		(pin "2"
 			(uuid "482ecd5a-7216-41b1-b0f7-ce52e386b93f")
+		)
+		(pin "1"
+			(uuid "64967c59-5092-43da-a72f-04a9e4608131")
+		)
+		(pin "2"
+			(uuid "d08173e0-ba86-4a6b-bce9-ab66eac247eb")
 		)
 		(instances
 			(project ""
@@ -8285,7 +8849,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 72.39 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8309,8 +8873,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX1A_1.50u_PCB"
-			(at 72.39 74.93 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.50u_PCB_with_LED"
+			(at 72.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8319,7 +8883,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 74.93 0)
+			(at 72.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8333,6 +8897,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8340,6 +8905,12 @@
 		)
 		(pin "2"
 			(uuid "0a98ebe3-b57a-486a-b5fe-a356ecb96775")
+		)
+		(pin "2"
+			(uuid "4d85e060-a0a2-4c8a-af93-9fb92dc5671b")
+		)
+		(pin "1"
+			(uuid "84e082bf-0c3c-47c2-9be6-d378a1cf3fbf")
 		)
 		(instances
 			(project ""
@@ -8351,7 +8922,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 85.09 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8375,8 +8946,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 85.09 74.93 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 85.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8385,7 +8956,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 74.93 0)
+			(at 85.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8399,6 +8970,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8406,6 +8978,12 @@
 		)
 		(pin "2"
 			(uuid "3a4f59dd-1d9e-44b0-a059-e3caa158b4a9")
+		)
+		(pin "1"
+			(uuid "e361c184-7da3-4652-a728-50d389144e2f")
+		)
+		(pin "2"
+			(uuid "b2d41896-3bd0-4b61-92d3-c5b2b484e620")
 		)
 		(instances
 			(project ""
@@ -8417,7 +8995,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 97.79 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8441,8 +9019,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 97.79 74.93 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 97.79 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8451,7 +9029,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 74.93 0)
+			(at 97.79 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8465,6 +9043,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8472,6 +9051,12 @@
 		)
 		(pin "2"
 			(uuid "7633c226-d56a-432a-8781-9b550ef2e105")
+		)
+		(pin "1"
+			(uuid "002f52bd-c84f-46aa-9851-db3562d51904")
+		)
+		(pin "2"
+			(uuid "4d733151-f213-4a2c-80be-ddee7776feb0")
 		)
 		(instances
 			(project ""
@@ -8483,7 +9068,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 110.49 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8507,8 +9092,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 110.49 74.93 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 110.49 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8517,7 +9102,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 74.93 0)
+			(at 110.49 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8531,6 +9116,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8538,6 +9124,12 @@
 		)
 		(pin "2"
 			(uuid "d2f04974-e156-453e-9f8d-97179763f5b6")
+		)
+		(pin "1"
+			(uuid "d0363a7b-dd4f-4525-93bc-53370e30c73d")
+		)
+		(pin "2"
+			(uuid "312b3881-f5a3-4848-89cf-28b9fbaff5f5")
 		)
 		(instances
 			(project ""
@@ -8549,7 +9141,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 123.825 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8573,8 +9165,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 123.825 74.93 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 123.825 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8583,7 +9175,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.825 74.93 0)
+			(at 123.825 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8597,6 +9189,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8604,6 +9197,12 @@
 		)
 		(pin "2"
 			(uuid "f3b90f0e-e881-4d82-bd8d-3e2bb682a007")
+		)
+		(pin "1"
+			(uuid "4c079ddd-ac2f-475d-a2fb-e34bfd3088aa")
+		)
+		(pin "2"
+			(uuid "2e5d243d-1a58-4652-8477-ff27191d2898")
 		)
 		(instances
 			(project ""
@@ -8615,7 +9214,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 136.525 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8639,8 +9238,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 136.525 74.93 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 136.525 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8649,7 +9248,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 136.525 74.93 0)
+			(at 136.525 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8663,6 +9262,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8670,6 +9270,12 @@
 		)
 		(pin "2"
 			(uuid "680cc362-a694-478e-bd49-661db0826a0d")
+		)
+		(pin "1"
+			(uuid "24838bbc-ee70-4f56-bc67-4b76cb977484")
+		)
+		(pin "2"
+			(uuid "36f801e1-6da9-4795-9016-804393f0f6a9")
 		)
 		(instances
 			(project ""
@@ -8681,7 +9287,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 46.355 93.345 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8705,8 +9311,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 46.355 88.265 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 46.355 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8715,7 +9321,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.355 88.265 0)
+			(at 46.355 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8729,6 +9335,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8736,6 +9343,12 @@
 		)
 		(pin "2"
 			(uuid "09c82f24-9513-4018-b99f-115179d6cb4c")
+		)
+		(pin "1"
+			(uuid "798754ce-1509-40be-a002-8bb019b7870f")
+		)
+		(pin "2"
+			(uuid "7685aa44-da4f-4e94-b9bc-4225ffdc3894")
 		)
 		(instances
 			(project ""
@@ -8747,7 +9360,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 59.055 93.345 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8771,8 +9384,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 59.055 88.265 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 59.055 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8781,7 +9394,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.055 88.265 0)
+			(at 59.055 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8795,6 +9408,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8802,6 +9416,12 @@
 		)
 		(pin "2"
 			(uuid "0bbfa250-f76a-48df-ad29-67c3178bdde8")
+		)
+		(pin "1"
+			(uuid "c9c0e4f8-71df-49c1-b260-f1a43065bf5a")
+		)
+		(pin "2"
+			(uuid "9314915d-c03f-4d1b-bb17-0adab9a4afd1")
 		)
 		(instances
 			(project ""
@@ -8813,7 +9433,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 85.09 93.345 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8837,8 +9457,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 85.09 88.265 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 85.09 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8847,7 +9467,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 88.265 0)
+			(at 85.09 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8861,6 +9481,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8868,6 +9489,12 @@
 		)
 		(pin "2"
 			(uuid "41387439-287d-4056-a81e-4b1eca88928c")
+		)
+		(pin "1"
+			(uuid "5173c1e8-47ee-4767-a712-2e1062a036ae")
+		)
+		(pin "2"
+			(uuid "60641879-d102-45a5-b721-ea13da9c38c9")
 		)
 		(instances
 			(project ""
@@ -8879,7 +9506,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 97.79 93.345 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8903,8 +9530,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 97.79 88.265 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 97.79 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8913,7 +9540,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 88.265 0)
+			(at 97.79 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8927,6 +9554,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8934,6 +9562,12 @@
 		)
 		(pin "2"
 			(uuid "1ec0e814-f1b3-490e-8a61-0f1ce7212186")
+		)
+		(pin "1"
+			(uuid "3b091071-4286-4a4d-8c07-c9dff52bd465")
+		)
+		(pin "2"
+			(uuid "9eedce09-f7b8-440f-914f-0a490eee490d")
 		)
 		(instances
 			(project ""
@@ -8945,7 +9579,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 110.49 93.345 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8969,8 +9603,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 110.49 88.265 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 110.49 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8979,7 +9613,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 88.265 0)
+			(at 110.49 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8993,6 +9627,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9000,6 +9635,12 @@
 		)
 		(pin "2"
 			(uuid "7241605f-7185-4835-8745-e7d6931df550")
+		)
+		(pin "1"
+			(uuid "233caa43-49fe-4d35-93ea-0127c92627ff")
+		)
+		(pin "2"
+			(uuid "607e806a-b49b-4c8e-8b3c-9d338bccd0fc")
 		)
 		(instances
 			(project ""
@@ -9011,7 +9652,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 123.825 93.345 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9035,8 +9676,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 123.825 88.265 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 123.825 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9045,7 +9686,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.825 88.265 0)
+			(at 123.825 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9059,6 +9700,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9066,6 +9708,12 @@
 		)
 		(pin "2"
 			(uuid "edd66edb-4c40-4e8e-8e5c-a97e7ee8e9b5")
+		)
+		(pin "1"
+			(uuid "8c483963-278d-45ea-b5eb-f61f213b4d07")
+		)
+		(pin "2"
+			(uuid "9a1b7ba0-49ff-46b2-be5e-58b28efb04f1")
 		)
 		(instances
 			(project ""
@@ -9077,7 +9725,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 136.525 93.345 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9101,8 +9749,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 136.525 88.265 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 136.525 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9111,7 +9759,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 136.525 88.265 0)
+			(at 136.525 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9125,6 +9773,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9132,6 +9781,12 @@
 		)
 		(pin "2"
 			(uuid "47358033-5720-4d4e-a9de-f2367b9451c7")
+		)
+		(pin "1"
+			(uuid "6de8017c-31e3-4d41-9d4b-ab0ab19f18cf")
+		)
+		(pin "2"
+			(uuid "312af9ef-7d37-437c-9ab9-003a43dad3b3")
 		)
 		(instances
 			(project ""
@@ -9143,7 +9798,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 46.355 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9167,8 +9822,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 46.355 101.6 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 46.355 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9177,7 +9832,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.355 101.6 0)
+			(at 46.355 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9191,6 +9846,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9198,6 +9854,12 @@
 		)
 		(pin "2"
 			(uuid "2f339a3b-4ad5-42d8-9a51-8fd61c7b65fc")
+		)
+		(pin "1"
+			(uuid "f6180723-11b6-4c0e-b6b8-f8a539f76ba3")
+		)
+		(pin "2"
+			(uuid "f55fe496-cf49-4af5-b472-c74b1e06a880")
 		)
 		(instances
 			(project ""
@@ -9209,7 +9871,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 59.055 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9233,8 +9895,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 59.055 101.6 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 59.055 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9243,7 +9905,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.055 101.6 0)
+			(at 59.055 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9257,6 +9919,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9264,6 +9927,12 @@
 		)
 		(pin "2"
 			(uuid "56a4fdc3-502d-4255-955a-3a61ae469ec3")
+		)
+		(pin "1"
+			(uuid "0861620a-966e-4160-ab1b-42e6b6390a92")
+		)
+		(pin "2"
+			(uuid "f5174f27-550e-4949-ada7-9fbef14ad69c")
 		)
 		(instances
 			(project ""
@@ -9275,7 +9944,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 85.09 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9299,8 +9968,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 85.09 101.6 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 85.09 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9309,7 +9978,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 101.6 0)
+			(at 85.09 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9323,6 +9992,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9330,6 +10000,12 @@
 		)
 		(pin "2"
 			(uuid "ea7557fa-c83e-4217-acbc-f5bbbd195f32")
+		)
+		(pin "1"
+			(uuid "9ccde2c3-3076-4925-a431-7a6e47147e24")
+		)
+		(pin "2"
+			(uuid "b3153042-86eb-45a0-ac54-bd50acccbd57")
 		)
 		(instances
 			(project ""
@@ -9341,7 +10017,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 97.79 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9365,8 +10041,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 97.79 101.6 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 97.79 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9375,7 +10051,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 101.6 0)
+			(at 97.79 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9389,6 +10065,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9396,6 +10073,12 @@
 		)
 		(pin "2"
 			(uuid "1b051b13-2d94-436f-9948-01987c21a721")
+		)
+		(pin "1"
+			(uuid "12c758f0-85a3-413f-b1bc-23a33a5f71f5")
+		)
+		(pin "2"
+			(uuid "198a5cab-0a16-478e-b085-ded9ef0f3785")
 		)
 		(instances
 			(project ""
@@ -9407,7 +10090,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 110.49 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9431,8 +10114,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 110.49 101.6 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 110.49 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9441,7 +10124,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 101.6 0)
+			(at 110.49 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9455,6 +10138,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9462,6 +10146,12 @@
 		)
 		(pin "2"
 			(uuid "fb80c5ca-67d9-426d-ae53-2d9890a23e78")
+		)
+		(pin "1"
+			(uuid "2643286c-d3c9-487c-9948-3af40afe394e")
+		)
+		(pin "2"
+			(uuid "26eb1f57-9898-4046-9117-0f923d910af4")
 		)
 		(instances
 			(project ""
@@ -9473,7 +10163,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 123.825 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9497,8 +10187,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 123.825 101.6 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 123.825 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9507,7 +10197,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.825 101.6 0)
+			(at 123.825 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9521,6 +10211,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9528,6 +10219,12 @@
 		)
 		(pin "2"
 			(uuid "c5013ef7-89ae-48d0-a091-6a8b0ad86dff")
+		)
+		(pin "1"
+			(uuid "82708402-4ee5-4ebb-be6d-e1b40792cc69")
+		)
+		(pin "2"
+			(uuid "e04bdd82-c9d8-4dbd-b389-9399f5486102")
 		)
 		(instances
 			(project ""
@@ -9539,7 +10236,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 136.525 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9563,8 +10260,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 136.525 101.6 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 136.525 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9573,7 +10270,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 136.525 101.6 0)
+			(at 136.525 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9587,6 +10284,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9594,6 +10292,12 @@
 		)
 		(pin "2"
 			(uuid "5fc4e465-5c6d-4006-89f6-e125ba764ec2")
+		)
+		(pin "1"
+			(uuid "2ec53078-f882-41f7-9866-872b449a6aaf")
+		)
+		(pin "2"
+			(uuid "338d474c-1745-4187-9d83-c13ea7c0e77d")
 		)
 		(instances
 			(project ""
@@ -9605,7 +10309,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 46.355 120.015 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9629,8 +10333,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 46.355 114.935 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 46.355 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9639,7 +10343,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.355 114.935 0)
+			(at 46.355 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9653,6 +10357,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9660,6 +10365,12 @@
 		)
 		(pin "2"
 			(uuid "a3e0c298-6d8e-4545-8ec5-b01f0500798f")
+		)
+		(pin "1"
+			(uuid "33d292b9-b6ae-48cc-92c5-c457d2cfbf61")
+		)
+		(pin "2"
+			(uuid "50de1a1e-7170-4ef5-b0a7-4dd59f173235")
 		)
 		(instances
 			(project ""
@@ -9671,7 +10382,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 59.055 120.015 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9695,8 +10406,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 59.055 114.935 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 59.055 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9705,7 +10416,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.055 114.935 0)
+			(at 59.055 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9719,6 +10430,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9726,6 +10438,12 @@
 		)
 		(pin "2"
 			(uuid "cbc1d2cc-a14c-4ef2-bc98-12aebee326ad")
+		)
+		(pin "1"
+			(uuid "764793b3-ca53-448e-add6-27c6387db9ca")
+		)
+		(pin "2"
+			(uuid "440ce1fa-8cb8-4cc0-95be-76b2bfa8cd1f")
 		)
 		(instances
 			(project ""
@@ -9737,7 +10455,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 85.09 120.015 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9761,8 +10479,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 85.09 114.935 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 85.09 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9771,7 +10489,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 114.935 0)
+			(at 85.09 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9785,6 +10503,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9792,6 +10511,12 @@
 		)
 		(pin "2"
 			(uuid "dea7b0d7-e893-460d-818a-ecb5f26e3a1f")
+		)
+		(pin "1"
+			(uuid "8b6e1d44-c0d7-44e9-b3c4-aa82e1a81adb")
+		)
+		(pin "2"
+			(uuid "386bd392-2521-46bb-b2e2-8dec69dd39ae")
 		)
 		(instances
 			(project ""
@@ -9803,7 +10528,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 97.79 120.015 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9827,8 +10552,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 97.79 114.935 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 97.79 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9837,7 +10562,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 114.935 0)
+			(at 97.79 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9851,6 +10576,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9858,6 +10584,12 @@
 		)
 		(pin "2"
 			(uuid "855911fc-2909-4ba7-a0a0-6b90cdbfe9c3")
+		)
+		(pin "1"
+			(uuid "4c7cd345-486f-4ec9-a8de-d031fe3b0d7c")
+		)
+		(pin "2"
+			(uuid "e8ff9236-7347-40d9-89ca-c2fa6c5eb7eb")
 		)
 		(instances
 			(project ""
@@ -9869,7 +10601,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 110.49 120.015 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9893,8 +10625,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 110.49 114.935 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 110.49 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9903,7 +10635,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 114.935 0)
+			(at 110.49 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9917,6 +10649,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9924,6 +10657,12 @@
 		)
 		(pin "2"
 			(uuid "fd92f6e1-41f5-4305-8ed8-9be46c01a28b")
+		)
+		(pin "1"
+			(uuid "8adf7f38-04bf-49ff-a692-74c080354d74")
+		)
+		(pin "2"
+			(uuid "db5477c6-50ed-4baa-b906-8dbf767b2b00")
 		)
 		(instances
 			(project ""
@@ -9935,7 +10674,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 123.825 120.015 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9959,8 +10698,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 123.825 114.935 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 123.825 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9969,7 +10708,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.825 114.935 0)
+			(at 123.825 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9983,6 +10722,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9990,6 +10730,12 @@
 		)
 		(pin "2"
 			(uuid "c9ce662f-4ba7-406c-9367-56b5c87f35d2")
+		)
+		(pin "1"
+			(uuid "16599ee7-119a-4fb1-bd4b-5d91664db913")
+		)
+		(pin "2"
+			(uuid "dc16d092-59f5-45c6-8f8d-a2f90a99f1ab")
 		)
 		(instances
 			(project ""
@@ -10001,7 +10747,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 136.525 120.015 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10025,8 +10771,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 136.525 114.935 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 136.525 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10035,7 +10781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 136.525 114.935 0)
+			(at 136.525 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10049,6 +10795,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10056,6 +10803,12 @@
 		)
 		(pin "2"
 			(uuid "4c78212e-1245-4da4-85be-19ba37976cf9")
+		)
+		(pin "1"
+			(uuid "ea1352f5-a10c-482b-856d-76e386226321")
+		)
+		(pin "2"
+			(uuid "4428e42a-a3ce-4a9b-ae09-cebf7cc115ab")
 		)
 		(instances
 			(project ""
@@ -10067,7 +10820,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 46.355 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10091,8 +10844,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 46.355 128.27 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 46.355 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10101,7 +10854,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.355 128.27 0)
+			(at 46.355 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10115,6 +10868,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10122,6 +10876,12 @@
 		)
 		(pin "2"
 			(uuid "726d345c-f8ef-4f9d-b0a4-d731ec394977")
+		)
+		(pin "1"
+			(uuid "0fe19214-b4b3-4054-95fb-231d8ebaba0e")
+		)
+		(pin "2"
+			(uuid "35715d16-fffe-449e-a78c-3c86a542271b")
 		)
 		(instances
 			(project ""
@@ -10133,7 +10893,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 59.055 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10157,8 +10917,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 59.055 128.27 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 59.055 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10167,7 +10927,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.055 128.27 0)
+			(at 59.055 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10181,6 +10941,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10188,6 +10949,12 @@
 		)
 		(pin "2"
 			(uuid "343a08d8-ca8f-41c4-b4bb-ce5495c42a2a")
+		)
+		(pin "1"
+			(uuid "6a2bb1ce-e190-4138-bb65-3f5e040fdcf4")
+		)
+		(pin "2"
+			(uuid "56cce133-767f-4510-90bf-86b872005da2")
 		)
 		(instances
 			(project ""
@@ -10199,7 +10966,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 72.39 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10223,8 +10990,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 72.39 128.27 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 72.39 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10233,7 +11000,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 128.27 0)
+			(at 72.39 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10247,6 +11014,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10254,6 +11022,12 @@
 		)
 		(pin "2"
 			(uuid "d66fb50c-8dc5-406a-a336-6da2e9608f0a")
+		)
+		(pin "1"
+			(uuid "bb202857-85bf-4b67-bafb-792118c0d65c")
+		)
+		(pin "2"
+			(uuid "fb921699-17f4-49f9-b404-14d57613abb4")
 		)
 		(instances
 			(project ""
@@ -10265,7 +11039,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 85.09 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10289,8 +11063,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 85.09 128.27 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 85.09 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10299,7 +11073,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 128.27 0)
+			(at 85.09 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10313,6 +11087,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10320,6 +11095,12 @@
 		)
 		(pin "2"
 			(uuid "81bef76a-5b53-45c1-a7a5-6ce2f1ca2b7d")
+		)
+		(pin "1"
+			(uuid "78b68afe-f7fc-46f2-9642-795871705f35")
+		)
+		(pin "2"
+			(uuid "0b9c8668-b57e-465a-908d-8ee2ed56a1c3")
 		)
 		(instances
 			(project ""
@@ -10331,7 +11112,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 97.79 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10355,8 +11136,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 97.79 128.27 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 97.79 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10365,7 +11146,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 128.27 0)
+			(at 97.79 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10379,6 +11160,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10386,6 +11168,12 @@
 		)
 		(pin "2"
 			(uuid "bbbba8ca-8b31-4d77-b825-b803492ab4d8")
+		)
+		(pin "1"
+			(uuid "fcbe4f34-854b-4f36-b2fe-fa2476130f7d")
+		)
+		(pin "2"
+			(uuid "34058917-140e-4084-be91-606efba1c75f")
 		)
 		(instances
 			(project ""
@@ -10397,7 +11185,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 110.49 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10421,8 +11209,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 110.49 128.27 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 110.49 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10431,7 +11219,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 128.27 0)
+			(at 110.49 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10445,6 +11233,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10452,6 +11241,12 @@
 		)
 		(pin "2"
 			(uuid "a15e2782-d696-4fdc-b2b0-a35edc62931c")
+		)
+		(pin "1"
+			(uuid "51664d16-f0ed-4ede-9550-bf7473c88f06")
+		)
+		(pin "2"
+			(uuid "c591bbfe-4f1f-4127-83b6-feec5f910ae5")
 		)
 		(instances
 			(project ""
@@ -10463,7 +11258,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 123.825 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10487,8 +11282,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 123.825 128.27 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 123.825 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10497,7 +11292,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.825 128.27 0)
+			(at 123.825 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10511,6 +11306,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10518,6 +11314,12 @@
 		)
 		(pin "2"
 			(uuid "24e83216-ad9d-49ff-9eed-3a05a5e552fe")
+		)
+		(pin "1"
+			(uuid "9c5c9a0b-df27-4709-aa54-3ed9a566ece8")
+		)
+		(pin "2"
+			(uuid "868218db-03d7-4e7b-8337-467bbf248a19")
 		)
 		(instances
 			(project ""
@@ -10529,7 +11331,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 136.525 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10553,8 +11355,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 136.525 128.27 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 136.525 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10563,7 +11365,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 136.525 128.27 0)
+			(at 136.525 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10577,6 +11379,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10584,6 +11387,12 @@
 		)
 		(pin "2"
 			(uuid "ce92ea68-8b20-4361-a4ba-822c4413fbf1")
+		)
+		(pin "1"
+			(uuid "9190d2c6-6a66-4d00-a6f0-f8c3639207a5")
+		)
+		(pin "2"
+			(uuid "c02a028b-956a-4feb-8e59-8de6ffc89dd2")
 		)
 		(instances
 			(project ""
@@ -10595,7 +11404,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 46.355 146.685 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10619,8 +11428,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 46.355 141.605 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 46.355 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10629,7 +11438,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.355 141.605 0)
+			(at 46.355 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10643,6 +11452,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10650,6 +11460,12 @@
 		)
 		(pin "2"
 			(uuid "84214785-09d4-4912-b91a-c14f9181e322")
+		)
+		(pin "1"
+			(uuid "7b8dd28a-322b-452c-a2b7-26ec65a63545")
+		)
+		(pin "2"
+			(uuid "aefb9bda-bc4a-4144-bb6a-7864c5ab0c4b")
 		)
 		(instances
 			(project ""
@@ -10661,7 +11477,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 59.055 146.685 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10685,8 +11501,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 59.055 141.605 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 59.055 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10695,7 +11511,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.055 141.605 0)
+			(at 59.055 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10709,6 +11525,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10716,6 +11533,12 @@
 		)
 		(pin "2"
 			(uuid "2dd95fad-a156-48f3-8f75-9a492335bf80")
+		)
+		(pin "1"
+			(uuid "e98a3006-4f15-4e90-a9e7-c2a59da2c327")
+		)
+		(pin "2"
+			(uuid "3562f150-2bc2-44d1-8ea2-c42cbd3d6650")
 		)
 		(instances
 			(project ""
@@ -10727,7 +11550,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 168.275 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10751,8 +11574,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB"
-			(at 168.275 99.06 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.50u_PCB_with_LED"
+			(at 168.275 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10761,7 +11584,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.275 99.06 0)
+			(at 168.275 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10775,6 +11598,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10782,6 +11606,12 @@
 		)
 		(pin "2"
 			(uuid "dc0301ac-4b40-4bef-9084-e99bbf450724")
+		)
+		(pin "1"
+			(uuid "409b1821-9f4b-4c20-b286-aab391573fef")
+		)
+		(pin "2"
+			(uuid "c5abb72c-3950-406f-9769-18624bc139ef")
 		)
 		(instances
 			(project ""
@@ -10793,7 +11623,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 85.09 146.685 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10817,8 +11647,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 85.09 141.605 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 85.09 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10827,7 +11657,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 141.605 0)
+			(at 85.09 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10841,6 +11671,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10848,6 +11679,12 @@
 		)
 		(pin "2"
 			(uuid "4895c787-92b3-4e6a-9f1b-fcea7ebce4f6")
+		)
+		(pin "1"
+			(uuid "70d5e9a2-23b4-48af-bdd9-d5879a0f279b")
+		)
+		(pin "2"
+			(uuid "f488523b-96aa-46c9-9aa0-965227da672b")
 		)
 		(instances
 			(project ""
@@ -10859,7 +11696,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 97.79 146.685 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10883,8 +11720,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 97.79 141.605 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 97.79 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10893,7 +11730,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 141.605 0)
+			(at 97.79 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10907,6 +11744,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10914,6 +11752,12 @@
 		)
 		(pin "2"
 			(uuid "a98b0018-8881-486b-b35a-18b817935e1b")
+		)
+		(pin "1"
+			(uuid "0672e8a3-413f-46d3-8885-77a4cb44e001")
+		)
+		(pin "2"
+			(uuid "5c833c70-919f-4424-837f-0fe84e46c579")
 		)
 		(instances
 			(project ""
@@ -10925,7 +11769,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 110.49 146.685 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10949,8 +11793,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 110.49 141.605 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 110.49 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10959,7 +11803,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 141.605 0)
+			(at 110.49 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10973,6 +11817,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10980,6 +11825,12 @@
 		)
 		(pin "2"
 			(uuid "f239860c-b3fc-4396-a118-1fe7e3051597")
+		)
+		(pin "1"
+			(uuid "6204b0d6-919f-4cfb-adc3-7c1befa46695")
+		)
+		(pin "2"
+			(uuid "5c075c09-573e-4a92-acf3-0e43559396e9")
 		)
 		(instances
 			(project ""
@@ -10991,7 +11842,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 123.825 146.685 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11015,8 +11866,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 123.825 141.605 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 123.825 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11025,7 +11876,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.825 141.605 0)
+			(at 123.825 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11039,6 +11890,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11046,6 +11898,12 @@
 		)
 		(pin "2"
 			(uuid "e3917dab-7c37-45dd-98d5-2cff146785a8")
+		)
+		(pin "1"
+			(uuid "f1a000b3-8d9f-4115-b741-66a0bbbfb408")
+		)
+		(pin "2"
+			(uuid "5d7cf8db-60ca-49a2-9e7a-0b8bf350f3a3")
 		)
 		(instances
 			(project ""
@@ -11057,7 +11915,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 136.525 146.685 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11081,8 +11939,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 136.525 141.605 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 136.525 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11091,7 +11949,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 136.525 141.605 0)
+			(at 136.525 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11105,6 +11963,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11112,6 +11971,12 @@
 		)
 		(pin "2"
 			(uuid "841f1f77-4b08-4bfd-b883-23e2468ec645")
+		)
+		(pin "1"
+			(uuid "e186be07-04d9-4a2e-8c88-f07b97e004a0")
+		)
+		(pin "2"
+			(uuid "7d7770f6-fc20-4d25-9419-093ef6227a11")
 		)
 		(instances
 			(project ""
@@ -11123,7 +11988,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 46.355 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11147,8 +12012,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 46.355 154.94 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 46.355 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11157,7 +12022,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.355 154.94 0)
+			(at 46.355 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11171,6 +12036,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11178,6 +12044,12 @@
 		)
 		(pin "2"
 			(uuid "1926b294-2cf6-44c9-828e-7eacae962620")
+		)
+		(pin "1"
+			(uuid "7583f65e-77de-4523-bc95-9da0691acf27")
+		)
+		(pin "2"
+			(uuid "d6af4ea0-1768-4287-9ea4-464ef3016cba")
 		)
 		(instances
 			(project ""
@@ -11189,7 +12061,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 59.055 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11213,8 +12085,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 59.055 154.94 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 59.055 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11223,7 +12095,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.055 154.94 0)
+			(at 59.055 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11237,6 +12109,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11244,6 +12117,12 @@
 		)
 		(pin "2"
 			(uuid "355b1bcd-8a8d-4fb9-80a7-18490bf43978")
+		)
+		(pin "1"
+			(uuid "7eb3d075-f569-4934-8503-125994df85bf")
+		)
+		(pin "2"
+			(uuid "ac1670fd-47c1-4e6b-88b7-c76ba1afadee")
 		)
 		(instances
 			(project ""
@@ -11255,7 +12134,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 72.39 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11279,8 +12158,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 72.39 154.94 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 72.39 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11289,7 +12168,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 154.94 0)
+			(at 72.39 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11303,6 +12182,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11310,6 +12190,12 @@
 		)
 		(pin "2"
 			(uuid "80c3f845-36d4-4640-89a7-959cc8f9e756")
+		)
+		(pin "1"
+			(uuid "74fcf86d-eec0-45af-a507-d832d36ca058")
+		)
+		(pin "2"
+			(uuid "9e9d0fdc-cf28-4184-b231-ce8de63e7510")
 		)
 		(instances
 			(project ""
@@ -11321,7 +12207,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 85.09 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11345,8 +12231,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 85.09 154.94 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 85.09 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11355,7 +12241,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 154.94 0)
+			(at 85.09 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11369,6 +12255,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11376,6 +12263,12 @@
 		)
 		(pin "2"
 			(uuid "bbaeec77-e600-4f75-883a-a8662b6a86cf")
+		)
+		(pin "1"
+			(uuid "ca6c921f-10fb-4c8e-8a5f-bf58070f594b")
+		)
+		(pin "2"
+			(uuid "8a594aa8-266d-4254-97fd-82df76e689fa")
 		)
 		(instances
 			(project ""
@@ -11387,7 +12280,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 97.79 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11411,8 +12304,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 97.79 154.94 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 97.79 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11421,7 +12314,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 154.94 0)
+			(at 97.79 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11435,6 +12328,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11442,6 +12336,12 @@
 		)
 		(pin "2"
 			(uuid "6f1ec1fc-972d-4e6e-a9c8-59a19e8f30dc")
+		)
+		(pin "1"
+			(uuid "b879f6d4-be9e-4114-8abf-0c8648ca33fb")
+		)
+		(pin "2"
+			(uuid "e53bd9cb-a55c-456f-b44c-c027b791b6f5")
 		)
 		(instances
 			(project ""
@@ -11453,7 +12353,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 110.49 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11477,8 +12377,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 110.49 154.94 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 110.49 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11487,7 +12387,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 154.94 0)
+			(at 110.49 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11501,6 +12401,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11508,6 +12409,12 @@
 		)
 		(pin "2"
 			(uuid "f7c25228-a390-4c25-81f2-5f0ca129d74b")
+		)
+		(pin "1"
+			(uuid "8763853f-0487-4917-87a4-87aa6d66f8fe")
+		)
+		(pin "2"
+			(uuid "ab260280-2b32-477a-8f29-a360d333a7a9")
 		)
 		(instances
 			(project ""
@@ -11519,7 +12426,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 123.825 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11543,8 +12450,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 123.825 154.94 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 123.825 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11553,7 +12460,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.825 154.94 0)
+			(at 123.825 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11567,6 +12474,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11574,6 +12482,12 @@
 		)
 		(pin "2"
 			(uuid "1d315014-245f-4e43-95cb-60ccfcd57def")
+		)
+		(pin "1"
+			(uuid "cb6e3caf-e928-43e1-bf21-6c26cc331296")
+		)
+		(pin "2"
+			(uuid "ba187ca7-a6b6-4fa0-b149-d6dd2f2ff38f")
 		)
 		(instances
 			(project ""
@@ -11585,7 +12499,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 136.525 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11609,8 +12523,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 136.525 154.94 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 136.525 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11619,7 +12533,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 136.525 154.94 0)
+			(at 136.525 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11633,6 +12547,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11640,6 +12555,12 @@
 		)
 		(pin "2"
 			(uuid "16a70154-1b60-4f3e-be92-d91ace19e85d")
+		)
+		(pin "1"
+			(uuid "b2aba429-ef20-4d3a-b176-b66820ae9eaf")
+		)
+		(pin "2"
+			(uuid "041c7249-288c-4f7a-bec1-3022ea0ac972")
 		)
 		(instances
 			(project ""
@@ -11651,129 +12572,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x20")
-		(at 246.38 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005efddeb0")
-		(property "Reference" "J4"
-			(at 248.412 49.7332 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x20"
-			(at 240.665 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical"
-			(at 246.38 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e3842e8a-2fb4-4735-9019-e6f89062ed44")
-		)
-		(pin "2"
-			(uuid "93f87e1f-4353-4243-8015-e07f62489d33")
-		)
-		(pin "3"
-			(uuid "dea01e6a-8360-4659-9ec5-cddde3a85fc9")
-		)
-		(pin "4"
-			(uuid "3a16fabf-7aaf-4f48-a49c-e246ea511c68")
-		)
-		(pin "5"
-			(uuid "c7ab7840-2665-4013-ba89-6d6a007c18b9")
-		)
-		(pin "6"
-			(uuid "2b59a8b4-eb0b-4b75-99ec-1234ae0d078e")
-		)
-		(pin "7"
-			(uuid "18ac063d-3eec-4dc6-865c-b727998f1220")
-		)
-		(pin "8"
-			(uuid "74d41c91-11e2-4522-a131-43e3c07aa8cb")
-		)
-		(pin "9"
-			(uuid "f5ddc96e-a765-4509-8252-be6002a855f2")
-		)
-		(pin "10"
-			(uuid "475e0ec1-3a78-419f-9c75-fad5272576ed")
-		)
-		(pin "11"
-			(uuid "294b4c0e-93cd-4487-97d3-f36842c799ea")
-		)
-		(pin "12"
-			(uuid "430070fb-99a8-429c-bbb5-6410699e42d4")
-		)
-		(pin "13"
-			(uuid "060243e2-45e8-41de-937e-ed49e752077e")
-		)
-		(pin "14"
-			(uuid "72cf291e-9191-4bb6-b76b-0a2594f73297")
-		)
-		(pin "15"
-			(uuid "c80a8f80-3957-48b2-8372-d5b88f0d6c43")
-		)
-		(pin "16"
-			(uuid "125f60c9-ac2a-42ae-bc8f-29eb8957db2d")
-		)
-		(pin "17"
-			(uuid "e2e92990-5af1-49b5-9cf8-0d07a278c0c6")
-		)
-		(pin "18"
-			(uuid "7fc7cfff-6220-4349-a6d7-f646200d255d")
-		)
-		(pin "19"
-			(uuid "8880c218-ad61-45db-b4ed-a373b5456dc6")
-		)
-		(pin "20"
-			(uuid "a878bcab-a5e6-40f8-a17a-14b4bf4b6f5e")
-		)
-		(instances
-			(project ""
-				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "petkn:MX Key with LED Unit")
 		(at 167.64 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11797,8 +12596,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX1A_1.50u_PCB"
-			(at 167.64 43.18 0)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.50u_PCB_with_LED"
+			(at 167.64 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11807,7 +12606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 43.18 0)
+			(at 167.64 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11821,6 +12620,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11829,132 +12629,16 @@
 		(pin "2"
 			(uuid "77c3c01b-e133-4c92-b9c6-66e8c7e51a8b")
 		)
+		(pin "1"
+			(uuid "34c71fb8-6a93-4ca7-b3c4-dafa9f387a80")
+		)
+		(pin "2"
+			(uuid "6d89af01-d96d-4b9b-abff-24d942f9abd3")
+		)
 		(instances
 			(project ""
 				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd"
 					(reference "SW320")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x20")
-		(at 266.065 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f2203a2")
-		(property "Reference" "J1"
-			(at 268.097 49.7332 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x20"
-			(at 260.985 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical"
-			(at 266.065 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 266.065 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 266.065 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ae7db4c5-516f-4580-a9a6-0435c4e4a1e8")
-		)
-		(pin "2"
-			(uuid "e9761803-02fa-4596-99e2-47a346fd1395")
-		)
-		(pin "3"
-			(uuid "883a302c-6a9c-42cd-9952-6d21bb02e5a7")
-		)
-		(pin "4"
-			(uuid "ebd5ca28-41ca-4e1a-8ff7-b629336e70af")
-		)
-		(pin "5"
-			(uuid "600fb178-2beb-478e-95fc-e4c9dc8338a2")
-		)
-		(pin "6"
-			(uuid "689a3002-050b-4d9c-a62b-bf811d4c312a")
-		)
-		(pin "7"
-			(uuid "722f0734-ba28-41ca-add9-4b19ae8931e0")
-		)
-		(pin "8"
-			(uuid "ec8f68c9-2bd7-4a24-95d9-a4fd72eafac4")
-		)
-		(pin "9"
-			(uuid "346ff421-37c7-48cf-b273-ed4f4e54730a")
-		)
-		(pin "10"
-			(uuid "46501909-4fac-42d4-9037-c2d58eea09a6")
-		)
-		(pin "11"
-			(uuid "a09f4e86-d2b9-4d43-b3a9-81ea9e3fbf2a")
-		)
-		(pin "12"
-			(uuid "26eb0ee5-08cd-4394-9ea5-2e687ba19cab")
-		)
-		(pin "13"
-			(uuid "f2d4f334-7f5a-49ed-8194-e5983c8ff996")
-		)
-		(pin "14"
-			(uuid "72189196-0f4b-4d26-b259-69ff0a945662")
-		)
-		(pin "15"
-			(uuid "91be4c30-5111-443d-9722-1fdcdf3d1dbd")
-		)
-		(pin "16"
-			(uuid "f1c3fc48-52b1-4b68-a8cc-6da73f9fefdd")
-		)
-		(pin "17"
-			(uuid "a8d605cc-42b3-4ff8-9f1e-a61d5aaaac41")
-		)
-		(pin "18"
-			(uuid "7d2782a7-735b-4229-980d-6a138b007075")
-		)
-		(pin "19"
-			(uuid "afd037d6-3d0a-4199-970c-2614da492b25")
-		)
-		(pin "20"
-			(uuid "4543ec47-8118-4c7f-9388-d312f08917e6")
-		)
-		(instances
-			(project ""
-				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -12321,6 +13005,157 @@
 			(project ""
 				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:Extended_PET_keyboard_connector")
+		(at 255.905 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f53ae12-876d-4a0c-86f9-ab07385ffe0e")
+		(property "Reference" "J1"
+			(at 260.6675 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Extended_PET_keyboard_connector"
+			(at 258.3815 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:PET_Extended_Keyboard_Connector"
+			(at 255.905 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.905 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 259.969 19.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "16"
+			(uuid "c6157e74-5598-48f9-b4d1-4150684e02e1")
+		)
+		(pin "23"
+			(uuid "caeabb55-4c27-49f6-8218-18b24a3dde83")
+		)
+		(pin "29"
+			(uuid "fc570917-c2dc-4592-836f-a561d382e023")
+		)
+		(pin "7"
+			(uuid "c39e9a9e-68fc-4c10-99e5-81373c181923")
+		)
+		(pin "9"
+			(uuid "ec92a5a0-9547-425b-a85f-b4c9324d2279")
+		)
+		(pin "15"
+			(uuid "566468ef-5f6d-4eeb-8bca-f648fcf2561c")
+		)
+		(pin "17"
+			(uuid "3372e54f-88b7-43ea-8259-c3acad6449f2")
+		)
+		(pin "4"
+			(uuid "4c3ea6fe-2540-4dc6-be16-46b87bebc94d")
+		)
+		(pin "14"
+			(uuid "f242e072-52c2-401d-8263-b0d56b3d6837")
+		)
+		(pin "19"
+			(uuid "f6d4df56-12f2-4af5-8875-c6dca5ab511b")
+		)
+		(pin "30"
+			(uuid "534a746f-8d31-4485-8977-585022ddf586")
+		)
+		(pin "24"
+			(uuid "46e52f49-5c8d-4ef4-9bdc-16030fbaaad4")
+		)
+		(pin "20"
+			(uuid "33830dcd-974a-4ec2-8786-14fd353efcd2")
+		)
+		(pin "21"
+			(uuid "1a6af6b1-c2b2-420c-b699-923f9383bafa")
+		)
+		(pin "6"
+			(uuid "dd9964e4-0a78-42a0-b90c-e57b9de57d32")
+		)
+		(pin "22"
+			(uuid "dd303f4a-f0fb-401c-b3ae-a0f2e4c15558")
+		)
+		(pin "25"
+			(uuid "4ec33ba8-9f3d-4e09-a916-fdc892e296ec")
+		)
+		(pin "2"
+			(uuid "43e2175e-8e33-48ac-9e09-f15e31bf30f0")
+		)
+		(pin "1"
+			(uuid "b2f5a5c7-a402-4cc0-ba7e-89156ee4c238")
+		)
+		(pin "12"
+			(uuid "25fe465c-7442-4ef2-bc78-dbb321dfc8e1")
+		)
+		(pin "26"
+			(uuid "61806d85-b076-49b9-8787-660cfaa4f45a")
+		)
+		(pin "13"
+			(uuid "d8c6d3e1-a373-458b-9876-ca90b82a74a5")
+		)
+		(pin "11"
+			(uuid "e82b3707-9ee7-435c-a1ad-20061f82a46e")
+		)
+		(pin "10"
+			(uuid "f6461deb-af3f-4d87-8cd1-fb61d3e51b32")
+		)
+		(pin "18"
+			(uuid "26675cfb-d854-4f87-b4e7-6d064f6d3e5f")
+		)
+		(pin "8"
+			(uuid "4c3ac4c9-093b-4d7c-bb72-2b69264c143e")
+		)
+		(pin "5"
+			(uuid "9520a4dc-5acd-4b22-b911-8d29ce942346")
+		)
+		(pin "27"
+			(uuid "e1358b3f-b350-4392-ad63-f8553b41ab6a")
+		)
+		(pin "28"
+			(uuid "99719311-590f-4894-bacf-fdd23bb46d12")
+		)
+		(pin "3"
+			(uuid "affb892b-6e81-4fa2-ba6d-3359f0b64825")
+		)
+		(instances
+			(project ""
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd"
+					(reference "J1")
 					(unit 1)
 				)
 			)
