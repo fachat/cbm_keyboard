@@ -986,6 +986,18 @@
 		)
 		(uuid "f33601b4-73dc-40a1-bd72-4405d58802e0")
 	)
+	(text "U1, C1 Optional, use\nwith IDC connector"
+		(exclude_from_sim no)
+		(at 208.28 32.512 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+		(uuid "f65eac05-f470-4a1d-9361-c5bbb4999aef")
+	)
 	(text "D"
 		(exclude_from_sim no)
 		(at 43.688 84.328 0)
