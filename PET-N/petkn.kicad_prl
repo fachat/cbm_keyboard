@@ -18,7 +18,7 @@
     "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": false,
-      "footprints": true,
+      "footprints": false,
       "graphics": false,
       "keepouts": false,
       "lockedItems": false,
@@ -44,7 +44,7 @@
       "zones",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0fffffff_fff7ffdf",
+    "visible_layers": "00000000_00000000_0fffffff_fff7ffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -111,15 +111,15 @@
   },
   "schematic": {
     "selection_filter": {
-      "graphics": true,
-      "images": true,
+      "graphics": false,
+      "images": false,
       "labels": true,
       "lockedItems": false,
-      "otherItems": true,
-      "pins": true,
+      "otherItems": false,
+      "pins": false,
       "symbols": true,
       "text": true,
-      "wires": true
+      "wires": false
     }
   }
 }

@@ -1,0 +1,7696 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1fcf2766-8686-4bfb-bc2b-75149c1d1476")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74xx:74LS145"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LS145"
+				(at -7.62 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS145"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Decoder 1 to 10, Open Collector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TTL DECOD10 OpenColl"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP?16*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74LS145_1_0"
+				(pin input line
+					(at -12.7 10.16 0)
+					(length 5.08)
+					(name "P0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 17.78 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -20.32 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector inverted
+					(at 12.7 10.16 180)
+					(length 5.08)
+					(name "Q0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector inverted
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "Q1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector inverted
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "Q2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector inverted
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "Q3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector inverted
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "Q4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector inverted
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "Q5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector inverted
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "Q6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector inverted
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name "Q7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector inverted
+					(at 12.7 -10.16 180)
+					(length 5.08)
+					(name "Q8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector inverted
+					(at 12.7 -12.7 180)
+					(length 5.08)
+					(name "Q9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS145_1_1"
+				(rectangle
+					(start -7.62 12.7)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "petkn:MX Key with LED Unit"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MX Key with LED Unit_1_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MX Key with LED Unit_2_1"
+				(polyline
+					(pts
+						(xy -3.556 -0.889) (xy -5.08 -2.413) (xy -4.318 -2.413) (xy -5.08 -2.413) (xy -5.08 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -0.889) (xy -3.81 -2.413) (xy -3.048 -2.413) (xy -3.81 -2.413) (xy -3.81 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.127) (xy 0.762 -0.127)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.397) (xy -1.778 1.143)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.397) (xy 0.762 1.143) (xy -1.778 -0.127) (xy 0.762 -1.397)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -4.318 -0.127 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.302 -0.127 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 146.558 32.893 0)
+		(effects
+			(font
+				(size 5.9944 5.9944)
+				(thickness 1.1989)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "3403bfbc-d57c-4c67-b0fd-1ca0cccdcc31")
+	)
+	(text "E"
+		(exclude_from_sim no)
+		(at 43.688 97.663 0)
+		(effects
+			(font
+				(size 5.9944 5.9944)
+				(thickness 1.1989)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "3913746f-8555-4f3d-a868-6d663c028692")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 95.758 32.893 0)
+		(effects
+			(font
+				(size 5.9944 5.9944)
+				(thickness 1.1989)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "42b4ef41-c2ab-421e-a78f-5b99f189afe2")
+	)
+	(text "C"
+		(exclude_from_sim no)
+		(at 43.688 70.993 0)
+		(effects
+			(font
+				(size 5.9944 5.9944)
+				(thickness 1.1989)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4387a0f2-57c8-445f-947d-cbf5f5cb5e3a")
+	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 134.493 32.893 0)
+		(effects
+			(font
+				(size 5.9944 5.9944)
+				(thickness 1.1989)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "481b8f71-b193-4bbc-9a72-6bb810ae7545")
+	)
+	(text "J"
+		(exclude_from_sim no)
+		(at 44.323 164.338 0)
+		(effects
+			(font
+				(size 5.9944 5.9944)
+				(thickness 1.1989)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d8b9509-9d62-4eec-be1a-c0c8d6219dae")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 120.523 32.893 0)
+		(effects
+			(font
+				(size 5.9944 5.9944)
+				(thickness 1.1989)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "60290abb-629c-46e9-a2d7-72eb283a0d5c")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 56.388 32.893 0)
+		(effects
+			(font
+				(size 5.9944 5.9944)
+				(thickness 1.1989)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "67c394c9-897e-4b8d-b73e-4b3688c66870")
+	)
+	(text "R1 R2 R3 R4 R5 R6 R7 R8 R9 R10"
+		(exclude_from_sim no)
+		(at 162.433 165.608 90)
+		(effects
+			(font
+				(size 4.9022 4.9022)
+				(thickness 0.9804)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "81d606cc-27f4-475f-8774-b795484d573a")
+	)
+	(text "A"
+		(exclude_from_sim no)
+		(at 43.688 43.688 0)
+		(effects
+			(font
+				(size 5.9944 5.9944)
+				(thickness 1.1989)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1897973-8910-4002-bdd6-1c456afa1606")
+	)
+	(text "B"
+		(exclude_from_sim no)
+		(at 43.688 57.023 0)
+		(effects
+			(font
+				(size 5.9944 5.9944)
+				(thickness 1.1989)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1a7b894-e263-4630-9f46-323dd60dd700")
+	)
+	(text "I"
+		(exclude_from_sim no)
+		(at 44.958 150.368 0)
+		(effects
+			(font
+				(size 5.9944 5.9944)
+				(thickness 1.1989)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd726cef-1969-412d-a1b3-bd36459b61fe")
+	)
+	(text "F"
+		(exclude_from_sim no)
+		(at 44.323 110.363 0)
+		(effects
+			(font
+				(size 5.9944 5.9944)
+				(thickness 1.1989)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "cba0a42d-12e7-4efc-b63b-419c692379dc")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 108.458 32.893 0)
+		(effects
+			(font
+				(size 5.9944 5.9944)
+				(thickness 1.1989)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd816d9e-82dd-431f-8859-79036dc20a45")
+	)
+	(text "LOCK"
+		(exclude_from_sim no)
+		(at 144.653 58.928 0)
+		(effects
+			(font
+				(size 2.2098 2.2098)
+				(thickness 0.442)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "dec8f0ba-ec17-4bdc-b592-bf4272b2cc73")
+	)
+	(text "G"
+		(exclude_from_sim no)
+		(at 43.053 124.333 0)
+		(effects
+			(font
+				(size 5.9944 5.9944)
+				(thickness 1.1989)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0d8b9e6-772d-4ccd-8538-35d8761cd164")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 82.423 32.893 0)
+		(effects
+			(font
+				(size 5.9944 5.9944)
+				(thickness 1.1989)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f33601b4-73dc-40a1-bd72-4405d58802e0")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 43.688 84.328 0)
+		(effects
+			(font
+				(size 5.9944 5.9944)
+				(thickness 1.1989)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7ad6105-996b-49ff-b9ff-bb47c2806492")
+	)
+	(text "H"
+		(exclude_from_sim no)
+		(at 43.053 137.033 0)
+		(effects
+			(font
+				(size 5.9944 5.9944)
+				(thickness 1.1989)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9cd5974-6188-419c-ad94-14536959a96c")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 69.723 32.893 0)
+		(effects
+			(font
+				(size 5.9944 5.9944)
+				(thickness 1.1989)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd43471c-666c-481d-9321-9b9b2d92586f")
+	)
+	(junction
+		(at 226.06 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c44704f4-8161-4f09-b697-f9568dd815e2")
+	)
+	(wire
+		(pts
+			(xy 209.55 43.18) (xy 213.36 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b05fa2-5d43-47e3-a5f1-3e238a6b9d1a")
+	)
+	(wire
+		(pts
+			(xy 238.76 45.72) (xy 241.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cff1fff-7f73-4ce4-a64e-68822bbdd17b")
+	)
+	(wire
+		(pts
+			(xy 251.46 33.02) (xy 251.46 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "413d532c-f724-42ab-acf6-326752d78da8")
+	)
+	(wire
+		(pts
+			(xy 226.06 30.48) (xy 226.06 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "420656b2-f63a-4021-a88b-3338bbdb3689")
+	)
+	(wire
+		(pts
+			(xy 238.76 60.96) (xy 241.3 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4905f4ab-d8e6-44f5-9ced-dafedc56c9a0")
+	)
+	(wire
+		(pts
+			(xy 209.55 45.72) (xy 213.36 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e2ffed-81a3-4fb7-b717-a282339d127e")
+	)
+	(wire
+		(pts
+			(xy 243.84 33.02) (xy 251.46 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8057bd-4771-4a69-b4d8-d9584b72bf20")
+	)
+	(wire
+		(pts
+			(xy 238.76 63.5) (xy 241.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f057efa-7ed7-455c-ac24-68083e84aa58")
+	)
+	(wire
+		(pts
+			(xy 238.76 50.8) (xy 241.3 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73af52d8-fa3e-4857-8b01-db601cbf09ab")
+	)
+	(wire
+		(pts
+			(xy 226.06 73.66) (xy 226.06 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76e236e9-491e-48b4-8624-a1bd35c9cc17")
+	)
+	(wire
+		(pts
+			(xy 238.76 48.26) (xy 241.3 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82286657-4343-4c62-ab02-e8d3225fbe4f")
+	)
+	(wire
+		(pts
+			(xy 226.06 33.02) (xy 236.22 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "892a209b-2f62-4fe2-a075-ad83c845788d")
+	)
+	(wire
+		(pts
+			(xy 226.06 33.02) (xy 226.06 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a6574e-5373-412f-8dd6-049ad6144374")
+	)
+	(wire
+		(pts
+			(xy 209.55 48.26) (xy 213.36 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a12b5b69-16d8-4d69-bf03-d166ceced464")
+	)
+	(wire
+		(pts
+			(xy 238.76 43.18) (xy 241.3 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbdbbd18-335c-44c6-8431-cc3796b9d5d5")
+	)
+	(wire
+		(pts
+			(xy 238.76 58.42) (xy 241.3 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0007052-252d-40c1-9bb9-883eccbc1211")
+	)
+	(wire
+		(pts
+			(xy 238.76 66.04) (xy 241.3 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56f1098-8932-492e-8c93-80c25cdef468")
+	)
+	(wire
+		(pts
+			(xy 238.76 55.88) (xy 241.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf3bbe2-5ba8-4c18-bc48-0aca2737f65b")
+	)
+	(wire
+		(pts
+			(xy 238.76 53.34) (xy 241.3 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e55252be-c26f-418c-9f55-16227c110752")
+	)
+	(wire
+		(pts
+			(xy 209.55 50.8) (xy 213.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e72ba7c9-4260-4f2f-b7d3-9566bbe5bb16")
+	)
+	(global_label "R1"
+		(shape input)
+		(at 241.3 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05815f84-f73f-4498-81d4-de59ac2fdcf5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.1105 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S1"
+		(shape input)
+		(at 209.55 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2044ad7d-1301-4425-9f0f-d1a10f582bc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LC1"
+		(shape input)
+		(at 143.51 31.877 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20de904c-646f-4253-ad86-66bacc014828")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.51 31.877 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R4"
+		(shape input)
+		(at 241.3 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "347407e0-fc3d-4ff0-be5c-92546573faa1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.1105 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R5"
+		(shape input)
+		(at 241.3 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39d13bf4-dd50-4fc0-9971-c50ec09cb2c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.1105 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LR7"
+		(shape input)
+		(at 41.91 86.487 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "41a1ba15-059f-4456-a240-027753d1ae95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.91 86.487 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LC2"
+		(shape input)
+		(at 130.81 31.877 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42e4a1e1-8d58-4587-b15d-1c3d44eaf3e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.81 31.877 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LC5"
+		(shape input)
+		(at 92.075 31.877 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5852f596-4840-4b4b-ba8d-02d295b66904")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.075 31.877 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LR8"
+		(shape input)
+		(at 41.91 73.152 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b22af43-ae2c-42f9-9dd5-de19511ce3c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.91 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 226.06 76.2 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c75a8ae-a69e-4867-9956-f98443c8e0ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 82.4015 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R3"
+		(shape input)
+		(at 241.3 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c22d710-5bc1-4d4a-b857-d633ccdb4305")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.1105 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LC7"
+		(shape input)
+		(at 66.04 31.877 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78b3acba-820a-447f-82d0-e5914977c827")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.04 31.877 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R8"
+		(shape input)
+		(at 241.3 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d8b6113-0e13-40e4-8e9a-160bddbaa613")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.1105 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R6"
+		(shape input)
+		(at 241.3 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ee1829f-d791-4990-b7be-12d1a85ae9b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.1105 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LR3"
+		(shape input)
+		(at 41.91 139.827 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81afa7f1-1465-4dd3-a552-6faa5c7cf585")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.91 139.827 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LR10"
+		(shape input)
+		(at 41.91 46.482 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86bda89b-4b7d-4be0-9b19-8baa4ba9a9ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.91 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R9"
+		(shape input)
+		(at 241.3 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "94fcf5e8-9fbb-4807-8e2a-8b31c71e72a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.1105 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LR1"
+		(shape input)
+		(at 41.91 166.497 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ae5b26f-c3c1-4f0c-8832-1bc12d9f17f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.91 166.497 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LR6"
+		(shape input)
+		(at 41.91 99.822 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e915adf-bd19-46ed-9784-118c7e0ead45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.91 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LC6"
+		(shape input)
+		(at 79.375 31.877 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6706897-c6cf-41f2-98a1-f3611610e486")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.375 31.877 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LR5"
+		(shape input)
+		(at 41.91 113.157 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2da3674-491e-4396-99eb-79aded849b7c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.91 113.157 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R10"
+		(shape input)
+		(at 241.3 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b87f1e0b-fd12-4f0b-be47-504d08f713e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.1105 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S1"
+		(shape input)
+		(at 209.55 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba7c1b0c-d9f1-40b7-91e5-25a62fe2eaf7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LC4"
+		(shape input)
+		(at 104.775 31.877 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd7f40f7-485f-488c-b0fa-4468272eaadd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.775 31.877 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R7"
+		(shape input)
+		(at 241.3 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d061c474-74e2-4cac-bb3e-0a5e81327f8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.1105 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 251.46 34.29 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d3937c14-a56a-4b64-bc72-35c69dc69ec2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.46 40.4915 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LC8"
+		(shape input)
+		(at 53.34 31.877 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d62011c1-b675-4f64-8d7a-47b0caf2e57a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 31.877 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LR4"
+		(shape input)
+		(at 41.91 126.492 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd2d5d8b-ab2d-497f-aecb-45c4839edcbd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.91 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R2"
+		(shape input)
+		(at 241.3 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6a133d0-c2b8-43a0-9e44-2b80425e77ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.1105 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LR2"
+		(shape input)
+		(at 41.91 153.162 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9c5c943-fd19-4b2c-b53e-1a42cb4fcfec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.91 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3"
+		(shape input)
+		(at 209.55 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1ce1c7a-7211-4656-ac92-56a2a3ab4a8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S2"
+		(shape input)
+		(at 209.55 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f3f3d609-6635-41a7-ad95-2a9c6598b3af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC5"
+		(shape input)
+		(at 226.06 30.48 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f79e6ceb-ebb3-4536-b6e6-2729eb5fcab4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 23.3109 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LR9"
+		(shape input)
+		(at 41.91 59.817 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fce82a76-5d9d-43d5-9387-3f84e38a4197")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.91 59.817 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LC3"
+		(shape input)
+		(at 117.475 31.877 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff718376-6bdd-42bc-89c0-878a8c1b973d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.475 31.877 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 84.963 55.118 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "088a497f-01e8-4d3b-8e57-b36343a73047")
+		(property "Reference" "SW11"
+			(at 84.963 47.879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R SHIFT"
+			(at 84.963 50.1904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_2.00u_PCB_with_LED"
+			(at 84.963 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 84.963 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 84.963 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27f9c607-a2d2-40f3-8d14-25c2cbe2e5be")
+		)
+		(pin "3"
+			(uuid "04396baa-b1d3-400e-a14f-a6c018c08709")
+		)
+		(pin "2"
+			(uuid "11565980-d058-44a5-b8f0-0f1af2f92ef5")
+		)
+		(pin "4"
+			(uuid "26577111-3e80-4954-9610-97149bc7150f")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW11")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 123.063 148.463 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13b093c7-3a04-4cd8-aabd-867f6aae0aff")
+		(property "Reference" "SW70"
+			(at 123.063 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"'\""
+			(at 123.063 143.5354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 123.063 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.063 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.063 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dfd4066-6510-4cd6-91eb-ec51acb79983")
+		)
+		(pin "4"
+			(uuid "f239860c-b3fc-4396-a118-1fe7e3051597")
+		)
+		(pin "3"
+			(uuid "6204b0d6-919f-4cfb-adc3-7c1befa46695")
+		)
+		(pin "2"
+			(uuid "619166b8-6bf8-4941-a33f-f7494ba6e7da")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW70")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 71.628 95.123 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "144b0842-52b8-4564-a4a4-b8080a7f9272")
+		(property "Reference" "SW34"
+			(at 71.628 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KP \"5\""
+			(at 71.628 90.1954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 71.628 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.628 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.628 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8757235-e9d6-49dd-ae10-682047a9ebc2")
+		)
+		(pin "4"
+			(uuid "0bbfa250-f76a-48df-ad29-67c3178bdde8")
+		)
+		(pin "3"
+			(uuid "c9c0e4f8-71df-49c1-b260-f1a43065bf5a")
+		)
+		(pin "2"
+			(uuid "e8e64b44-0fae-47f0-8f40-ec8de8d6f6bf")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW34")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 58.928 148.463 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "247dea77-8620-4009-b850-32deb393285a")
+		(property "Reference" "SW65"
+			(at 58.928 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INS/DEL"
+			(at 58.928 143.5354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 58.928 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.928 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.928 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a3f1972-e5ef-4545-ad1c-c4d0a02f9f77")
+		)
+		(pin "4"
+			(uuid "84214785-09d4-4912-b91a-c14f9181e322")
+		)
+		(pin "3"
+			(uuid "7b8dd28a-322b-452c-a2b7-26ec65a63545")
+		)
+		(pin "2"
+			(uuid "8f5d977e-ac90-4774-aef2-786e3f5637ac")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW65")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 71.628 68.453 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29099f61-b016-46ec-a45c-e2c8c441654b")
+		(property "Reference" "SW18"
+			(at 71.628 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KP \"2\""
+			(at 71.628 63.5254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 71.628 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.628 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.628 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0f3f6e3d-bc1b-4cc0-b60f-8386b93ceffe")
+		)
+		(pin "4"
+			(uuid "60bbb6f0-dd2e-4cc4-9ad6-3af724f84dcb")
+		)
+		(pin "1"
+			(uuid "304e1dac-fe0e-4535-86ed-4cfd4b6071b2")
+		)
+		(pin "2"
+			(uuid "c4fa42ee-fb53-4da9-a580-ac4c0e2f559c")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW18")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 149.098 148.463 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d0631c3-958f-4e4b-a89c-78261364f949")
+		(property "Reference" "SW72"
+			(at 149.098 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QUOTE"
+			(at 149.098 143.5354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 149.098 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.098 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.098 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66a2e105-d9d0-46f4-9a25-4a50c4644940")
+		)
+		(pin "2"
+			(uuid "3e230258-3e47-4049-8145-6bcab92d69df")
+		)
+		(pin "4"
+			(uuid "e186be07-04d9-4a2e-8c88-f07b97e004a0")
+		)
+		(pin "3"
+			(uuid "7d7770f6-fc20-4d25-9419-093ef6227a11")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW72")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 136.398 95.123 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ead6688-2e82-439e-bb00-a859972fefbe")
+		(property "Reference" "SW39"
+			(at 136.398 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"F\""
+			(at 136.398 90.1954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 136.398 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 136.398 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 136.398 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76e9de8e-abc9-470f-9192-1d7159c236d0")
+		)
+		(pin "2"
+			(uuid "bd335007-cbee-4901-93c6-4beb1e8ad700")
+		)
+		(pin "4"
+			(uuid "8c483963-278d-45ea-b5eb-f61f213b4d07")
+		)
+		(pin "3"
+			(uuid "9a1b7ba0-49ff-46b2-be5e-58b28efb04f1")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW39")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 58.928 41.783 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33299a74-2f04-4bae-867f-16311e826379")
+		(property "Reference" "SW1"
+			(at 58.928 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KP \"=\""
+			(at 58.928 36.8554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 58.928 41.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.928 41.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.928 41.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "35713b25-2df5-480d-b776-97cfead78738")
+		)
+		(pin "2"
+			(uuid "b66391e0-ad5e-4a72-ba58-449dee7a744e")
+		)
+		(pin "1"
+			(uuid "0a6cb535-41a9-43fb-a633-4d0823904bd6")
+		)
+		(pin "3"
+			(uuid "cda471bb-b0ab-4225-930d-64adf2a06aa7")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 136.398 108.458 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33561768-9fe3-4c50-a647-a5df94eba36c")
+		(property "Reference" "SW47"
+			(at 136.398 101.219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"D\""
+			(at 136.398 103.5304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 136.398 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 136.398 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 136.398 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fab261e5-60ab-45ff-8152-ae081323b65a")
+		)
+		(pin "3"
+			(uuid "c5013ef7-89ae-48d0-a091-6a8b0ad86dff")
+		)
+		(pin "4"
+			(uuid "82708402-4ee5-4ebb-be6d-e1b40792cc69")
+		)
+		(pin "2"
+			(uuid "29ae6096-d868-4550-a48e-12fdf63de7e7")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW47")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 110.363 41.783 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34cd2cb2-3ba5-4a4c-b753-9cf75de32bcd")
+		(property "Reference" "SW5"
+			(at 110.363 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"<\""
+			(at 110.363 36.8554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 110.363 41.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.363 41.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.363 41.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d5d0ea9a-663d-4c1f-9a95-2f1b25fac817")
+		)
+		(pin "2"
+			(uuid "1b2757de-7e9c-4c16-8a26-215d94f71bb1")
+		)
+		(pin "1"
+			(uuid "dc63f5c8-3087-4478-9719-84e75edb9ec7")
+		)
+		(pin "4"
+			(uuid "44241f21-c3c5-4d6e-bf74-49e37bf7222d")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 58.928 121.793 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "365b8a7d-e513-4f48-a6d6-1905c61e6d72")
+		(property "Reference" "SW49"
+			(at 58.928 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KP \"/\""
+			(at 58.928 116.8654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 58.928 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.928 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.928 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f262495-c8c3-4533-a66d-990ad491b0f0")
+		)
+		(pin "4"
+			(uuid "a3e0c298-6d8e-4545-8ec5-b01f0500798f")
+		)
+		(pin "3"
+			(uuid "33d292b9-b6ae-48cc-92c5-c457d2cfbf61")
+		)
+		(pin "2"
+			(uuid "40ae1843-6586-4834-a390-e39540bf98b1")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW49")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 123.063 161.798 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3afe5160-b3d3-4e9a-8765-ff5dc03e60ac")
+		(property "Reference" "SW78"
+			(at 123.063 154.559 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"%\""
+			(at 123.063 156.8704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 123.063 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.063 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.063 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fd1aae8-232d-44d9-bbc9-354f6ccdc234")
+		)
+		(pin "4"
+			(uuid "f7c25228-a390-4c25-81f2-5f0ca129d74b")
+		)
+		(pin "3"
+			(uuid "8763853f-0487-4917-87a4-87aa6d66f8fe")
+		)
+		(pin "2"
+			(uuid "a590fa4d-3ba4-4b73-8809-74beeea842b3")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW78")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 149.098 81.788 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3bacba42-b216-4fd5-9724-57e8b51bb4a0")
+		(property "Reference" "SW32"
+			(at 149.098 74.549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"Z\""
+			(at 149.098 76.8604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 149.098 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.098 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.098 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58fa1eab-c278-4a79-99a6-7576aa05763f")
+		)
+		(pin "2"
+			(uuid "f60349be-54f1-4fde-9038-14c6f753562b")
+		)
+		(pin "4"
+			(uuid "de95520a-517a-4f5f-817f-97403391c8b9")
+		)
+		(pin "3"
+			(uuid "36f801e1-6da9-4795-9016-804393f0f6a9")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW32")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 149.098 135.128 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d7eaa95-6bb5-4273-96aa-ae9ea925f501")
+		(property "Reference" "SW64"
+			(at 149.098 127.889 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"Q\""
+			(at 149.098 130.2004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 149.098 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.098 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.098 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c018aa94-5489-4c26-81ae-46c3c5167c2b")
+		)
+		(pin "2"
+			(uuid "c7f3415c-73a2-43d5-bc47-0619d4937517")
+		)
+		(pin "1"
+			(uuid "abe718c6-45c7-4dbd-8b22-dc84d05421f2")
+		)
+		(pin "4"
+			(uuid "c02a028b-956a-4feb-8e59-8de6ffc89dd2")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW64")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 149.098 108.458 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e3167c9-b1a0-4a73-a4bc-1a88728917dc")
+		(property "Reference" "SW48"
+			(at 149.098 101.219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"A\""
+			(at 149.098 103.5304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 149.098 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.098 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.098 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "dd24523c-0cab-4afb-9c59-c9d551568637")
+		)
+		(pin "2"
+			(uuid "45d0bf43-3c3e-40fb-aa7c-f6dc330b6a3b")
+		)
+		(pin "1"
+			(uuid "694400fe-3c16-49cb-b5d9-1c24274fca52")
+		)
+		(pin "3"
+			(uuid "338d474c-1745-4187-9d83-c13ea7c0e77d")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW48")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 136.398 55.118 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4043cb53-f58d-4875-b16a-fe96c8df486f")
+		(property "Reference" "SW15"
+			(at 136.398 47.879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"@\""
+			(at 136.398 50.1904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 136.398 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 136.398 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 136.398 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bc4349c-c59f-4153-b7b1-5998646bf569")
+		)
+		(pin "3"
+			(uuid "b0ea8fca-aafb-42b0-955f-9a5b5fb80e35")
+		)
+		(pin "2"
+			(uuid "22103af2-5838-49a9-8260-af3bfa395940")
+		)
+		(pin "4"
+			(uuid "000ccc0a-3426-4fd8-a1af-4fe21ae5b236")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW15")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 71.628 41.783 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40f5f03a-db4d-4a6c-b1ca-21272125d4ba")
+		(property "Reference" "SW2"
+			(at 71.628 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KP \".\""
+			(at 71.628 36.8554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 71.628 41.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.628 41.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.628 41.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90917300-7919-4069-a775-43ab56d17844")
+		)
+		(pin "2"
+			(uuid "87a1f7b6-c23c-401e-9115-cd5f66f61a01")
+		)
+		(pin "4"
+			(uuid "3405c351-119c-4360-88e6-1ed132f1157b")
+		)
+		(pin "3"
+			(uuid "861ab589-0b97-4f73-a324-57062e00e148")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 240.03 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "469aa551-9d33-4933-b6eb-05dac0700446")
+		(property "Reference" "C1"
+			(at 240.03 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 240.03 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 243.84 32.0548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 240.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5d95e164-bba3-44db-b3de-da7d62f8b785")
+		)
+		(pin "1"
+			(uuid "4b396571-8cbf-4b02-a18e-061f5e8eb4a8")
+		)
+		(instances
+			(project ""
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 136.398 121.793 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "491eafaa-0038-4a10-8dbe-ce918ded50df")
+		(property "Reference" "SW55"
+			(at 136.398 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"R\""
+			(at 136.398 116.8654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 136.398 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 136.398 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 136.398 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7e5f949-540d-4890-a3bc-0d099be97002")
+		)
+		(pin "4"
+			(uuid "c9ce662f-4ba7-406c-9367-56b5c87f35d2")
+		)
+		(pin "3"
+			(uuid "16599ee7-119a-4fb1-bd4b-5d91664db913")
+		)
+		(pin "2"
+			(uuid "608ab9e5-25f1-49d3-9123-e67a5e8ad203")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW55")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 149.098 41.783 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e192e59-bdc0-45b5-847e-4b5afb612225")
+		(property "Reference" "SW8"
+			(at 149.098 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OFF/RVS"
+			(at 149.098 36.8554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.50u_PCB_with_LED"
+			(at 149.098 41.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.098 41.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.098 41.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08e3e1ad-3218-49a0-baa7-c8751e749cbf")
+		)
+		(pin "4"
+			(uuid "e34d9369-480c-4b60-b1a3-bc99dffdc2bf")
+		)
+		(pin "3"
+			(uuid "4d735962-9ffc-4a07-9402-d0ba6a3aa826")
+		)
+		(pin "2"
+			(uuid "bc21e4f5-1777-4497-b56f-aba1cdd6fe1f")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW8")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 97.663 41.783 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51211879-86b3-41c5-af11-cbb234a03b33")
+		(property "Reference" "SW4"
+			(at 97.663 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STOP"
+			(at 97.663 36.8554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 97.663 41.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.663 41.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.663 41.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5db76b67-d92f-4a68-a865-2e5ff0010313")
+		)
+		(pin "4"
+			(uuid "9f03acb1-c893-468c-a966-aefd0af92f1f")
+		)
+		(pin "1"
+			(uuid "64376de4-9689-4fd3-99d3-4344fbb10fd5")
+		)
+		(pin "2"
+			(uuid "8159abd3-f1df-41c6-aebe-b32b3fa8fe90")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 110.363 95.123 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54661c8d-f743-4e6b-9633-f4f09b897a4c")
+		(property "Reference" "SW37"
+			(at 110.363 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"K\""
+			(at 110.363 90.1954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 110.363 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.363 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.363 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d4bd52b-2d82-4df7-ab9d-65afe1ca0210")
+		)
+		(pin "2"
+			(uuid "3dafd12d-50b4-45ce-a869-2f5b0ba72200")
+		)
+		(pin "4"
+			(uuid "3b091071-4286-4a4d-8c07-c9dff52bd465")
+		)
+		(pin "3"
+			(uuid "9eedce09-f7b8-440f-914f-0a490eee490d")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW37")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 136.398 148.463 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5484828d-fd9e-4478-9278-5b58bf9b9218")
+		(property "Reference" "SW71"
+			(at 136.398 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"$\""
+			(at 136.398 143.5354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 136.398 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 136.398 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 136.398 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "261062a9-62f5-4be6-98a2-d53828931997")
+		)
+		(pin "4"
+			(uuid "e3917dab-7c37-45dd-98d5-2cff146785a8")
+		)
+		(pin "3"
+			(uuid "f1a000b3-8d9f-4115-b741-66a0bbbfb408")
+		)
+		(pin "2"
+			(uuid "d3f7cd1a-a817-42f0-b51c-508b7786b1a7")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW71")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 84.963 41.91 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54bc4f9e-88dc-433c-98d5-d4d5c5d4beb7")
+		(property "Reference" "SW3"
+			(at 84.963 34.671 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NC ($10)"
+			(at 84.963 36.9824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.25u_PCB_with_LED"
+			(at 84.963 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 84.963 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 84.963 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8eb5244-69e3-45e1-8aa6-583e917e0ab3")
+		)
+		(pin "2"
+			(uuid "e994156d-4427-4553-87c2-045571a49f90")
+		)
+		(pin "3"
+			(uuid "93f26fec-a8e9-4f0e-9789-6543767e8762")
+		)
+		(pin "4"
+			(uuid "c6bb0d23-14a5-4f3f-8ea9-1faa90bdb0c2")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 149.098 121.793 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a767cdf-2260-4ead-b316-4036dd4b6290")
+		(property "Reference" "SW56"
+			(at 149.098 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"W\""
+			(at 149.098 116.8654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 149.098 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.098 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.098 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da130dd3-2ff9-4a73-ab0b-c823a2d4a3ba")
+		)
+		(pin "2"
+			(uuid "ba5c43f4-9de8-4f57-9c7d-8a5870c9a8a0")
+		)
+		(pin "4"
+			(uuid "ea1352f5-a10c-482b-856d-76e386226321")
+		)
+		(pin "3"
+			(uuid "4428e42a-a3ce-4a9b-ae09-cebf7cc115ab")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW56")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 84.963 161.798 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b34c876-311a-4728-bdd0-91a4690a3c2a")
+		(property "Reference" "SW75"
+			(at 84.963 154.559 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B ARROW"
+			(at 84.963 156.8704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 84.963 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 84.963 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 84.963 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0b0bc239-9c46-4fd1-9752-a78e8f9feac9")
+		)
+		(pin "2"
+			(uuid "5d3e230a-f6c7-4033-8d35-b4ffbd03060b")
+		)
+		(pin "1"
+			(uuid "eef330e2-768a-4719-ae2b-81dcbc9b1964")
+		)
+		(pin "4"
+			(uuid "9e9d0fdc-cf28-4184-b231-ce8de63e7510")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW75")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 123.063 41.783 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c0bbc5a-2c9d-4aa2-b4ce-bc22b94284ac")
+		(property "Reference" "SW6"
+			(at 123.063 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPACE"
+			(at 123.063 36.8554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_6.25u_PCB_with_LED"
+			(at 123.063 41.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.063 41.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.063 41.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f0eac397-dc7f-4765-a486-c9050c68d15b")
+		)
+		(pin "4"
+			(uuid "90d66e62-a2f4-489d-820b-12d441f0c50b")
+		)
+		(pin "1"
+			(uuid "79e64cf5-9acf-409e-a25f-df16ecd36978")
+		)
+		(pin "2"
+			(uuid "6fc0c244-6e5c-4645-a21a-64e12175f1a4")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 110.363 148.463 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cbdc9c5-8b31-462a-b0bb-2574e6b3206d")
+		(property "Reference" "SW69"
+			(at 110.363 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"\\\""
+			(at 110.363 143.5354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 110.363 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.363 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.363 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "9f16ae64-db3d-4176-b94a-3f7e553cd8b2")
+		)
+		(pin "2"
+			(uuid "dc9ceeaa-b880-4f7b-9c2e-9ebf3b250e7f")
+		)
+		(pin "1"
+			(uuid "a7a51ac3-8c46-48b6-baca-e35bcf8a70fd")
+		)
+		(pin "3"
+			(uuid "5c833c70-919f-4424-837f-0fe84e46c579")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW69")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS145")
+		(at 226.06 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fe522aa-31e4-4ab3-bffd-0b2a8183cb2b")
+		(property "Reference" "U1"
+			(at 228.2033 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LS145"
+			(at 228.2033 38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 226.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS145"
+			(at 226.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Decoder 1 to 10, Open Collector"
+			(at 226.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8dfc4397-08de-4423-99fa-e4f6451c2e4b")
+		)
+		(pin "10"
+			(uuid "81b917a0-626d-4b3f-8c4f-f7d1910b37d4")
+		)
+		(pin "13"
+			(uuid "ae75d034-a45c-4e61-a398-3352d2d7bcdf")
+		)
+		(pin "12"
+			(uuid "fd800487-cbd9-4ac2-af94-d895ee5ed4cd")
+		)
+		(pin "6"
+			(uuid "6e14ef48-760a-483c-99b5-3939bcb6f3e0")
+		)
+		(pin "16"
+			(uuid "3dc59e5a-ba88-492c-8c02-8131370eb876")
+		)
+		(pin "8"
+			(uuid "6c569207-45d2-4799-a0d9-08b853ee8e56")
+		)
+		(pin "1"
+			(uuid "1d553dfd-94ee-452a-9247-abbc08740040")
+		)
+		(pin "9"
+			(uuid "b9a26196-84f1-46e6-877b-bc051ae61860")
+		)
+		(pin "7"
+			(uuid "3081b61d-f724-4a70-b677-8dd3f1f506c6")
+		)
+		(pin "5"
+			(uuid "2baae6a2-8178-4b98-8978-007d448518e6")
+		)
+		(pin "2"
+			(uuid "28fc8a80-7979-433e-85a2-b2d88edafbb6")
+		)
+		(pin "11"
+			(uuid "6dda988a-d0bb-4c61-b309-571d69173d21")
+		)
+		(pin "14"
+			(uuid "e13f7158-5e22-4ed7-bb05-c04374341ebf")
+		)
+		(pin "3"
+			(uuid "a217c483-11b5-4284-8e53-b6f54aafde02")
+		)
+		(pin "15"
+			(uuid "0d4f4133-70e7-4113-8290-bb96327af925")
+		)
+		(instances
+			(project ""
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 149.098 68.453 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cdff3b2-46ec-4145-a436-55af705ac7fb")
+		(property "Reference" "SW24"
+			(at 149.098 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"X\""
+			(at 149.098 63.5254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 149.098 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.098 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.098 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a4736609-85b6-4aa7-9667-734db65357a3")
+		)
+		(pin "4"
+			(uuid "ee78e25f-8d33-4024-8d84-a9d0b7662a89")
+		)
+		(pin "1"
+			(uuid "ee1deb87-b22f-4551-8a66-9c236936e3ae")
+		)
+		(pin "2"
+			(uuid "de63cd31-f53e-41b5-9d6d-5afb9bdada15")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW24")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 149.098 55.118 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82306d37-a81d-40ba-b1e7-9f4ceae2919c")
+		(property "Reference" "SW16"
+			(at 149.098 47.879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L SHIFT"
+			(at 149.098 50.1904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_2.00u_PCB_with_LED"
+			(at 149.098 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.098 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.098 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2588eb93-b8f8-46e8-9b47-253cd8982b70")
+		)
+		(pin "2"
+			(uuid "4f9d8f9c-6cf0-4cdd-841f-8442df560a92")
+		)
+		(pin "1"
+			(uuid "a02d5e00-4e51-4f2e-9969-d4a2c85f9c2c")
+		)
+		(pin "3"
+			(uuid "b029dc7c-c474-4f93-98aa-d053efcb00cb")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW16")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 85.09 121.793 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82718ea6-7915-43a7-b761-a9eea85190ff")
+		(property "Reference" "SW320"
+			(at 85.09 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S LOCK"
+			(at 85.09 116.8654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.50u_PCB_with_LED"
+			(at 85.09 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "656cd2f6-a544-460b-84d5-19aa7ef721b4")
+		)
+		(pin "2"
+			(uuid "a5fa5c13-20f9-4b28-ae23-2afccc3f92c4")
+		)
+		(pin "4"
+			(uuid "34c71fb8-6a93-4ca7-b3c4-dafa9f387a80")
+		)
+		(pin "3"
+			(uuid "6d89af01-d96d-4b9b-abff-24d942f9abd3")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW320")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 97.663 95.123 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8589446e-9ac3-4f63-b69f-d5007281efc4")
+		(property "Reference" "SW36"
+			(at 97.663 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\":\""
+			(at 97.663 90.1954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 97.663 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.663 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.663 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c445a135-db47-4a00-88ed-c5ceaa8caf9c")
+		)
+		(pin "4"
+			(uuid "41387439-287d-4056-a81e-4b1eca88928c")
+		)
+		(pin "3"
+			(uuid "5173c1e8-47ee-4767-a712-2e1062a036ae")
+		)
+		(pin "2"
+			(uuid "bc39d9f4-7e0d-4c84-a060-8f32f29de06c")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW36")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 123.063 135.128 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cc31ab7-2124-40a0-a78f-7a9853e8dc5d")
+		(property "Reference" "SW62"
+			(at 123.063 127.889 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"T\""
+			(at 123.063 130.2004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 123.063 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.063 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.063 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c528e07-902d-40d8-9e2e-28b2ad74bf7c")
+		)
+		(pin "3"
+			(uuid "a15e2782-d696-4fdc-b2b0-a35edc62931c")
+		)
+		(pin "4"
+			(uuid "51664d16-f0ed-4ede-9550-bf7473c88f06")
+		)
+		(pin "2"
+			(uuid "121888df-f6ee-41e9-b75b-e1079aa21aa2")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW62")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 97.663 68.453 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8dc4fde6-fbb8-4e99-b3d5-ac47434f74c7")
+		(property "Reference" "SW20"
+			(at 97.663 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"?\""
+			(at 97.663 63.5254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 97.663 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.663 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.663 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f38d274-3265-41e3-80d7-1329b4cd012a")
+		)
+		(pin "2"
+			(uuid "99dc65bc-80c8-467e-bb51-29014006bcd3")
+		)
+		(pin "3"
+			(uuid "cc5dfb56-8c08-4581-909f-2a14bc7070fc")
+		)
+		(pin "4"
+			(uuid "780e58b7-d863-44af-8f6c-598ef859c70d")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW20")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 58.928 68.453 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fddb776-df84-4aa2-b5c1-38ffd96a4ade")
+		(property "Reference" "SW17"
+			(at 58.928 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KP \"+\""
+			(at 58.928 63.5254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 58.928 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.928 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.928 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4b9d9e3-a62a-4b2a-9b3e-7de08287a291")
+		)
+		(pin "4"
+			(uuid "76447992-9263-483d-9ace-6e7f87770702")
+		)
+		(pin "3"
+			(uuid "a0153158-f4e9-4574-9843-b1a16825f3bc")
+		)
+		(pin "2"
+			(uuid "1a5ed881-090e-42de-be83-d0ac85f87ddb")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW17")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 110.363 108.458 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "903234ed-9ae0-4798-9f82-8c30a7471550")
+		(property "Reference" "SW45"
+			(at 110.363 101.219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"J\""
+			(at 110.363 103.5304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 110.363 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.363 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.363 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb5da776-6c42-4222-9f3c-6f68ec9ad2ec")
+		)
+		(pin "4"
+			(uuid "1b051b13-2d94-436f-9948-01987c21a721")
+		)
+		(pin "3"
+			(uuid "12c758f0-85a3-413f-b1bc-23a33a5f71f5")
+		)
+		(pin "2"
+			(uuid "eb2a95a9-5281-4320-ae8b-0f4bfe2405bb")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW45")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 71.628 148.463 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9095aee1-3a28-45d7-937d-53fad14e2bb5")
+		(property "Reference" "SW66"
+			(at 71.628 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UP/DOWN"
+			(at 71.628 143.5354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 71.628 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.628 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.628 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "77999caf-91f7-47c8-a9f5-e701bd13b183")
+		)
+		(pin "2"
+			(uuid "82625274-86e7-414c-9af2-a8ded6ec0ff2")
+		)
+		(pin "1"
+			(uuid "f775bccb-39a4-4bdb-85bc-6a51c26582c6")
+		)
+		(pin "4"
+			(uuid "3562f150-2bc2-44d1-8ea2-c42cbd3d6650")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW66")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 71.628 121.793 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92cc05aa-a5bd-4e5f-b74c-67f6bd7921f3")
+		(property "Reference" "SW50"
+			(at 71.628 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KP \"8\""
+			(at 71.628 116.8654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 71.628 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.628 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.628 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eff39748-a2bc-439d-a926-5c717e5e598b")
+		)
+		(pin "4"
+			(uuid "cbc1d2cc-a14c-4ef2-bc98-12aebee326ad")
+		)
+		(pin "3"
+			(uuid "764793b3-ca53-448e-add6-27c6387db9ca")
+		)
+		(pin "2"
+			(uuid "bbaf160d-19c4-44c3-85eb-09c7fc4e1b70")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW50")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 136.398 41.783 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93a90965-0bda-48c4-8500-55c77f2b2b6b")
+		(property "Reference" "SW7"
+			(at 136.398 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"[\""
+			(at 136.398 36.8554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 136.398 41.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 136.398 41.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 136.398 41.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "974bda3d-a84e-424c-8b9d-2a0fb3bd39d6")
+		)
+		(pin "2"
+			(uuid "25582d94-ce24-4a3d-840b-faa28446cc64")
+		)
+		(pin "1"
+			(uuid "5a425e5c-01cd-442f-9fe0-87c98a7a9098")
+		)
+		(pin "3"
+			(uuid "70cdbfbe-5701-4523-b74e-f3faad959ba1")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW7")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 136.398 81.788 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94c5d547-e05a-40d0-a368-b24baa6f6be8")
+		(property "Reference" "SW31"
+			(at 136.398 74.549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"C\""
+			(at 136.398 76.8604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 136.398 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 136.398 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 136.398 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e641bae0-8311-4993-b3a4-e947f1bec936")
+		)
+		(pin "2"
+			(uuid "aa23ebfb-5b7b-4cfa-a1db-473f87603109")
+		)
+		(pin "4"
+			(uuid "4c079ddd-ac2f-475d-a2fb-e34bfd3088aa")
+		)
+		(pin "3"
+			(uuid "2e5d243d-1a58-4652-8477-ff27191d2898")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW31")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 97.663 121.793 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97614649-84ee-4521-adae-7d61aa29da4d")
+		(property "Reference" "SW52"
+			(at 97.663 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"P\""
+			(at 97.663 116.8654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 97.663 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.663 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.663 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "64efddf8-1450-48ae-8b92-ce5b2bb6b943")
+		)
+		(pin "4"
+			(uuid "dea7b0d7-e893-460d-818a-ecb5f26e3a1f")
+		)
+		(pin "1"
+			(uuid "45821bca-6644-4946-99b9-d25cfa64bf63")
+		)
+		(pin "2"
+			(uuid "5a80de45-85dd-48da-854c-89c115dc91c6")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW52")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 123.063 108.458 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "980c6b69-6c8f-4438-ae81-d92096675be3")
+		(property "Reference" "SW46"
+			(at 123.063 101.219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"G\""
+			(at 123.063 103.5304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 123.063 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.063 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.063 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6d00b15d-1288-4da2-a516-5cc4621aae32")
+		)
+		(pin "2"
+			(uuid "f26d2ae1-3788-4f7e-acbe-18665178942f")
+		)
+		(pin "1"
+			(uuid "ec2ad021-8e1a-4d2f-a7a4-490cb8c7583b")
+		)
+		(pin "4"
+			(uuid "26eb1f57-9898-4046-9117-0f923d910af4")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW46")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 84.963 148.59 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c05a83a-cd8f-47d2-9033-c2300f2f3ff6")
+		(property "Reference" "SW67"
+			(at 84.963 141.351 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NC ($0A)"
+			(at 84.963 143.6624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.50u_PCB_with_LED"
+			(at 84.963 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 84.963 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 84.963 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "018283df-6646-4f97-9944-6ccd100a1f76")
+		)
+		(pin "2"
+			(uuid "9ee5a4eb-3cbe-418e-820d-4f62d1800591")
+		)
+		(pin "4"
+			(uuid "409b1821-9f4b-4c20-b286-aab391573fef")
+		)
+		(pin "3"
+			(uuid "c5abb72c-3950-406f-9769-18624bc139ef")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW67")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 84.963 135.128 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d27786f-21a4-4e1e-8355-5b51c3ed0c71")
+		(property "Reference" "SW59"
+			(at 84.963 127.889 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U ARROW"
+			(at 84.963 130.2004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 84.963 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 84.963 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 84.963 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "48d944bd-1807-4755-a8f1-77af33cc82f6")
+		)
+		(pin "2"
+			(uuid "1ebd8d09-5ac8-4636-92ce-0f444ba41c23")
+		)
+		(pin "1"
+			(uuid "19b96579-7c11-4d9a-8211-d691957c31e2")
+		)
+		(pin "4"
+			(uuid "fb921699-17f4-49f9-b404-14d57613abb4")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW59")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 123.063 55.118 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e2e80e3-5321-4898-8e83-f22fa58f4bf8")
+		(property "Reference" "SW14"
+			(at 123.063 47.879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"]\""
+			(at 123.063 50.1904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 123.063 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.063 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.063 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7243413a-af2f-443b-afab-52de60143b37")
+		)
+		(pin "4"
+			(uuid "f0f73435-e634-47c9-8f16-5c64d0f3ba2a")
+		)
+		(pin "3"
+			(uuid "e9388a59-ad1c-4a13-880d-5001c898bf91")
+		)
+		(pin "2"
+			(uuid "2789294a-07ef-41b1-9f6a-8db9d36c4284")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW14")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 58.928 161.798 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e718ad8-5ed7-4740-9f73-87f920ca9d48")
+		(property "Reference" "SW73"
+			(at 58.928 154.559 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LEFT/RIGHT"
+			(at 58.928 156.8704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 58.928 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.928 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.928 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0b240c3c-6288-44ac-982b-816f2778c1f7")
+		)
+		(pin "4"
+			(uuid "1926b294-2cf6-44c9-828e-7eacae962620")
+		)
+		(pin "1"
+			(uuid "bea0985e-0fa4-4285-aaa9-937d32dc3db3")
+		)
+		(pin "2"
+			(uuid "4adccfb8-3531-433a-a59d-da358116146b")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW73")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 58.928 95.123 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0644e43-830b-4a8a-bbd0-114b2339def7")
+		(property "Reference" "SW33"
+			(at 58.928 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KP \"*\""
+			(at 58.928 90.1954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 58.928 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.928 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.928 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cafab010-395d-4c10-b07b-150376b53f8b")
+		)
+		(pin "4"
+			(uuid "09c82f24-9513-4018-b99f-115179d6cb4c")
+		)
+		(pin "3"
+			(uuid "798754ce-1509-40be-a002-8bb019b7870f")
+		)
+		(pin "2"
+			(uuid "0d0c1a10-13f0-4d2b-ac54-61896e313cd3")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW33")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 58.928 81.788 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a43f6776-6384-4f5d-9b82-4a9f7d6aff43")
+		(property "Reference" "SW25"
+			(at 58.928 74.549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KP \"3\""
+			(at 58.928 76.8604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 58.928 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.928 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.928 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2284294-167f-49c8-a8c4-ea65c66e5559")
+		)
+		(pin "2"
+			(uuid "8a3be3e5-50dc-47c8-b46c-b88c80f26a26")
+		)
+		(pin "4"
+			(uuid "7272a6c2-68fb-4172-88a3-47fc1b37807e")
+		)
+		(pin "3"
+			(uuid "7f958f41-ac5e-4fa1-82dc-c7652cddbe82")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW25")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 97.663 135.128 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7516870-071e-4c5b-bf1b-ccd644a5baa5")
+		(property "Reference" "SW60"
+			(at 97.663 127.889 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"O\""
+			(at 97.663 130.2004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 97.663 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.663 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.663 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8064f65e-0634-4266-b106-5f1aa3d6d16f")
+		)
+		(pin "2"
+			(uuid "8d68aae6-eb7d-43e6-9ff5-12749f2bd452")
+		)
+		(pin "4"
+			(uuid "78b68afe-f7fc-46f2-9642-795871705f35")
+		)
+		(pin "3"
+			(uuid "0b9c8668-b57e-465a-908d-8ee2ed56a1c3")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW60")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 71.628 55.118 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a87d5d0e-7d96-4b17-ac34-7ed64f5e62a0")
+		(property "Reference" "SW10"
+			(at 71.628 47.879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KP \"0\""
+			(at 71.628 50.1904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 71.628 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.628 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.628 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "97762b6f-5e45-4af1-a7c1-0cb07905952c")
+		)
+		(pin "2"
+			(uuid "0f002988-0d63-4d26-865a-c9cd287e0fa0")
+		)
+		(pin "1"
+			(uuid "4154657e-571c-4264-acd4-d5763474eddb")
+		)
+		(pin "4"
+			(uuid "93daee75-efbc-481c-9815-47f384c8feaa")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW10")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 84.963 81.788 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8e63728-6772-4143-a97d-2c1e460a5267")
+		(property "Reference" "SW27"
+			(at 84.963 74.549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RETURN"
+			(at 84.963 76.8604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.50u_PCB_with_LED"
+			(at 84.963 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 84.963 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 84.963 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "898fc9ae-d32e-4f59-beec-c07e8ffcdf7d")
+		)
+		(pin "2"
+			(uuid "05cd82c1-02e9-4334-a99a-fd3d857022a5")
+		)
+		(pin "4"
+			(uuid "4d85e060-a0a2-4c8a-af93-9fb92dc5671b")
+		)
+		(pin "3"
+			(uuid "1add5b1f-69f6-46ce-bb33-762a9f3e4a0d")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW27")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 123.063 95.123 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa4c6b38-da23-4fff-a795-561d46fe95ba")
+		(property "Reference" "SW38"
+			(at 123.063 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"H\""
+			(at 123.063 90.1954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 123.063 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.063 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.063 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a2bf5735-9881-4bb9-886c-ec9a858d4dc9")
+		)
+		(pin "2"
+			(uuid "35423349-9715-4a31-96dd-0b98ed807de0")
+		)
+		(pin "1"
+			(uuid "3c5b6408-d79d-4171-bcfc-cad093df45bf")
+		)
+		(pin "4"
+			(uuid "607e806a-b49b-4c8e-8b3c-9d338bccd0fc")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW38")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 110.363 81.788 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac035a62-6692-4a56-b5d0-8a7c8f8c426e")
+		(property "Reference" "SW29"
+			(at 110.363 74.549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"M\""
+			(at 110.363 76.8604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 110.363 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.363 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.363 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6180a5b7-d119-4891-969b-681b5f128e0f")
+		)
+		(pin "2"
+			(uuid "7633c226-d56a-432a-8781-9b550ef2e105")
+		)
+		(pin "4"
+			(uuid "002f52bd-c84f-46aa-9851-db3562d51904")
+		)
+		(pin "3"
+			(uuid "e7bd1846-d4ed-42c0-bea2-5447561fdbeb")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW29")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 58.928 55.118 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af1832a5-62ca-4a0c-833e-e2a637208240")
+		(property "Reference" "SW9"
+			(at 58.928 47.879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KP \"-\""
+			(at 58.928 50.1904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 58.928 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.928 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.928 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1041dee4-5fe0-49bb-a9c2-50e0f8365242")
+		)
+		(pin "2"
+			(uuid "ceec3519-0587-4e76-ae62-8415c7197323")
+		)
+		(pin "4"
+			(uuid "6d29d8e8-0739-4a40-a14d-492286156676")
+		)
+		(pin "3"
+			(uuid "1c237df7-fa37-4a0b-b4bf-28523331d5eb")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW9")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 71.628 81.788 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3403546-b489-4be4-9c23-e7351a1644d8")
+		(property "Reference" "SW26"
+			(at 71.628 74.549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KP \"1\""
+			(at 71.628 76.8604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 71.628 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.628 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.628 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6905fae7-784c-4f65-bd03-8c52b61505ad")
+		)
+		(pin "4"
+			(uuid "84c03e44-d222-451f-8b03-63f3e9746970")
+		)
+		(pin "1"
+			(uuid "64967c59-5092-43da-a72f-04a9e4608131")
+		)
+		(pin "2"
+			(uuid "d08173e0-ba86-4a6b-bce9-ab66eac247eb")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW26")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 136.398 135.128 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc44a5b1-80cf-4092-8328-8d1246d0eb31")
+		(property "Reference" "SW63"
+			(at 136.398 127.889 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"E\""
+			(at 136.398 130.2004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 136.398 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 136.398 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 136.398 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c05b85ed-16fb-4661-a0a6-57d3b5568e5a")
+		)
+		(pin "2"
+			(uuid "75f93870-910c-4fb3-81b0-1f5d77005917")
+		)
+		(pin "1"
+			(uuid "d0651326-29a8-4c55-a0e3-a49b500ce218")
+		)
+		(pin "3"
+			(uuid "868218db-03d7-4e7b-8337-467bbf248a19")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW63")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 97.663 148.463 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2e5d75a-8ca6-4572-acff-24ac62ad789b")
+		(property "Reference" "SW68"
+			(at 97.663 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\")\""
+			(at 97.663 143.5354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 97.663 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.663 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.663 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8c433f4e-2448-434b-ac4d-883b9c87104c")
+		)
+		(pin "2"
+			(uuid "e254b289-8cf2-4434-a5e2-edde7f1b55f2")
+		)
+		(pin "1"
+			(uuid "5d91fc32-9e52-4440-a6fd-89e15e0e49ca")
+		)
+		(pin "3"
+			(uuid "f488523b-96aa-46c9-9aa0-965227da672b")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW68")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 110.363 68.453 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c75e237e-13a3-4850-9edf-7b63ef63c24f")
+		(property "Reference" "SW21"
+			(at 110.363 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\",\""
+			(at 110.363 63.5254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 110.363 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.363 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.363 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b891629-b17c-4129-97ec-793da933b5c2")
+		)
+		(pin "3"
+			(uuid "00fcdecc-a8d2-44a3-8cbe-6c9b6ad2b21b")
+		)
+		(pin "2"
+			(uuid "79e5ca04-2667-4885-b24d-57c679e315d9")
+		)
+		(pin "4"
+			(uuid "5399f291-b62c-4c49-90e9-6f8c2c1cb1d8")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW21")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 123.063 68.453 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbde19e7-eb67-49ba-a8d6-015948f43468")
+		(property "Reference" "SW22"
+			(at 123.063 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"N\""
+			(at 123.063 63.5254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 123.063 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.063 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.063 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "224dbecc-12ff-4c8a-acf6-15f048090356")
+		)
+		(pin "3"
+			(uuid "fe887c51-458d-4535-807c-054f30397564")
+		)
+		(pin "1"
+			(uuid "48a47016-a9d7-48f5-8a01-2d11318e3476")
+		)
+		(pin "2"
+			(uuid "187b126f-1e84-4a96-a56f-f67977a8a65e")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW22")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 110.363 121.793 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce205e76-6add-4472-846e-6d1c3a94f293")
+		(property "Reference" "SW53"
+			(at 110.363 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"I\""
+			(at 110.363 116.8654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 110.363 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.363 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.363 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0527fc6f-5347-49f0-9c2c-bcec4a8aa36e")
+		)
+		(pin "2"
+			(uuid "3546a3cc-5690-472a-8de4-5a1c041d3742")
+		)
+		(pin "1"
+			(uuid "b42170e6-aa74-4b27-afe0-cbc56f08205e")
+		)
+		(pin "3"
+			(uuid "e8ff9236-7347-40d9-89ca-c2fa6c5eb7eb")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW53")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 58.928 108.458 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf83ac90-d19b-4d48-a790-9ad3ef48fc01")
+		(property "Reference" "SW41"
+			(at 58.928 101.219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KP \"6\""
+			(at 58.928 103.5304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 58.928 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.928 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.928 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2bd2b613-e5f9-4bde-be71-38746e345a22")
+		)
+		(pin "4"
+			(uuid "2f339a3b-4ad5-42d8-9a51-8fd61c7b65fc")
+		)
+		(pin "1"
+			(uuid "e8743f6a-bb47-4705-9f38-4660fcf9110f")
+		)
+		(pin "2"
+			(uuid "bc09578d-9c39-4c02-b439-20c256cc819a")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW41")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 71.628 135.128 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4e5d2de-82a3-4caf-8641-a373f46bf846")
+		(property "Reference" "SW58"
+			(at 71.628 127.889 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KP \"7\""
+			(at 71.628 130.2004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 71.628 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.628 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.628 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d89605db-e908-457f-950d-52a21ee26e46")
+		)
+		(pin "4"
+			(uuid "343a08d8-ca8f-41c4-b4bb-ce5495c42a2a")
+		)
+		(pin "3"
+			(uuid "6a2bb1ce-e190-4138-bb65-3f5e040fdcf4")
+		)
+		(pin "2"
+			(uuid "75443023-4c4a-4f50-8c0f-65cd0bb59b3c")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW58")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 97.663 161.798 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db5708b2-fed9-41cd-8e6a-7001329bea04")
+		(property "Reference" "SW76"
+			(at 97.663 154.559 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"(\""
+			(at 97.663 156.8704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 97.663 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.663 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.663 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5cac30bf-f39c-448c-a023-835dd2b1eceb")
+		)
+		(pin "2"
+			(uuid "66aba2d8-0d24-41ad-a723-fa427ad03f43")
+		)
+		(pin "1"
+			(uuid "aebf62f9-2158-496c-81f3-624cef1f3b1d")
+		)
+		(pin "4"
+			(uuid "8a594aa8-266d-4254-97fd-82df76e689fa")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW76")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 149.098 95.123 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbd50ef4-b86f-4866-b116-e91e54a58cf6")
+		(property "Reference" "SW40"
+			(at 149.098 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"S\""
+			(at 149.098 90.1954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 149.098 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.098 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.098 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b0b43b9-b8a2-415c-9d2b-f14930c76489")
+		)
+		(pin "3"
+			(uuid "47358033-5720-4d4e-a9de-f2367b9451c7")
+		)
+		(pin "4"
+			(uuid "6de8017c-31e3-4d41-9d4b-ab0ab19f18cf")
+		)
+		(pin "2"
+			(uuid "3f821e79-7e3c-4b3d-964e-d4d46f1e892a")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW40")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 123.063 121.793 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de52fc13-c13c-4a77-b1b1-451476b3affe")
+		(property "Reference" "SW54"
+			(at 123.063 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"Y\""
+			(at 123.063 116.8654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 123.063 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.063 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.063 121.793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4da58b80-152b-4e93-8eb8-a276be5b94c0")
+		)
+		(pin "2"
+			(uuid "a38194f5-7004-4911-b6ab-fc1bcbbd8880")
+		)
+		(pin "1"
+			(uuid "ae8b70f1-2122-4b38-8e6d-50a2ff96582c")
+		)
+		(pin "3"
+			(uuid "db5477c6-50ed-4baa-b906-8dbf767b2b00")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW54")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 110.363 135.128 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e35eafc5-b487-47c4-b010-f66ad4c132b6")
+		(property "Reference" "SW61"
+			(at 110.363 127.889 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"U\""
+			(at 110.363 130.2004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 110.363 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.363 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.363 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de07635a-f79c-4997-8812-69fdeb4e90dc")
+		)
+		(pin "2"
+			(uuid "cdd0d52e-4d74-4226-9724-679a5d6b56df")
+		)
+		(pin "3"
+			(uuid "fcbe4f34-854b-4f36-b2fe-fa2476130f7d")
+		)
+		(pin "4"
+			(uuid "34058917-140e-4084-be91-606efba1c75f")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW61")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 97.663 81.788 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea4965fc-a035-4b62-9f5d-3cd1a499008a")
+		(property "Reference" "SW28"
+			(at 97.663 74.549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\";\""
+			(at 97.663 76.8604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 97.663 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.663 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.663 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b3fb81c2-e459-495d-bb89-684e9438cd1a")
+		)
+		(pin "3"
+			(uuid "651ab4b1-10cc-45b1-bf89-00f6bea5f867")
+		)
+		(pin "1"
+			(uuid "e361c184-7da3-4652-a728-50d389144e2f")
+		)
+		(pin "2"
+			(uuid "b2d41896-3bd0-4b61-92d3-c5b2b484e620")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW28")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 149.098 161.798 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec555d06-e0fa-49e3-a13b-cb40ab835671")
+		(property "Reference" "SW80"
+			(at 149.098 154.559 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"!\""
+			(at 149.098 156.8704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 149.098 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.098 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.098 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a09bc69-240c-4780-bb09-933272f5744e")
+		)
+		(pin "3"
+			(uuid "16a70154-1b60-4f3e-be92-d91ace19e85d")
+		)
+		(pin "4"
+			(uuid "b2aba429-ef20-4d3a-b176-b66820ae9eaf")
+		)
+		(pin "2"
+			(uuid "e17f4e43-02bc-494a-9ee0-a8bcac043fa4")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW80")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 136.398 161.798 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eeb0b4ea-a2a8-4220-b84a-6562c6bf730e")
+		(property "Reference" "SW79"
+			(at 136.398 154.559 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"#\""
+			(at 136.398 156.8704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 136.398 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 136.398 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 136.398 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5086826e-3283-4eab-825f-c3dc93b5a6d3")
+		)
+		(pin "2"
+			(uuid "f32e7e0b-f6b6-4237-abff-ea4e7bf5a55b")
+		)
+		(pin "4"
+			(uuid "cb6e3caf-e928-43e1-bf21-6c26cc331296")
+		)
+		(pin "3"
+			(uuid "ba187ca7-a6b6-4fa0-b149-d6dd2f2ff38f")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW79")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 110.363 161.798 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef98a1e1-6a41-4ec2-a506-63923c61ed36")
+		(property "Reference" "SW77"
+			(at 110.363 154.559 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"&\""
+			(at 110.363 156.8704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 110.363 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.363 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.363 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fd236754-83a5-4578-9077-fd692791b059")
+		)
+		(pin "4"
+			(uuid "6f1ec1fc-972d-4e6e-a9c8-59a19e8f30dc")
+		)
+		(pin "1"
+			(uuid "748f49f3-8da2-4bbe-9759-da46b79be58a")
+		)
+		(pin "2"
+			(uuid "30dcfeb4-607c-48ca-8bd0-2036c3057a6b")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW77")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 58.928 135.128 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f19dc232-7583-44d4-b7b3-a39e55f6f275")
+		(property "Reference" "SW57"
+			(at 58.928 127.889 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KP \"9\""
+			(at 58.928 130.2004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 58.928 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.928 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.928 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1fbab8b2-8bad-4f4d-8893-436fe8eb0318")
+		)
+		(pin "4"
+			(uuid "726d345c-f8ef-4f9d-b0a4-d731ec394977")
+		)
+		(pin "1"
+			(uuid "39a46c06-0c4d-48c4-a3d2-21513b0966e4")
+		)
+		(pin "2"
+			(uuid "7e7767a3-676f-4696-9683-bf8995a5d835")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW57")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 123.063 81.788 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1cb5d83-112f-4d77-96dd-690e8b6f4628")
+		(property "Reference" "SW30"
+			(at 123.063 74.549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"B\""
+			(at 123.063 76.8604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 123.063 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.063 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.063 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cee2f7e-82a0-4d96-886a-c6ace6c46974")
+		)
+		(pin "2"
+			(uuid "3e59abfa-88d4-49ab-b509-a2bca981257a")
+		)
+		(pin "4"
+			(uuid "d66c1f17-4e01-4ace-9f2b-9f78449378bc")
+		)
+		(pin "3"
+			(uuid "312b3881-f5a3-4848-89cf-28b9fbaff5f5")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW30")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 97.663 55.118 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2a4f3e2-fa52-4e49-a036-1c545368e972")
+		(property "Reference" "SW12"
+			(at 97.663 47.879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\">\""
+			(at 97.663 50.1904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 97.663 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.663 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.663 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e61f568a-ad4c-4d87-b397-7a6eddb7e15c")
+		)
+		(pin "2"
+			(uuid "81aa10f8-0bdc-4ab2-846f-2fec6e91d3b4")
+		)
+		(pin "1"
+			(uuid "0ccd8bd1-e49f-48ed-b542-a5a630da3a60")
+		)
+		(pin "3"
+			(uuid "1ebe173e-9b02-48d0-940b-358b7021e4da")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW12")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 71.628 108.458 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5c0e109-5365-45d0-9d33-14d5f9fb81dc")
+		(property "Reference" "SW42"
+			(at 71.628 101.219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KP \"4\""
+			(at 71.628 103.5304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 71.628 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.628 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.628 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8837875-611f-4a24-b152-5aadd16180e0")
+		)
+		(pin "4"
+			(uuid "56a4fdc3-502d-4255-955a-3a61ae469ec3")
+		)
+		(pin "3"
+			(uuid "0861620a-966e-4160-ab1b-42e6b6390a92")
+		)
+		(pin "2"
+			(uuid "5f347666-0c8b-4b6e-b225-c5fa2687e22c")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW42")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 136.398 68.453 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5f4ed66-4f4a-4842-9093-338bfa17f4ee")
+		(property "Reference" "SW23"
+			(at 136.398 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"V\""
+			(at 136.398 63.5254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 136.398 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 136.398 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 136.398 68.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0f66a085-b62f-447d-accd-7b6c7b1f7db1")
+		)
+		(pin "2"
+			(uuid "76f5baa6-1371-4a98-be7f-b98c4227cba6")
+		)
+		(pin "1"
+			(uuid "4c53f899-7d5f-4da5-a352-0047424fe173")
+		)
+		(pin "4"
+			(uuid "f3b0c1e7-980e-4602-90fa-b1cd6c47006c")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW23")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 97.663 108.458 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffa592ff-e5e4-4fbb-8643-6498173c1707")
+		(property "Reference" "SW44"
+			(at 97.663 101.219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "\"L\""
+			(at 97.663 103.5304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 97.663 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.663 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.663 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1b6b4942-0508-4669-aaa5-29b8f49cb0ac")
+		)
+		(pin "2"
+			(uuid "74cb181f-4462-4132-a0ab-73d2f27b119e")
+		)
+		(pin "1"
+			(uuid "01c27719-fed7-4133-92e6-a08f70c7650c")
+		)
+		(pin "4"
+			(uuid "b3153042-86eb-45a0-ac54-bd50acccbd57")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW44")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "petkn:MX Key with LED Unit")
+		(at 71.628 161.798 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffb498bb-9e14-437e-8dbb-7d21eca3642b")
+		(property "Reference" "SW74"
+			(at 71.628 154.559 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLR/HOME"
+			(at 71.628 156.8704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "petkn:SW_Cherry_MX_1.00u_PCB_with_LED"
+			(at 71.628 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.628 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.628 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66013473-070c-42ac-ab63-e905fea5ff80")
+		)
+		(pin "4"
+			(uuid "355b1bcd-8a8d-4fb9-80a7-18490bf43978")
+		)
+		(pin "3"
+			(uuid "7eb3d075-f569-4934-8503-125994df85bf")
+		)
+		(pin "2"
+			(uuid "441f69ed-38db-422c-a29c-0d72a13fec8f")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/b5589c07-84ff-4012-ae4d-313330fe3263"
+					(reference "SW74")
+					(unit 2)
+				)
+			)
+		)
+	)
+)
