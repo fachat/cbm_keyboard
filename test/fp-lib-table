@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "petkn")(type "KiCad")(uri "/home/fachat/8bit/upet_family/keyboard/PET-N")(options "")(descr ""))
+  (lib (name "upet")(type "KiCad")(uri "/home/fachat/8bit/upet_family/ultipet/Board")(options "")(descr ""))
+)
