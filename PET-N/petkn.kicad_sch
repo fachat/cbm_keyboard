@@ -6164,7 +6164,7 @@
 			)
 		)
 	)
-	(global_label "VCC5"
+	(global_label "VCC"
 		(shape input)
 		(at 271.78 62.23 0)
 		(fields_autoplaced yes)
@@ -6176,7 +6176,7 @@
 		)
 		(uuid "73c3ee33-dfe4-4492-a4d0-0f66077943ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.9491 62.23 0)
+			(at 277.7396 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13167,6 +13167,132 @@
 		)
 	)
 	(sheet
+		(at 244.475 88.265)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "926f3155-e5eb-4e4d-9809-9eac585c9e0c")
+		(property "Sheetname" "i2c"
+			(at 244.475 87.5534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i2c.kicad_sch"
+			(at 244.475 92.6596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 220.345 104.14)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9690dae3-90fc-4950-b7a9-7d36ba6906f6")
+		(property "Sheetname" "stick"
+			(at 220.345 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stick.kicad_sch"
+			(at 220.345 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 269.875 106.045)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b42ff838-31dd-4dd7-9e4e-b8c65575aa87")
+		(property "Sheetname" "Row decoder"
+			(at 269.875 105.3334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "decoder.kicad_sch"
+			(at 269.875 110.4396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 242.697 102.108)
 		(size 12.7 8.001)
 		(exclude_from_sim no)
@@ -13204,6 +13330,48 @@
 			(project "petkn"
 				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 267.97 90.805)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e8663b26-4929-4f6f-b0f0-b8d554f653e8")
+		(property "Sheetname" "Driver"
+			(at 267.97 90.0934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 267.97 95.1996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd"
+					(page "4")
 				)
 			)
 		)

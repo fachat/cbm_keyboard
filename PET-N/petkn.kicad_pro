@@ -651,6 +651,22 @@
     [
       "b5589c07-84ff-4012-ae4d-313330fe3263",
       "Extensions"
+    ],
+    [
+      "926f3155-e5eb-4e4d-9809-9eac585c9e0c",
+      "i2c"
+    ],
+    [
+      "e8663b26-4929-4f6f-b0f0-b8d554f653e8",
+      "Driver"
+    ],
+    [
+      "b42ff838-31dd-4dd7-9e4e-b8c65575aa87",
+      "Row decoder"
+    ],
+    [
+      "9690dae3-90fc-4950-b7a9-7d36ba6906f6",
+      "stick"
     ]
   ],
   "text_variables": {}
