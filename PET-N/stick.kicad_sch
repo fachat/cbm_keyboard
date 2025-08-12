@@ -1648,6 +1648,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 80.645 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ae6a2843-3dc7-4b66-9453-ea77acb4237e")
 		)
@@ -1961,6 +1970,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 182.245 103.5049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "649a1060-ba7a-483f-b0ba-57a30b3ff6ad")
 		)
@@ -2192,6 +2210,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 185.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25611"
+			(at 185.42 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,6 +2530,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25611"
+			(at 84.455 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d395b049-f83c-44e7-ad4e-2b7b2efc5ecf")
 		)
@@ -2566,6 +2602,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 78.105 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 80.01 79.3749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,6 +2745,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 186.055 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25611"
+			(at 186.055 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2899,6 +2953,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 181.61 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f64f1a74-0957-4f6b-a0ea-5edaedabc66b")
 		)
@@ -2960,6 +3023,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 83.82 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25611"
+			(at 83.82 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)

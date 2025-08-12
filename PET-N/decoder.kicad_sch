@@ -1291,7 +1291,7 @@
 			)
 		)
 	)
-	(global_label "S1"
+	(global_label "S0"
 		(shape input)
 		(at 69.85 104.775 180)
 		(fields_autoplaced yes)
@@ -1520,6 +1520,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 100.33 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5d95e164-bba3-44db-b3de-da7d62f8b785")
 		)
@@ -1583,6 +1592,15 @@
 		)
 		(property "Description" "Decoder 1 to 10, Open Collector"
 			(at 86.36 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2873068"
+			(at 88.5033 97.409 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1702,6 +1720,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15008"
+			(at 171.45 78.4859 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aad5fff1-b257-4798-8bd1-e4f35f4f79d0")
 		)
@@ -1772,6 +1799,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15008"
+			(at 158.75 78.4859 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "20dc3b18-d403-4845-9387-7aaaba177f1d")
 		)
@@ -1835,6 +1871,15 @@
 		)
 		(property "Description" "Polarized capacitor"
 			(at 180.975 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 184.785 77.8509 0)
 			(effects
 				(font
 					(size 1.27 1.27)

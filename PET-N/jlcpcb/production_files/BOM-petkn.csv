@@ -1,0 +1,96 @@
+Comment,Designator,Footprint,LCSC,Quantity
+BC859,"Q1,Q2,Q25,Q26,Q27,Q28,Q3,Q4,Q5,Q6,Q7,Q8",SOT-23,C139450,12
+PCA9557PW,U2,TSSOP-16_4.4x5mm_P0.65mm,C141380,1
+C,"C1,C2,C3,C4",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C14663,4
+100u,"C5,C6,C7",C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,C15008,3
+10k,"R127,R128,R130,R131",R_0805_2012Metric,C17414,4
+390,"R100,R101,R102,R103,R104,R105,R106,R107,R108,R109,R110,R111,R112,R113,R114,R115,R116,R117,R118,R119,R120,R121,R122,R123,R124,R125,R50,R51,R52,R53,R54,R55,R56,R57,R58,R59,R60,R61,R62,R63,R64,R65,R66,R67,R68,R69,R70,R71,R72,R73,R74,R75,R76,R77,R78,R79,R80,R81,R82,R83,R84,R85,R86,R87,R88,R89,R90,R91,R92,R93,R94,R95,R96,R97,R98,R99",R_0805_2012Metric,C17655,76
+100k,"R1,R10,R11,R12,R126,R129,R13,R132,R133,R14,R15,R16,R17,R18,R19,R2,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R3,R30,R31,R32,R33,R34,R35,R36,R37,R38,R39,R4,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R5,R6,R7,R8,R9",R_0805_2012Metric,C25611,53
+PCA9531PW,"U3,U4",TSSOP-16_4.4x5mm_P0.65mm,C2678764,2
+~,U5,THB Miniature Thumbstick THB001P,C2685355,1
+74LS145,U1,DIP-16_W7.62mm,C2873068,1
+BC848,"Q11,Q13,Q15,Q17,Q19,Q21,Q23,Q29,Q30,Q31,Q32,Q9",SOT-23,C5184434,12
+BC808,"Q10,Q12,Q14,Q16,Q18,Q20,Q22,Q24",SOT-23,C605311,8
+"""<""",SW5,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+R SHIFT,SW11,SW_Cherry_MX_2.00u_PCB_with_LED,,1
+""">""",SW12,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""]""",SW14,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""@""",SW15,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""?""",SW20,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+""",""",SW21,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""N""",SW22,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""V""",SW23,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""X""",SW24,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+RETURN,SW27,SW_Cherry_MX_1.50u_PCB_with_LED,,1
+""";""",SW28,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""M""",SW29,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""B""",SW30,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""Z""",SW32,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+""":""",SW36,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""S""",SW40,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""L""",SW44,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""D""",SW47,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""P""",SW52,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""I""",SW53,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""R""",SW55,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""W""",SW56,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+U ARROW,SW59,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""O""",SW60,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""U""",SW61,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""T""",SW62,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""E""",SW63,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""'""",SW70,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""&""",SW77,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""%""",SW78,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""Q""",SW64,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+L SHIFT,SW16,SW_Cherry_MX_2.00u_PCB_with_LED,,1
+""")""",SW68,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+STOP,SW4,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""#""",SW79,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""$""",SW71,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+QUOTE,SW72,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""!""",SW80,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+OFF/RVS,SW8,SW_Cherry_MX_1.50u_PCB_with_LED,,1
+"""F""",SW39,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""K""",SW37,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""H""",SW38,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""G""",SW46,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""J""",SW45,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""C""",SW31,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+NC ($0A),SW67,SW_Cherry_MX_1.50u_PCB_with_LED,,1
+"""A""",SW48,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""Y""",SW54,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+S LOCK,SW320,SW_Cherry_MX_1.50u_PCB_with_LED,,1
+"""(""",SW76,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""\""",SW69,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+Conn_02x03_Odd_Even,J2,PinHeader_2x03_P2.54mm_Vertical,,1
+NC ($10),SW3,SW_Cherry_MX_1.25u_PCB_with_LED,,1
+LINK3,J3,PinHeader_2x02_P2.54mm_Vertical,,1
+SPACE1,J5,PinHeader_2x02_P2.54mm_Vertical,,1
+SPACE2,J6,PinHeader_2x02_P2.54mm_Vertical,,1
+LINK67,J67,PinHeader_2x02_P2.54mm_Vertical,,1
+SPACE,SW6,SW_Cherry_MX_6.25u_PCB_with_LED,,1
+UP/DOWN,SW66,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+CLR/HOME,SW74,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"KP ""7""",SW58,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+INS/DEL,SW65,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+LEFT/RIGHT,SW73,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"KP ""8""",SW50,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"KP ""0""",SW10,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"KP ""6""",SW41,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"KP ""*""",SW33,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"KP ""3""",SW25,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"KP ""+""",SW17,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"KP ""1""",SW26,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"KP ""9""",SW57,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"KP ""4""",SW42,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"KP ""5""",SW34,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"KP ""-""",SW9,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"KP ""2""",SW18,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"KP ""/""",SW49,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"KP ""=""",SW1,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"KP "".""",SW2,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+LINK3,J4,PinHeader_2x02_P2.54mm_Vertical,,1
+Extended_PET_keyboard_connector,J1,PET_Extended_Keyboard_Connector,,1
+B ARROW,SW75,SW_Cherry_MX_1.00u_PCB_with_LED,,1
+"""[""",SW7,SW_Cherry_MX_1.00u_PCB_with_LED,,1

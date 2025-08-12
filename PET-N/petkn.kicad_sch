@@ -5634,7 +5634,7 @@
 			)
 		)
 	)
-	(global_label "SCA"
+	(global_label "SDA"
 		(shape input)
 		(at 271.78 54.61 0)
 		(fields_autoplaced yes)
