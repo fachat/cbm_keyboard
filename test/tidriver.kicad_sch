@@ -5843,6 +5843,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C6828"
+			(at 66.7319 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "37ef91b6-ba8b-4ac6-b87e-3dc9144e6b58")
 		)
@@ -6021,6 +6030,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 266.7 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "812ac37a-3c82-48b6-8841-ae1e06e29536")
 		)
@@ -6084,6 +6102,15 @@
 		)
 		(property "Description" "Hex D-type Flip-Flop, reset"
 			(at 121.92 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6828"
+			(at 118.8019 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,6 +6296,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5372863"
+			(at 168.91 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "314fe62d-832a-4377-b574-3e6411bdf337")
 		)
@@ -6410,6 +6446,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 274.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 278.13 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,6 +6796,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5953"
+			(at 174.6819 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "16"
 			(uuid "7ee66d96-8b14-490f-af57-e62ed1e097bc")
 		)
@@ -7061,6 +7115,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 242.57 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d67233c3-013c-44e6-8983-27a865afe551")
 		)
@@ -7124,6 +7187,15 @@
 		)
 		(property "Description" "Decoder 1 to 10, Open Collector"
 			(at 132.08 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60829"
+			(at 135.1981 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7243,6 +7315,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 231.14 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6d1680f4-cad5-464b-bf18-586a1cf75d98")
 		)
@@ -7306,6 +7387,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 251.46 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 255.27 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7582,6 +7672,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 39.37 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4d67ce2a-e07c-433d-9fe2-3d9f7b4438c8")
 		)
@@ -7712,6 +7811,15 @@
 		)
 		(property "Description" "16MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, TQFP-44"
 			(at 252.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5659"
+			(at 250.5867 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7972,6 +8080,15 @@
 		)
 		(property "Description" "3.3V CMOS SMD Crystal Clock Oscillator, Abracon"
 			(at 55.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12668"
+			(at 68.58 118.0398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
