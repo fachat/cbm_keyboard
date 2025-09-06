@@ -4,15 +4,10 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
 
-// number of LEDs
-#define CHAINS		8
-#define	LEDSPERCHAIN	10
+#include "led.h"
+#include "i2c.h"
 
 #define	NUMLED		(CHAINS * LEDSPERCHAIN)
-
-#define	COLS		3
-#define PARS		1
-#define	COLSANDPARS	(COLS+PARS)
 
 // 8 chains of LEDs, 8 bits per color
 // Number of bytes is LEDSPERCHAIN * 3 colors * 8 bits 
@@ -27,14 +22,6 @@ unsigned char rgb[CHAINS][LEDSPERCHAIN][COLSANDPARS];
 // different programs can be set per LED
 unsigned char progs[CHAINS][LEDSPERCHAIN];
 unsigned char par[CHAINS][LEDSPERCHAIN][COLSANDPARS];
-
-// enum for the programs
-// note LP_CONST is zero so it is the initialized state
-enum {
-	LP_CONST 	= 0,	// constant value, using the three parameters as RGB
-	LP_LINDECAY 	= 1,	// linear decay (note may change hue while getting lower)
-	LP_LINDECAYLOOP	= 2,	// linear decay with restart
-} progs_t;
 
 /*
  * Program handling per LED
@@ -239,14 +226,16 @@ void buf_from_led() {
 
 void led_setup() {
 
+	UCSRB = 0;
+	PORTD = 255;
+	DDRD = 255;	// all ports out
+
 	memset(rgb, 0, CHAINS * LEDSPERCHAIN * COLSANDPARS * sizeof(char));
 }
 
 void main() {
 
-	UCSRB = 0;
-	PORTD = 255;
-	DDRD = 255;	// all ports out
+	i2c_setup(0x10);
 
 	led_setup();
 
@@ -268,6 +257,8 @@ void main() {
 		buf_send();
 
 		prog_advance();
+
+		while (i2c_check());
 	
 		_delay_ms(20);
 	}

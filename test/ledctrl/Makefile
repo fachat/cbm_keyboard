@@ -1,8 +1,7 @@
 
 all: led.lst
 
-FILES=led.c
-ASMFILES=send_buf.s
+OFILES=led.o i2c.o
 
 MCU 	?= atmega32a
 PROGDEV	?= avrisp2
@@ -23,10 +22,8 @@ led.hex: led.elf
 	avr-objcopy -j .text -j .data -O ihex $< $@
 	avr-size --format=avr --mcu=$(MCU) $<
 
-led.elf: led.o send_buf.o
-	#avr-gcc -g -mmcu=$(MCU) -o $@ led.o send_buf.o
-	avr-gcc -Os -g -mmcu=$(MCU) -o $@ led.o send_buf.o
-	#avr-gcc -Os -Wl --gc-sections -g -mmcu=$(MCU) led.o send_buf.o -o $@ 
+led.elf: $(OFILES)
+	avr-gcc -Os -g -mmcu=$(MCU) -o $@ $(OFILES)
 
 %.o: %.c
 	avr-gcc -DF_CPU=$(FREQ) -O3 -g -mmcu=$(MCU) -c $< -o $@
