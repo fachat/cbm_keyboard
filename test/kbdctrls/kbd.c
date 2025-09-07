@@ -15,6 +15,10 @@ void host_setup() {
 
 	memset(rowvals, 0, 16);
 
+	// disable UART (alt fun conflicts with I/O)
+	UCSRB = 0;
+	// JTAG needs to be disabled by HFUSE
+
 	// port B0-3 is select lines in from host
 	DDRB &= 0xf0;
 	// no pullups
@@ -39,9 +43,24 @@ void host_setup() {
 	// enable int0
 	GICR |= 0x40;
 
-	// debug pin out
-	DDRD |= 0x01;
-	PORTD |= 0x01;
+	// own keyboard scan
+
+	// row select bits 0/1
+	DDRD |= 0x03;
+	PORTD &= 0xfc;
+	// row select bits 2/3
+	DDRC |= 0x0c;
+	PORTC &= 0xf3;
+
+	// column value inputs
+	// split on two ports due to needed alt functions for PC0/1, PD2
+
+	// bits 0-3 are PC4-7, input with pullup
+	PORTC |= 0xf0;
+	DDRC &= 0x0f;
+	// bits 4-7 are PD4-7, input with pullup
+	PORTD |= 0xf0;
+	DDRD &= 0x0f;
 
 	sei();
 }
@@ -64,15 +83,34 @@ ISR( INT0_vect ) {
 	//PORTD ^= 0x01;
 }
 
+void kbd_scan() {
+	for (unsigned char row = 0; row < 16; row++) {
+		// set row selector
+		PORTD = (PORTD & 0xfc) | (row & 0x03);
+		PORTC = (PORTC & 0xf3) | (row & 0x0c);
+
+		// read col values for row
+		unsigned char v = 0;
+		unsigned char ind = PIND;
+		unsigned char inc = PINC;
+		v = (ind & 0xf0) | ((inc >> 4) & 0x0f);
+
+		v |= 3; 
+
+		rowvals[row] = v ^ 255;
+	}
+}
+
 void main() {
 
 	host_setup();
 
 	// fake key for test
-	rowvals[1] = 0x01;
+	//rowvals[1] = 0x01;
 
 	while (1) {
-	//	PORTD ^= 0x01;
+		kbd_scan();
+		_delay_ms(10);
 	}
 }
 

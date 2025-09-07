@@ -14,8 +14,10 @@ flash: $(BASE).hex
 	avrdude -c $(PROGDEV) $(DEVICE) -p m32 -B10 -U flash:w:$(BASE).hex -F
 
 fuses:
-	avrdude -c $(PROGDEV) $(DEVICE) -p m32 -B10 -U lfuse:r:con:h
+	avrdude -c $(PROGDEV) $(DEVICE) -p m32 -B10 -U lfuse:r:conl:h
+	avrdude -c $(PROGDEV) $(DEVICE) -p m32 -B10 -U hfuse:r:conh:h
 	avrdude -c $(PROGDEV) $(DEVICE) -p m32 -B10 -U lfuse:w:0xef:m
+	avrdude -c $(PROGDEV) $(DEVICE) -p m32 -B10 -U hfuse:w:0xd9:m
 
 $(BASE).lst: $(BASE).elf
 	avr-objdump -DrwC -s -m avr5 $< > $@
