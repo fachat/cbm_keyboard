@@ -453,6 +453,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -589,6 +590,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -654,24 +661,20 @@
       "Root"
     ],
     [
-      "b5589c07-84ff-4012-ae4d-313330fe3263",
-      "Extensions"
+      "3105255e-9d83-489e-9710-b7158ffedc39",
+      "keys"
     ],
     [
-      "926f3155-e5eb-4e4d-9809-9eac585c9e0c",
-      "i2c"
+      "517ec251-9cce-431a-9802-232702808e0f",
+      "scanner"
     ],
     [
-      "e8663b26-4929-4f6f-b0f0-b8d554f653e8",
-      "Driver"
+      "95aaeaab-63e5-4fb9-8d18-1756295c9b54",
+      "leds"
     ],
     [
-      "b42ff838-31dd-4dd7-9e4e-b8c65575aa87",
-      "Row decoder"
-    ],
-    [
-      "9690dae3-90fc-4950-b7a9-7d36ba6906f6",
-      "stick"
+      "a39429aa-8c2f-45e6-a7a0-8f38ed5853cf",
+      "ledctrl"
     ]
   ],
   "text_variables": {}

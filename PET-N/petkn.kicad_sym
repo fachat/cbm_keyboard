@@ -1089,7 +1089,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 1.27 5.334 0)
+			(at 0 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,8 +1226,8 @@
 		)
 		(symbol "MX Key with SMD RGB LED_2_1"
 			(rectangle
-				(start -6.35 3.81)
-				(end 6.35 -3.81)
+				(start -5.08 3.81)
+				(end 5.08 -1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1237,7 +1237,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 2.54 0)
+				(at -8.89 2.54 0)
 				(length 3.81)
 				(name "VCC"
 					(effects
@@ -1255,7 +1255,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -2.54 0)
+				(at -8.89 0 0)
 				(length 3.81)
 				(name "DIN"
 					(effects
@@ -1273,7 +1273,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 2.54 180)
+				(at 8.89 2.54 180)
 				(length 3.81)
 				(name "DOUT"
 					(effects
@@ -1291,7 +1291,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -2.54 180)
+				(at 8.89 0 180)
 				(length 3.81)
 				(name "GND"
 					(effects

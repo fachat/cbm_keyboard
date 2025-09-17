@@ -18,23 +18,25 @@
     "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": false,
-      "footprints": false,
+      "footprints": true,
       "graphics": false,
       "keepouts": false,
       "lockedItems": false,
       "otherItems": false,
       "pads": false,
-      "text": true,
-      "tracks": true,
-      "vias": true,
+      "text": false,
+      "tracks": false,
+      "vias": false,
       "zones": false
     },
     "visible_items": [
       "vias",
+      "footprint_text",
       "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",
+      "footprint_references",
       "tracks",
       "drc_errors",
       "bitmaps",
@@ -44,7 +46,7 @@
       "shapes"
     ],
     "visible_layers": "00000000_00000000_0fffffff_fff7ffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "git": {
     "repo_type": "",
@@ -117,7 +119,7 @@
       "otherItems": false,
       "pins": false,
       "symbols": true,
-      "text": false,
+      "text": true,
       "wires": true
     }
   }
