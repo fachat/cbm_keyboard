@@ -11,7 +11,7 @@
 		(company "Steve J. Gray")
 	)
 	(lib_symbols)
-	(text "Assembly options:\n1. Original:\n   No ICs\n   Use original single row 20pin connector\n   Solder Jumper JP1 and JP2\n2. Full uPET with key scanner/mapper:\n   All ICs\n   Use 20pin IDC (2row) connector\n   Requires 3.3V and 5V supply and I2C for control\n3. IDC connector without mapper/leds\n   Only use ICx (4-to-10 mapper)\n   Use 20pin IDC (2row) connector\n   Requires 5V power supply only"
+	(text "Assembly options:\n1. Original:\n   No ICs\n   Use original single row 20pin connector\n   Solder Jumper JP1 and JP2\n2. Full uPET with key scanner/mapper:\n   All ICs\n   Use 20pin IDC (2row) connector\n   Requires 3.3V and 5V supply and I2C for control\n3. IDC connector without mapper/leds\n   Only use U7 (4-to-10 mapper)\n   Use 20pin IDC (2row) connector\n   Requires 5V power supply only"
 		(exclude_from_sim no)
 		(at 43.942 98.806 0)
 		(effects

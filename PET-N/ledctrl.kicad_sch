@@ -1962,16 +1962,76 @@
 		)
 	)
 	(junction
+		(at 193.04 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "077b17a7-9bd1-4659-9003-122fae0df98e")
+	)
+	(junction
+		(at 243.84 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0831a779-6bc3-4ee9-913f-81f36379fae4")
+	)
+	(junction
+		(at 135.255 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b8bf812-472c-4a95-b8ea-ab8a5817dfc4")
+	)
+	(junction
 		(at 102.235 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b8f44e1-249d-44fd-8a1c-746ff93cdc0e")
 	)
 	(junction
+		(at 231.14 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2861d8ac-bb13-475d-b7d1-ad23115e1ebd")
+	)
+	(junction
+		(at 243.84 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28d7c53a-23f5-4aa5-8626-f7119bc7eac1")
+	)
+	(junction
+		(at 218.44 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29c88c48-3c97-43a1-9c24-244ad888c8b4")
+	)
+	(junction
+		(at 167.64 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ba4740f-60d0-4fa2-8062-69081579a815")
+	)
+	(junction
+		(at 231.14 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fed2c53-111d-49ae-880d-f06ee9a7b659")
+	)
+	(junction
+		(at 205.74 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3195b786-c695-43ca-b7a8-bc0d08dab53e")
+	)
+	(junction
 		(at 135.255 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38a7ce67-d6b8-403b-9c1c-036144bf8901")
+	)
+	(junction
+		(at 193.04 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38d22c23-0aaf-401d-b43d-dfafbf6bb8ae")
 	)
 	(junction
 		(at 127 183.515)
@@ -1986,10 +2046,40 @@
 		(uuid "49b8392f-71db-4b0d-87dc-32f2286e81eb")
 	)
 	(junction
+		(at 205.74 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ec7003d-f34c-4964-8e32-46503b708c94")
+	)
+	(junction
+		(at 243.84 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5345e2b3-6871-4adb-a128-e011b2107a69")
+	)
+	(junction
 		(at 135.255 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58c439a7-9cc9-471c-9c40-d90e2671124b")
+	)
+	(junction
+		(at 167.64 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b66b9c7-f0b8-4721-b932-ce5021da972b")
+	)
+	(junction
+		(at 231.14 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d3586c9-8287-4f0a-9506-9aacbd46358d")
+	)
+	(junction
+		(at 256.54 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85a14393-0200-4a0e-8b7b-47e404f775db")
 	)
 	(junction
 		(at 102.235 26.67)
@@ -1998,10 +2088,34 @@
 		(uuid "8729a131-5eb6-477c-85f5-8abdc64798a6")
 	)
 	(junction
+		(at 180.34 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b4f8b80-c470-4398-86ad-97defcd2d055")
+	)
+	(junction
 		(at 120.015 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f856167-9436-4fc4-b111-e959ac967b94")
+	)
+	(junction
+		(at 218.44 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f9a9819-d3c7-49fd-b1d1-570d3763d138")
+	)
+	(junction
+		(at 218.44 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92ed651f-a6b0-414e-b43c-b7bd70bb3b47")
+	)
+	(junction
+		(at 167.64 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9543ef81-c924-447a-bbdc-74fd3d2ae5ef")
 	)
 	(junction
 		(at 207.01 111.76)
@@ -2010,16 +2124,64 @@
 		(uuid "9b4dafab-4fb7-42c9-98cb-17a826e383f2")
 	)
 	(junction
+		(at 150.495 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5cf3418-7309-44b8-a700-3505076990a8")
+	)
+	(junction
+		(at 180.34 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad487823-3f79-46c5-a724-1554dc620e5a")
+	)
+	(junction
 		(at 120.015 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7125c92-0c48-4003-9cc6-b4c1716dc95f")
 	)
 	(junction
+		(at 193.04 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b83b9230-7dfe-4b04-a70b-4bb4c9b39465")
+	)
+	(junction
+		(at 167.64 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be42d193-c326-451c-ad93-67fa6beb7f51")
+	)
+	(junction
+		(at 231.14 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4aafe76-74fd-4f60-b143-7f1c71881399")
+	)
+	(junction
 		(at 154.94 172.085)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5c5f74d-e8d8-4f02-986a-4e57a9ec94eb")
+	)
+	(junction
+		(at 205.74 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd613005-6160-4cc2-8b68-537f857939ff")
+	)
+	(junction
+		(at 180.34 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1bf8b5d-af5a-4bda-8d17-77836bd8f3c4")
+	)
+	(junction
+		(at 218.44 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4921238-8b3d-4993-be0d-cc190f491c64")
 	)
 	(junction
 		(at 150.495 55.88)
@@ -2040,16 +2202,62 @@
 		(uuid "e33fb7e9-90c6-4516-a4a9-963c7599d33b")
 	)
 	(junction
+		(at 193.04 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e54ac1bd-2118-4032-b739-1d831d65302e")
+	)
+	(junction
 		(at 120.015 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec404c15-2499-44d6-b146-7eec2934ba65")
 	)
 	(junction
+		(at 243.84 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef7175ea-7122-4e7b-905f-418797295436")
+	)
+	(junction
 		(at 94.615 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3122250-db5b-4f57-bb7b-b448b2dd18e4")
+	)
+	(junction
+		(at 180.34 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f392a205-1a03-4913-b2cb-b7a1fb64ffe0")
+	)
+	(junction
+		(at 256.54 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f54f52ac-6c2a-4507-8bde-fa80685d67d9")
+	)
+	(junction
+		(at 205.74 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f848198d-4d6b-4c1c-9847-bd998444ecec")
+	)
+	(junction
+		(at 135.255 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa62db4f-ef63-46de-a880-9ad083f70281")
+	)
+	(wire
+		(pts
+			(xy 180.34 54.61) (xy 180.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00184b31-9298-4946-b3dd-a5ef8b0b9f41")
 	)
 	(wire
 		(pts
@@ -2073,6 +2281,26 @@
 	)
 	(wire
 		(pts
+			(xy 135.255 26.67) (xy 167.64 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0287cf46-599f-4545-a21f-e5cb13240b7c")
+	)
+	(wire
+		(pts
+			(xy 256.54 55.88) (xy 269.24 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04ff6919-b3b1-415c-9c3e-5ff7ab5d7e38")
+	)
+	(wire
+		(pts
 			(xy 87.63 126.365) (xy 114.3 126.365)
 		)
 		(stroke
@@ -2093,6 +2321,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 54.61) (xy 231.14 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0936600d-95aa-4078-aab5-bc6e233c0705")
+	)
+	(wire
+		(pts
 			(xy 129.54 74.295) (xy 129.54 78.105)
 		)
 		(stroke
@@ -2100,6 +2338,16 @@
 			(type default)
 		)
 		(uuid "0ac5dd9e-36e3-4e6e-b8e1-fd30d8dc5990")
+	)
+	(wire
+		(pts
+			(xy 269.24 46.99) (xy 269.24 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c082514-a28f-461f-bbcd-0ce9e3d7baf0")
 	)
 	(wire
 		(pts
@@ -2123,7 +2371,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.255 45.72) (xy 135.255 43.18)
+			(xy 135.255 45.72) (xy 135.255 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2143,6 +2391,26 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 30.48) (xy 256.54 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc268f3-289c-48fe-ae6b-32f4d5b7fe28")
+	)
+	(wire
+		(pts
+			(xy 231.14 40.64) (xy 243.84 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "131c0690-1228-4203-bf7f-46df3d650c60")
+	)
+	(wire
+		(pts
 			(xy 102.235 26.67) (xy 102.235 30.48)
 		)
 		(stroke
@@ -2150,6 +2418,16 @@
 			(type default)
 		)
 		(uuid "19da3aba-05c3-4ea1-a6b3-f3249bbae02c")
+	)
+	(wire
+		(pts
+			(xy 150.495 55.88) (xy 167.64 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e523ff-35c8-4d5c-8911-1f2dc1da959f")
 	)
 	(wire
 		(pts
@@ -2183,6 +2461,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 55.88) (xy 231.14 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee41721-3eeb-4c1d-bf2c-7fcb4459dc06")
+	)
+	(wire
+		(pts
 			(xy 102.235 40.64) (xy 120.015 40.64)
 		)
 		(stroke
@@ -2203,6 +2491,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 38.1) (xy 243.84 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fdc0a58-ce77-4e6e-b548-3c8733586906")
+	)
+	(wire
+		(pts
 			(xy 71.12 169.545) (xy 78.74 169.545)
 		)
 		(stroke
@@ -2220,6 +2518,16 @@
 			(type default)
 		)
 		(uuid "275e91be-f6de-4028-a2cb-031a427499c7")
+	)
+	(wire
+		(pts
+			(xy 193.04 40.64) (xy 205.74 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d53ddf-a4bc-4d09-9cc0-c86af51e2449")
 	)
 	(wire
 		(pts
@@ -2253,6 +2561,56 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 44.45) (xy 243.84 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f32138a-2fab-4ea9-a9e5-33ac53973243")
+	)
+	(wire
+		(pts
+			(xy 231.14 55.88) (xy 243.84 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309daabf-bf7a-4d1c-802b-0ec76cf2e1e7")
+	)
+	(wire
+		(pts
+			(xy 243.84 40.64) (xy 256.54 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324366c9-a47c-441f-8564-37f963975d12")
+	)
+	(wire
+		(pts
+			(xy 135.255 44.45) (xy 135.255 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3247a25f-198a-464b-84fe-708b3437977a")
+	)
+	(wire
+		(pts
+			(xy 256.54 46.99) (xy 256.54 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33720c16-dfc1-4676-8f22-215818a11037")
+	)
+	(wire
+		(pts
 			(xy 95.25 177.165) (xy 71.12 177.165)
 		)
 		(stroke
@@ -2283,6 +2641,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 26.67) (xy 180.34 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d800158-2835-462e-b25c-3d608644e3e6")
+	)
+	(wire
+		(pts
 			(xy 78.74 169.545) (xy 78.74 133.985)
 		)
 		(stroke
@@ -2293,6 +2661,36 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 26.67) (xy 180.34 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ebabd06-42a5-45fa-bc79-a384fb00905b")
+	)
+	(wire
+		(pts
+			(xy 256.54 38.1) (xy 256.54 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ecce464-6344-4a2d-8eef-e37d80ca8d9f")
+	)
+	(wire
+		(pts
+			(xy 218.44 44.45) (xy 218.44 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a8707e-0273-44c9-9b20-670919314fa9")
+	)
+	(wire
+		(pts
 			(xy 207.01 104.14) (xy 207.01 111.76)
 		)
 		(stroke
@@ -2300,6 +2698,16 @@
 			(type default)
 		)
 		(uuid "43f9faea-e06b-46cc-95e5-104ec4b94774")
+	)
+	(wire
+		(pts
+			(xy 193.04 26.67) (xy 205.74 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44df1b6c-2bc9-4962-ba80-271894105ef1")
 	)
 	(wire
 		(pts
@@ -2320,6 +2728,26 @@
 			(type default)
 		)
 		(uuid "48c8c1e7-3e89-45d2-80af-5c9f5cb3fe8b")
+	)
+	(wire
+		(pts
+			(xy 180.34 55.88) (xy 193.04 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a551b5a-8be9-4cb6-ab52-06115d52dbcc")
+	)
+	(wire
+		(pts
+			(xy 205.74 38.1) (xy 205.74 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa9c477-5fd0-4483-b00a-41ccac871bdc")
 	)
 	(wire
 		(pts
@@ -2373,6 +2801,36 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 40.64) (xy 231.14 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5505114f-4267-4dcf-811c-4b058ea1f8f0")
+	)
+	(wire
+		(pts
+			(xy 180.34 26.67) (xy 193.04 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a56bf27-0060-445d-b8ab-263f8e139dad")
+	)
+	(wire
+		(pts
+			(xy 243.84 44.45) (xy 256.54 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b253d4e-9f46-491f-907c-fbd293f3ef19")
+	)
+	(wire
+		(pts
 			(xy 234.95 109.22) (xy 242.57 109.22)
 		)
 		(stroke
@@ -2410,6 +2868,26 @@
 			(type default)
 		)
 		(uuid "627e23ce-eb29-4a8d-97dd-36cdbe1d1b48")
+	)
+	(wire
+		(pts
+			(xy 150.495 40.64) (xy 167.64 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67302011-12b9-4149-be14-8565d42ea2ba")
+	)
+	(wire
+		(pts
+			(xy 205.74 26.67) (xy 218.44 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673bc473-5588-45a7-bcd7-5c61ef2c6e4f")
 	)
 	(wire
 		(pts
@@ -2483,6 +2961,26 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 55.88) (xy 218.44 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b69a2c8-c2ae-4c4c-9bf4-a8d848eb4726")
+	)
+	(wire
+		(pts
+			(xy 205.74 54.61) (xy 205.74 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bccf976-973e-417b-914d-193640606ad9")
+	)
+	(wire
+		(pts
 			(xy 135.255 40.64) (xy 150.495 40.64)
 		)
 		(stroke
@@ -2493,6 +2991,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 44.45) (xy 205.74 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb2fd07-2786-4f63-bccc-7c3f4ef3eb9d")
+	)
+	(wire
+		(pts
 			(xy 120.015 26.67) (xy 135.255 26.67)
 		)
 		(stroke
@@ -2500,6 +3008,26 @@
 			(type default)
 		)
 		(uuid "827facba-fd82-4ac2-b705-a28e96610f68")
+	)
+	(wire
+		(pts
+			(xy 256.54 44.45) (xy 269.24 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83afc2de-24b1-4bc9-8f71-a826c2bd98fa")
+	)
+	(wire
+		(pts
+			(xy 180.34 44.45) (xy 193.04 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df477b5-53c0-4a5e-85fd-c3244fb944e2")
 	)
 	(wire
 		(pts
@@ -2523,6 +3051,26 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 44.45) (xy 205.74 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92c5952e-7145-459f-afca-9920abce496f")
+	)
+	(wire
+		(pts
+			(xy 256.54 55.88) (xy 256.54 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93ab65bb-4d5e-4bb6-a6f8-82d95d41c1c7")
+	)
+	(wire
+		(pts
 			(xy 102.235 55.88) (xy 120.015 55.88)
 		)
 		(stroke
@@ -2530,6 +3078,16 @@
 			(type default)
 		)
 		(uuid "93b08c1d-5737-4cac-b019-d427bab2c398")
+	)
+	(wire
+		(pts
+			(xy 167.64 54.61) (xy 167.64 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "946901a2-ee35-4191-9480-2e9601b2e1cb")
 	)
 	(wire
 		(pts
@@ -2573,6 +3131,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 40.64) (xy 193.04 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b5d1193-9009-4e5b-a653-aa2c04d2d928")
+	)
+	(wire
+		(pts
 			(xy 102.235 90.805) (xy 114.3 90.805)
 		)
 		(stroke
@@ -2583,6 +3151,26 @@
 	)
 	(wire
 		(pts
+			(xy 135.255 44.45) (xy 167.64 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c74d785-4de8-48f0-aac4-4542c540b18a")
+	)
+	(wire
+		(pts
+			(xy 205.74 40.64) (xy 218.44 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a78860dd-2160-4802-95ae-e500fb43f8cb")
+	)
+	(wire
+		(pts
 			(xy 94.615 43.18) (xy 94.615 26.67)
 		)
 		(stroke
@@ -2590,6 +3178,16 @@
 			(type default)
 		)
 		(uuid "aa1b29bc-b0c4-4274-8f61-b15c3c31dda9")
+	)
+	(wire
+		(pts
+			(xy 231.14 26.67) (xy 243.84 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa4b0b6e-f3f3-4b5c-a660-78c32214e014")
 	)
 	(wire
 		(pts
@@ -2633,6 +3231,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 44.45) (xy 180.34 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8cd2683-55b0-40c1-83a5-754ccc7cde32")
+	)
+	(wire
+		(pts
 			(xy 135.255 43.18) (xy 120.015 43.18)
 		)
 		(stroke
@@ -2640,6 +3248,26 @@
 			(type default)
 		)
 		(uuid "b90276ae-5834-4507-99a9-125c27b8dc2a")
+	)
+	(wire
+		(pts
+			(xy 193.04 55.88) (xy 205.74 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc09d319-39e8-4638-bab9-919d1a3e500c")
+	)
+	(wire
+		(pts
+			(xy 218.44 44.45) (xy 231.14 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd8f6338-ae9a-48ef-942a-ad6f99df80d5")
 	)
 	(wire
 		(pts
@@ -2653,6 +3281,36 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 38.1) (xy 218.44 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf182b2f-9a68-468c-95ce-36a072e2fe7c")
+	)
+	(wire
+		(pts
+			(xy 167.64 44.45) (xy 167.64 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c09c5a2c-b227-40a3-ac02-01eeca037455")
+	)
+	(wire
+		(pts
+			(xy 205.74 26.67) (xy 205.74 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ef9ef9-5fe5-496b-8288-346beda20227")
+	)
+	(wire
+		(pts
 			(xy 154.94 172.085) (xy 159.385 172.085)
 		)
 		(stroke
@@ -2660,6 +3318,36 @@
 			(type default)
 		)
 		(uuid "c276887d-f14e-4aa4-bed7-d008e97b2f33")
+	)
+	(wire
+		(pts
+			(xy 167.64 40.64) (xy 180.34 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d2b53f-a43c-4276-8ab4-f7598461326d")
+	)
+	(wire
+		(pts
+			(xy 167.64 26.67) (xy 167.64 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca75de7-f8ff-445b-a9ec-54d7ff261b86")
+	)
+	(wire
+		(pts
+			(xy 193.04 26.67) (xy 193.04 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccc19f0c-a1b5-4b14-aff3-d3b06fd6ca70")
 	)
 	(wire
 		(pts
@@ -2673,6 +3361,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 44.45) (xy 193.04 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2dbdc1d-f359-4478-a270-ac51d4914151")
+	)
+	(wire
+		(pts
 			(xy 144.78 172.085) (xy 154.94 172.085)
 		)
 		(stroke
@@ -2683,6 +3381,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 54.61) (xy 193.04 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6464068-8fc6-4fa1-a093-6f12b0b0bed7")
+	)
+	(wire
+		(pts
 			(xy 121.92 183.515) (xy 127 183.515)
 		)
 		(stroke
@@ -2690,6 +3398,26 @@
 			(type default)
 		)
 		(uuid "d71bddac-b547-419b-98b3-9c8e729298d8")
+	)
+	(wire
+		(pts
+			(xy 269.24 54.61) (xy 269.24 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da407e98-1666-43a2-94f1-dc9a4237a311")
+	)
+	(wire
+		(pts
+			(xy 243.84 26.67) (xy 256.54 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da5f867b-b554-4f1b-8676-51cc73a61ca8")
 	)
 	(wire
 		(pts
@@ -2710,6 +3438,26 @@
 			(type default)
 		)
 		(uuid "dd21c0b1-5c05-4ba7-8fb4-7d3b6dda8176")
+	)
+	(wire
+		(pts
+			(xy 205.74 44.45) (xy 218.44 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddaffa8c-a2da-49ee-aba4-ace56a5580e9")
+	)
+	(wire
+		(pts
+			(xy 218.44 26.67) (xy 231.14 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de155938-abf8-44ee-aa72-8ffb8b122221")
 	)
 	(wire
 		(pts
@@ -2743,6 +3491,46 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 55.88) (xy 180.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1be2cf0-493d-4323-a834-e8844b44f39c")
+	)
+	(wire
+		(pts
+			(xy 231.14 44.45) (xy 231.14 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e67c5b52-abd1-44f9-bb37-14e40930a309")
+	)
+	(wire
+		(pts
+			(xy 167.64 44.45) (xy 180.34 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7834470-9194-4795-96a1-690f377ccbdc")
+	)
+	(wire
+		(pts
+			(xy 218.44 54.61) (xy 218.44 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7e47e03-1f96-49a1-b4e3-ea4cb1216212")
+	)
+	(wire
+		(pts
 			(xy 120.015 43.18) (xy 120.015 45.72)
 		)
 		(stroke
@@ -2773,6 +3561,46 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 38.1) (xy 231.14 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed8d761a-71a9-47f3-87d7-1c15f2a63643")
+	)
+	(wire
+		(pts
+			(xy 193.04 38.1) (xy 193.04 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8a63e0-5353-449b-a7b0-7d71a31ee028")
+	)
+	(wire
+		(pts
+			(xy 231.14 44.45) (xy 243.84 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eead8ac1-5402-4d30-a6f6-c8dbfd659dbb")
+	)
+	(wire
+		(pts
+			(xy 243.84 54.61) (xy 243.84 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef33a60b-3bd7-4ca6-b618-136debcbde81")
+	)
+	(wire
+		(pts
 			(xy 212.09 100.33) (xy 207.01 100.33)
 		)
 		(stroke
@@ -2793,6 +3621,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 26.67) (xy 218.44 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35b59e1-0242-4c04-b7c2-7378f5767fca")
+	)
+	(wire
+		(pts
 			(xy 150.495 40.64) (xy 150.495 55.88)
 		)
 		(stroke
@@ -2803,6 +3641,26 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 38.1) (xy 167.64 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f55c9d2c-967a-4a08-ba71-c7c8ab2a18a3")
+	)
+	(wire
+		(pts
+			(xy 231.14 26.67) (xy 231.14 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6dffbd7-0c0d-4517-91be-c82f0e8c74e9")
+	)
+	(wire
+		(pts
 			(xy 200.66 96.52) (xy 207.01 96.52)
 		)
 		(stroke
@@ -2810,6 +3668,36 @@
 			(type default)
 		)
 		(uuid "f8aab3c2-c4e0-4864-94f6-29a9009180d0")
+	)
+	(wire
+		(pts
+			(xy 243.84 26.67) (xy 243.84 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe24a52-a1c4-4b72-be4f-21de41c144ff")
+	)
+	(wire
+		(pts
+			(xy 180.34 38.1) (xy 180.34 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf65a35-df1b-487a-826d-8245d4b7991e")
+	)
+	(wire
+		(pts
+			(xy 243.84 55.88) (xy 256.54 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe529bb0-b234-4ecc-81db-01a0c5a8527c")
 	)
 	(global_label "SDA"
 		(shape input)
@@ -3318,6 +4206,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 193.04 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d5dd068-e226-4df5-aeec-1986be97692a")
+		(property "Reference" "C23"
+			(at 196.85 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 196.85 51.1809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 194.0052 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 193.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 196.85 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c20caa23-34e4-4479-95c4-409c4aa90edd")
+		)
+		(pin "2"
+			(uuid "5527343b-9249-4d8e-8f55-460e2f7bb850")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:AVR-ISP-6")
 		(at 60.96 174.625 0)
 		(unit 1)
@@ -3409,6 +4376,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 167.64 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f38ab92-dd2b-43c8-9ba6-59503b9ab5b2")
+		(property "Reference" "C21"
+			(at 171.45 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 171.45 51.1809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 168.6052 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 171.45 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f3fb68e-0e4c-4309-9c6d-6ffef8069459")
+		)
+		(pin "2"
+			(uuid "4df1daaa-02b1-4316-864e-13810d377815")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 205.74 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "226a6425-ade3-422e-8557-ccb58a01dea4")
+		(property "Reference" "C24"
+			(at 209.55 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 209.55 51.1809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 206.7052 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 205.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 209.55 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3f8a827-1346-4fca-9223-e629aab35880")
+		)
+		(pin "2"
+			(uuid "0eec8c42-562a-43ce-87e1-433b8ee74f82")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 120.015 34.29 0)
 		(unit 1)
@@ -3482,6 +4607,85 @@
 			(project "petkn"
 				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 180.34 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "375b2333-926c-4398-b91b-f0a710db6df3")
+		(property "Reference" "C22"
+			(at 184.15 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 184.15 51.1809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 181.3052 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 180.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 184.15 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b71ecc7b-126d-479a-b699-38efe80a940a")
+		)
+		(pin "2"
+			(uuid "b926783e-c966-44a2-af50-ba8407e1b3f9")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3662,6 +4866,480 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 243.84 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "479ae972-9cf6-478c-9305-c591d2848126")
+		(property "Reference" "C27"
+			(at 247.65 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 247.65 51.1809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 244.8052 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 243.84 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 247.65 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85b33feb-6b7a-457f-870a-a65e37f26dce")
+		)
+		(pin "2"
+			(uuid "e43f4e8a-601e-4388-b649-fa994346f249")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 180.34 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56af7686-041c-48fe-bee4-4f728f16385e")
+		(property "Reference" "C2"
+			(at 184.15 32.1309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 184.15 34.6709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 181.3052 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 180.34 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 184.15 32.1309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98346ecb-d39f-48b0-80a3-7cd35e64f09f")
+		)
+		(pin "2"
+			(uuid "5f63386c-54a0-458f-9c9e-29ab5385074e")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 256.54 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f9587ee-0413-4633-8421-0fc91244dfce")
+		(property "Reference" "C20"
+			(at 260.35 32.1309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 260.35 34.6709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 257.5052 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 256.54 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 260.35 32.1309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e581e999-de07-45c5-a7e3-d7d89613e76b")
+		)
+		(pin "2"
+			(uuid "ef04e28b-ee20-4e9a-b7a4-a18ba7a33828")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 205.74 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67cf4010-19ec-4c54-bf79-59273ad3ecca")
+		(property "Reference" "C4"
+			(at 209.55 32.1309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 209.55 34.6709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 206.7052 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 205.74 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 209.55 32.1309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "335719cc-d473-4694-9360-72385167f645")
+		)
+		(pin "2"
+			(uuid "cdbf84ae-0d9a-4ce0-b152-1a0a5ce99a73")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 256.54 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e6b63ed-43b1-4e94-865c-c77cad5e1f58")
+		(property "Reference" "C28"
+			(at 260.35 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 260.35 51.1809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 257.5052 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 256.54 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 260.35 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9758fa5f-0617-429c-9a7c-195bcf470799")
+		)
+		(pin "2"
+			(uuid "c70e2812-47cd-4b14-bbc9-c7e83501227c")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 231.14 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d69f2af-b3a4-4fb4-ac7d-507233791214")
+		(property "Reference" "C26"
+			(at 234.95 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 234.95 51.1809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 232.1052 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 231.14 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 234.95 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "590f1465-2c0c-4d32-ab39-531d6464e3fa")
+		)
+		(pin "2"
+			(uuid "e534b62d-584e-44c1-9973-091201a88962")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 94.615 26.67 0)
 		(unit 1)
@@ -3722,6 +5400,164 @@
 			(project "petkn"
 				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 218.44 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92c7adc8-7bfe-4fb2-a8b2-3a2d97161ed3")
+		(property "Reference" "C5"
+			(at 222.25 32.1309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 222.25 34.6709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 219.4052 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 218.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 222.25 32.1309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b5c56af-1228-4c30-bc4a-6500d10f0ccd")
+		)
+		(pin "2"
+			(uuid "6207abd7-9822-4be3-8186-af15a5051b66")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 231.14 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d0c7662-101e-485c-b203-693bdf340379")
+		(property "Reference" "C6"
+			(at 234.95 32.1309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 234.95 34.6709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 232.1052 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 231.14 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 234.95 32.1309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "466f47a3-ec66-4c61-9630-9d64a7a2a09b")
+		)
+		(pin "2"
+			(uuid "88d88d70-3353-4dcb-a4de-7f6afa4f8a34")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3808,6 +5644,85 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
+		(at 218.44 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcae1dfb-16ab-489e-af57-aa43f7b09572")
+		(property "Reference" "C25"
+			(at 222.25 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 222.25 51.1809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 219.4052 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 218.44 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 222.25 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7610625-8432-466d-83e3-a60316cb07c4")
+		)
+		(pin "2"
+			(uuid "4f5276a2-04f7-4c8f-8a78-24b26fa75de5")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
 		(at 102.235 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3880,6 +5795,85 @@
 			(project "petkn"
 				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 167.64 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca9d70a5-f3ca-40d4-b9c4-7a022e05aed2")
+		(property "Reference" "C1"
+			(at 171.45 32.1309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 171.45 34.6709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 168.6052 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 167.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 171.45 32.1309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b25054a6-71b8-4b67-a0b7-e431d776d714")
+		)
+		(pin "2"
+			(uuid "bd67a8c7-125e-48fa-8d06-d36fd582f072")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4104,6 +6098,85 @@
 			(project "petkn"
 				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 243.84 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0df13a3-4c65-43a2-abf5-144812d41f29")
+		(property "Reference" "C19"
+			(at 247.65 32.1309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 247.65 34.6709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 244.8052 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 243.84 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 247.65 32.1309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "536b2406-dbd2-43ba-93df-b07f3f987df8")
+		)
+		(pin "2"
+			(uuid "bf53eba8-0a65-43d4-8c33-d598cbf564ff")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4382,6 +6455,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 193.04 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea3840cc-3f30-4edc-a804-1a24a1ce1c49")
+		(property "Reference" "C3"
+			(at 196.85 32.1309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 196.85 34.6709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 194.0052 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 193.04 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 196.85 32.1309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9c0e279-2997-499a-b418-72c33008638b")
+		)
+		(pin "2"
+			(uuid "89341298-fb33-4c0f-b9af-5ef4a44e8d7f")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 58.42 184.785 0)
 		(unit 1)
@@ -4587,6 +6739,85 @@
 			(project "petkn"
 				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 269.24 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fab7afb8-aa46-4f52-917a-a451f107d699")
+		(property "Reference" "C29"
+			(at 273.05 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 273.05 51.1809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 270.2052 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 269.24 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 273.05 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "814bb27c-973e-40c9-8409-cfb1e0480bf6")
+		)
+		(pin "2"
+			(uuid "4631f7c0-50f7-4d86-9157-d3d44cc7b545")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
+					(reference "C29")
 					(unit 1)
 				)
 			)
