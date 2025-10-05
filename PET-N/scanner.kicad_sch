@@ -3055,16 +3055,40 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "This AtMega translates keyboard maps\n- S0-S1 inputs are on port bits PB0-3, on a port\n  not written to. Reason is they can be read and\n  converted into a table index using ANDI #15\n- PB4 could in theory be used to extend the keyboard\n  mapping table, as fed from PD3.\n- PD2 is falling edge triggered interrupt, fed from the\n  comparison between the S0-3 inputs and their delayed\n  version. \n- U6 and U4 delay by at least two sytem clocks cycles, to \n  ensure an interrupt is detected."
+	(text "CBM-KEYB-PETN-3.0-20251005"
 		(exclude_from_sim no)
-		(at 20.574 176.911 0)
+		(at 231.14 172.212 0)
 		(effects
 			(font
-				(size 2 2)
+				(size 4 4)
+				(thickness 0.9)
+				(bold yes)
+			)
+		)
+		(uuid "0c678e6b-83ec-4403-8125-32e8ffd45a70")
+	)
+	(text "This AtMega translates keyboard maps\n- S0-S1 inputs are on port bits PB0-3, on a port\n  not written to. Reason is they can be read and\n  converted into a table index using ANDI #15\n- PB4 could in theory be used to extend the keyboard\n  mapping table\n- PD2 is falling edge triggered interrupt, fed from the\n  comparison between the S0-3 inputs and their delayed\n  version. \n- U6 and U4 delay by at least two sytem clocks cycles, to \n  ensure an interrupt is detected."
+		(exclude_from_sim no)
+		(at 22.352 173.736 0)
+		(effects
+			(font
+				(size 2.3 2.3)
 			)
 			(justify left)
 		)
 		(uuid "9b7406d2-658e-4c96-859b-5dc0bc6d2099")
+	)
+	(text "(C) 2020,2021 Steve J. Gray\n(C) 2025 André Fachat"
+		(exclude_from_sim no)
+		(at 249.936 181.102 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "f7d556ce-904f-4645-afc3-06900a452785")
 	)
 	(junction
 		(at 259.08 23.495)
@@ -3095,6 +3119,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "305977c9-0455-4edc-bbdc-737ddc60b303")
+	)
+	(junction
+		(at 269.875 23.495)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36fc610e-3308-4476-888a-313ad4fbd7fd")
 	)
 	(junction
 		(at 156.21 20.955)
@@ -3191,6 +3221,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9ef1ee3-c66a-44ad-bb89-deb9ec1e2f2b")
+	)
+	(junction
+		(at 269.875 36.195)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce95d1b2-cb8f-4dbe-8f5b-fdcbd28fd896")
 	)
 	(junction
 		(at 43.18 26.035)
@@ -3319,16 +3355,6 @@
 			(type default)
 		)
 		(uuid "0e289199-ab31-4120-ac9f-7008b96298a9")
-	)
-	(wire
-		(pts
-			(xy 270.51 36.195) (xy 259.08 36.195)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e6a3d69-750f-46a3-bcf6-4d31e111ddef")
 	)
 	(wire
 		(pts
@@ -3582,7 +3608,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 23.495) (xy 270.51 23.495)
+			(xy 259.08 23.495) (xy 269.875 23.495)
 		)
 		(stroke
 			(width 0)
@@ -3639,6 +3665,16 @@
 			(type default)
 		)
 		(uuid "3b93e2c4-c999-4084-b106-fa26b05bc7c9")
+	)
+	(wire
+		(pts
+			(xy 280.67 44.45) (xy 280.67 23.495)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c4d9f92-637e-4658-a1c3-70d28002965c")
 	)
 	(wire
 		(pts
@@ -3942,6 +3978,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.875 23.495) (xy 280.67 23.495)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64a69762-a315-43ba-8c4c-e6d0cc1d8165")
+	)
+	(wire
+		(pts
 			(xy 31.75 130.175) (xy 31.75 135.255)
 		)
 		(stroke
@@ -4142,6 +4188,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.875 44.45) (xy 271.145 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b37f38-1526-4492-897c-cc34544ba9f5")
+	)
+	(wire
+		(pts
 			(xy 247.65 36.195) (xy 234.95 36.195)
 		)
 		(stroke
@@ -4312,7 +4368,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 26.035) (xy 270.51 23.495)
+			(xy 269.875 26.035) (xy 269.875 23.495)
 		)
 		(stroke
 			(width 0)
@@ -4642,6 +4698,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.875 36.195) (xy 259.08 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b719ad81-6736-449c-b303-b852a8876a9c")
+	)
+	(wire
+		(pts
 			(xy 248.92 45.085) (xy 246.38 45.085)
 		)
 		(stroke
@@ -4842,7 +4908,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 33.655) (xy 270.51 36.195)
+			(xy 269.875 33.655) (xy 269.875 36.195)
 		)
 		(stroke
 			(width 0)
@@ -5072,6 +5138,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.765 44.45) (xy 280.67 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f210587f-2872-4795-96de-bc066cdf9ca8")
+	)
+	(wire
+		(pts
 			(xy 44.45 23.495) (xy 154.94 23.495)
 		)
 		(stroke
@@ -5079,6 +5155,16 @@
 			(type default)
 		)
 		(uuid "f21ebdce-6820-4ba7-a3e7-39ecadc294b5")
+	)
+	(wire
+		(pts
+			(xy 269.875 36.195) (xy 269.875 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33420ab-ae32-4fc0-9d07-ad496fa07baa")
 	)
 	(wire
 		(pts
@@ -6567,7 +6653,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 270.51 29.845 0)
+		(at 269.875 29.845 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6576,7 +6662,7 @@
 		(fields_autoplaced yes)
 		(uuid "682ab361-be95-411c-bdcd-e8f6fad66516")
 		(property "Reference" "C12"
-			(at 274.32 28.5749 0)
+			(at 273.685 28.5749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6585,7 +6671,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 274.32 31.1149 0)
+			(at 273.685 31.1149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6594,7 +6680,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 271.4752 33.655 0)
+			(at 270.8402 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6603,7 +6689,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 270.51 29.845 0)
+			(at 269.875 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6612,7 +6698,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 270.51 29.845 0)
+			(at 269.875 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6621,7 +6707,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 274.32 28.5749 0)
+			(at 273.685 28.5749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7222,6 +7308,83 @@
 			(project "petkn"
 				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/517ec251-9cce-431a-9802-232702808e0f"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 274.955 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9372af86-48c5-456b-9173-b97a8e17f34a")
+		(property "Reference" "C30"
+			(at 274.955 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 274.955 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 278.765 43.4848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.955 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 274.955 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 273.6849 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3008806-2cd1-4554-a0ca-ac0cac992427")
+		)
+		(pin "1"
+			(uuid "51e08bba-3952-4311-8245-08ee76a9437c")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/517ec251-9cce-431a-9802-232702808e0f"
+					(reference "C30")
 					(unit 1)
 				)
 			)

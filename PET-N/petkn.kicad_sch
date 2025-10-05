@@ -6,24 +6,113 @@
 	(paper "A4")
 	(title_block
 		(title "PET/CBM \"N\" Keyboard")
-		(date "2020-12-18")
-		(rev "N-V1-R1")
-		(company "Steve J. Gray")
+		(date "2025-10-05")
+		(rev "N-V3-R0")
+		(company "Steve J. Gray, André Fachat")
 	)
 	(lib_symbols)
-	(text "Assembly options:\n1. Original:\n   No ICs\n   Use original single row 20pin connector\n   Solder Jumper JP1 and JP2\n2. Full uPET with key scanner/mapper:\n   All ICs\n   Use 20pin IDC (2row) connector\n   Requires 3.3V and 5V supply and I2C for control\n3. IDC connector without mapper/leds\n   Only use U7 (4-to-10 mapper)\n   Use 20pin IDC (2row) connector\n   Requires 5V power supply only"
+	(text "1. Original:\n   No ICs\n   Use original single row 20pin connector\n   Solder Jumper JP1 and JP2\n\n2. Full uPET with key scanner/mapper:\n   All ICs\n   Use 20pin IDC (2row) connector\n   Requires 3.3V and 5V supply and I2C for control\n\n3. IDC connector without mapper/leds\n   Only use U7 (4-to-10 mapper)\n   Use 20pin IDC (2row) connector\n   Requires 5V power supply only"
 		(exclude_from_sim no)
-		(at 43.942 98.806 0)
+		(at 33.782 115.57 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
 			)
 			(justify left)
 		)
 		(uuid "0435caf2-9c4d-4d2c-8670-0dfb03a51053")
 	)
+	(text "All SMD parts are mounted on the back side\nof the PCB, so you can order them fully assembled\n(except for the keys).\nLEDs need to be mounted flipped, so they shine\nthrough the holes in the board"
+		(exclude_from_sim no)
+		(at 33.528 181.356 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.375)
+			)
+			(justify left)
+		)
+		(uuid "3b7709b8-3a1b-48e6-8fda-4e587123b164")
+	)
+	(text "Commodore PET N-type keyboard re-creation with 3 additional, optional features:\n- LED lights per key (controllable by I2C)\n- Keyboard re-mapping (controllable by I2C)\n- New, simpler to use 20-pin IDC connector"
+		(exclude_from_sim no)
+		(at 33.274 46.736 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "58626872-dba6-4d64-ae0d-87bd40fa6997")
+	)
+	(text "Assembly Options:"
+		(exclude_from_sim no)
+		(at 33.274 70.358 0)
+		(effects
+			(font
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "5ff403e4-db50-4e91-9042-affaa4c29fa4")
+	)
+	(text "(C) 2020,2021 Steve J. Gray\n(C) 2025 André Fachat"
+		(exclude_from_sim no)
+		(at 248.92 182.118 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "8ba7a6da-1130-4faa-b4f5-26e54e9a4934")
+	)
+	(text "Assembly Hints:"
+		(exclude_from_sim no)
+		(at 33.528 162.814 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.75)
+			)
+			(justify left)
+		)
+		(uuid "bdc5d491-acb1-47e7-9bff-f09f73dc47ff")
+	)
+	(text "Commodore PET N-type Keyboard"
+		(exclude_from_sim no)
+		(at 32.512 27.94 0)
+		(effects
+			(font
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "d0de45b1-dfbc-489f-8a15-be1c13dc6ff7")
+	)
+	(text "CBM-KEYB-PETN-3.0-20251005"
+		(exclude_from_sim no)
+		(at 230.124 173.228 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.9)
+				(bold yes)
+			)
+		)
+		(uuid "f45b7f26-b1be-49bf-a222-5c4837b4884a")
+	)
 	(sheet
-		(at 40.64 34.925)
+		(at 185.42 97.79)
 		(size 15.24 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39,7 +128,7 @@
 		)
 		(uuid "3105255e-9d83-489e-9710-b7158ffedc39")
 		(property "Sheetname" "keys"
-			(at 40.64 34.2134 0)
+			(at 185.42 97.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +137,7 @@
 			)
 		)
 		(property "Sheetfile" "keys.kicad_sch"
-			(at 40.64 45.6696 0)
+			(at 185.42 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +154,7 @@
 		)
 	)
 	(sheet
-		(at 75.565 36.195)
+		(at 220.345 99.06)
 		(size 13.97 9.525)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -81,7 +170,7 @@
 		)
 		(uuid "517ec251-9cce-431a-9802-232702808e0f")
 		(property "Sheetname" "scanner"
-			(at 75.565 35.4834 0)
+			(at 220.345 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,7 +179,7 @@
 			)
 		)
 		(property "Sheetfile" "scanner.kicad_sch"
-			(at 75.565 46.3046 0)
+			(at 220.345 109.1696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -107,7 +196,49 @@
 		)
 	)
 	(sheet
-		(at 107.95 36.83)
+		(at 219.075 122.555)
+		(size 12.7 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6e2ccdbf-53c4-4588-b1e1-a06c6f77deee")
+		(property "Sheetname" "joystick"
+			(at 219.075 121.8434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "joystick.kicad_sch"
+			(at 219.075 132.0296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 256.54 99.695)
 		(size 12.7 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -123,7 +254,7 @@
 		)
 		(uuid "95aaeaab-63e5-4fb9-8d18-1756295c9b54")
 		(property "Sheetname" "leds"
-			(at 107.95 36.1184 0)
+			(at 256.54 98.9834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,7 +263,7 @@
 			)
 		)
 		(property "Sheetfile" "leds.kicad_sch"
-			(at 107.95 46.3046 0)
+			(at 256.54 109.1696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -149,7 +280,7 @@
 		)
 	)
 	(sheet
-		(at 139.7 37.465)
+		(at 187.325 123.19)
 		(size 13.335 6.985)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -165,7 +296,7 @@
 		)
 		(uuid "a39429aa-8c2f-45e6-a7a0-8f38ed5853cf")
 		(property "Sheetname" "ledctrl"
-			(at 139.7 36.7534 0)
+			(at 187.325 122.4784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,7 +305,7 @@
 			)
 		)
 		(property "Sheetfile" "ledctrl.kicad_sch"
-			(at 139.7 45.0346 0)
+			(at 187.325 130.7596 0)
 			(effects
 				(font
 					(size 1.27 1.27)

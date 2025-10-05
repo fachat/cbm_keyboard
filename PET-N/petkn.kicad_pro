@@ -1425,6 +1425,12 @@
           "label": "LCSC",
           "name": "LCSC",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser",
+          "name": "Mouser",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1504,6 +1510,10 @@
     [
       "a39429aa-8c2f-45e6-a7a0-8f38ed5853cf",
       "ledctrl"
+    ],
+    [
+      "6e2ccdbf-53c4-4588-b1e1-a06c6f77deee",
+      "joystick"
     ]
   ],
   "text_variables": {}

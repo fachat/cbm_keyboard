@@ -1961,6 +1961,48 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "(C) 2020,2021 Steve J. Gray\n(C) 2025 André Fachat"
+		(exclude_from_sim no)
+		(at 249.174 181.61 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "ad8dd7ec-a794-4aa4-86ba-bfb3e48c1af7")
+	)
+	(text "LED Controller:\n- listens to I2C\n- runs light programs\n- programs the LEDS \n  using L0-7"
+		(exclude_from_sim no)
+		(at 204.216 146.812 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.375)
+			)
+			(justify left)
+		)
+		(uuid "cba71ecc-8f95-4eae-95d4-da1a522b4239")
+	)
+	(text "CBM-KEYB-PETN-3.0-20251005"
+		(exclude_from_sim no)
+		(at 230.378 172.72 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.9)
+				(bold yes)
+			)
+		)
+		(uuid "de07d9dd-8467-4ef7-811f-497134c5fc05")
+	)
+	(junction
+		(at 256.54 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "052b2517-dc3d-479a-920f-8239ff667498")
+	)
 	(junction
 		(at 193.04 26.67)
 		(diameter 0)
@@ -1972,6 +2014,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0831a779-6bc3-4ee9-913f-81f36379fae4")
+	)
+	(junction
+		(at 156.21 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "120ece3b-37b0-4f0e-8257-3cc85206c6e9")
 	)
 	(junction
 		(at 135.255 44.45)
@@ -2038,6 +2086,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44a1a221-dc92-4572-a83a-d8d0b9554013")
+	)
+	(junction
+		(at 256.54 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48bafea8-f5e9-400e-9f08-ea7f1afe764a")
 	)
 	(junction
 		(at 207.01 104.14)
@@ -2118,6 +2172,12 @@
 		(uuid "9543ef81-c924-447a-bbdc-74fd3d2ae5ef")
 	)
 	(junction
+		(at 147.32 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95aeeb2f-4ebc-433b-95a3-9268e464ae93")
+	)
+	(junction
 		(at 207.01 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2134,6 +2194,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad487823-3f79-46c5-a724-1554dc620e5a")
+	)
+	(junction
+		(at 147.32 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3776fa3-0287-4e13-9bc1-06205067cd16")
 	)
 	(junction
 		(at 120.015 26.67)
@@ -2182,6 +2248,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4921238-8b3d-4993-be0d-cc190f491c64")
+	)
+	(junction
+		(at 156.21 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dad0f183-63b4-4007-8c76-63df0c27b7fb")
 	)
 	(junction
 		(at 150.495 55.88)
@@ -2281,7 +2353,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.255 26.67) (xy 167.64 26.67)
+			(xy 135.255 26.67) (xy 147.32 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2361,6 +2433,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 44.45) (xy 156.21 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d059f42-a2e6-4d61-8612-80e4f0417e25")
+	)
+	(wire
+		(pts
 			(xy 102.235 93.345) (xy 114.3 93.345)
 		)
 		(stroke
@@ -2401,6 +2483,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 54.61) (xy 156.21 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c9d31f-d901-4c84-90f5-9c84d242e51e")
+	)
+	(wire
+		(pts
 			(xy 231.14 40.64) (xy 243.84 40.64)
 		)
 		(stroke
@@ -2408,6 +2500,26 @@
 			(type default)
 		)
 		(uuid "131c0690-1228-4203-bf7f-46df3d650c60")
+	)
+	(wire
+		(pts
+			(xy 147.32 40.64) (xy 150.495 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1363873a-c104-4ead-bf45-3ec76effcf95")
+	)
+	(wire
+		(pts
+			(xy 156.21 55.88) (xy 167.64 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "175bea00-e98b-4de3-8e93-346510d00cc6")
 	)
 	(wire
 		(pts
@@ -2421,7 +2533,7 @@
 	)
 	(wire
 		(pts
-			(xy 150.495 55.88) (xy 167.64 55.88)
+			(xy 150.495 55.88) (xy 156.21 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2681,6 +2793,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 38.1) (xy 269.24 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe33bdc-785f-4fbf-ac84-604248f2d0ea")
+	)
+	(wire
+		(pts
 			(xy 218.44 44.45) (xy 218.44 46.99)
 		)
 		(stroke
@@ -2788,6 +2910,16 @@
 			(type default)
 		)
 		(uuid "50eae6cb-6500-4cd0-9f97-dd5fbbe46771")
+	)
+	(wire
+		(pts
+			(xy 147.32 26.67) (xy 167.64 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d2e941-aa61-47d0-8742-e27a1cdb9e95")
 	)
 	(wire
 		(pts
@@ -2931,6 +3063,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 44.45) (xy 167.64 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e0f25c-1ba5-4811-a073-804794e198ee")
+	)
+	(wire
+		(pts
 			(xy 135.255 26.67) (xy 135.255 30.48)
 		)
 		(stroke
@@ -2981,7 +3123,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.255 40.64) (xy 150.495 40.64)
+			(xy 135.255 40.64) (xy 147.32 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3151,7 +3293,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.255 44.45) (xy 167.64 44.45)
+			(xy 135.255 44.45) (xy 156.21 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3331,6 +3473,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 26.67) (xy 147.32 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c647df0a-bd54-43f0-9c55-9b8be96bfc06")
+	)
+	(wire
+		(pts
 			(xy 167.64 26.67) (xy 167.64 30.48)
 		)
 		(stroke
@@ -3358,6 +3510,16 @@
 			(type default)
 		)
 		(uuid "ce6973fa-9ea3-43d5-9ea3-84c2c3b6b8f7")
+	)
+	(wire
+		(pts
+			(xy 269.24 30.48) (xy 269.24 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d022cb09-dced-4b49-9bcd-01187b80e7ba")
 	)
 	(wire
 		(pts
@@ -3478,6 +3640,16 @@
 			(type default)
 		)
 		(uuid "dffff305-a42d-4be6-b00f-3cffc3959e89")
+	)
+	(wire
+		(pts
+			(xy 256.54 40.64) (xy 269.24 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e05fadac-9217-4221-8c1c-1b8a0c4ee36c")
 	)
 	(wire
 		(pts
@@ -3641,6 +3813,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 26.67) (xy 269.24 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44b3461-a63b-42cf-861a-405c24191d18")
+	)
+	(wire
+		(pts
 			(xy 167.64 38.1) (xy 167.64 40.64)
 		)
 		(stroke
@@ -3668,6 +3850,16 @@
 			(type default)
 		)
 		(uuid "f8aab3c2-c4e0-4864-94f6-29a9009180d0")
+	)
+	(wire
+		(pts
+			(xy 147.32 38.1) (xy 147.32 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa963c06-b473-4738-87ff-6299f3cb76a4")
 	)
 	(wire
 		(pts
@@ -5644,6 +5836,85 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
+		(at 269.24 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8381aca-acc2-4410-ab0d-a2f25e77bec2")
+		(property "Reference" "C32"
+			(at 273.05 32.1309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 273.05 34.6709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 270.2052 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 269.24 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 273.05 32.1309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00f15d52-4535-4cfc-8416-35fbc99dd34d")
+		)
+		(pin "2"
+			(uuid "5bc41eda-32b8-4b5f-ae43-f62b8d20e219")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
 		(at 218.44 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6177,6 +6448,164 @@
 			(project "petkn"
 				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 147.32 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d22b5337-46c0-45bd-a891-b9b9c5347ac3")
+		(property "Reference" "C31"
+			(at 151.13 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 151.13 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 148.2852 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 147.32 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 151.13 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba253a63-2582-4754-97c7-f77c155f054e")
+		)
+		(pin "1"
+			(uuid "a6eca4b3-0b9f-4a27-9515-70998eb2946a")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 156.21 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d24eb6dd-763f-4e66-9e9f-37aa49077c36")
+		(property "Reference" "C33"
+			(at 160.02 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 160.02 51.1809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 157.1752 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 156.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 160.02 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "923742fa-1a08-45da-a653-c0bfb4e2c2e3")
+		)
+		(pin "2"
+			(uuid "cf47338b-c863-40be-8c6b-2e9fa941632f")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
+					(reference "C33")
 					(unit 1)
 				)
 			)

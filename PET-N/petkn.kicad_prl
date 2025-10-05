@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -17,17 +17,17 @@
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
-      "dimensions": true,
-      "footprints": true,
-      "graphics": true,
-      "keepouts": true,
+      "dimensions": false,
+      "footprints": false,
+      "graphics": false,
+      "keepouts": false,
       "lockedItems": false,
-      "otherItems": true,
-      "pads": true,
+      "otherItems": false,
+      "pads": false,
       "text": true,
       "tracks": true,
       "vias": true,
-      "zones": true
+      "zones": false
     },
     "visible_items": [
       "vias",
@@ -45,7 +45,7 @@
       "drc_warnings",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0fffffff_fff7ffff",
+    "visible_layers": "00000000_00000000_0fffffff_fff7fffa",
     "zone_display_mode": 0
   },
   "git": {
@@ -112,12 +112,12 @@
   },
   "schematic": {
     "selection_filter": {
-      "graphics": false,
-      "images": false,
+      "graphics": true,
+      "images": true,
       "labels": true,
       "lockedItems": false,
-      "otherItems": false,
-      "pins": false,
+      "otherItems": true,
+      "pins": true,
       "symbols": true,
       "text": true,
       "wires": true

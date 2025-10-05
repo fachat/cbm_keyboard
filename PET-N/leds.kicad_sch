@@ -459,6 +459,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "CBM-KEYB-PETN-3.0-20251005"
+		(exclude_from_sim no)
+		(at 230.886 172.72 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.9)
+				(bold yes)
+			)
+		)
+		(uuid "5d80c9bb-91a9-476a-a8c2-1bf3cf5dae07")
+	)
+	(text "(C) 2020,2021 Steve J. Gray\n(C) 2025 André Fachat"
+		(exclude_from_sim no)
+		(at 249.682 181.61 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "728820dd-d676-4d47-9692-3730adfa5fd5")
+	)
 	(junction
 		(at 125.73 115.57)
 		(diameter 0)
