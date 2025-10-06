@@ -23,10 +23,16 @@ void host_setup() {
 	DDRB &= 0xf0;
 	// no pullups
 	PORTB &= 0xf0;
+	// PB 5-7 are SPI prog lines, doubling as output to Host
+	// test for moving PA0-7 to PB0-7
+	DDRB &= 0x1f;
+	// no pullups, set to output 0 when active to pull low
+	PORTB & 0x1f;
 
 	// PA is column out, using open-collector
 	// no pullups. So, output is sent by
-	// setting port to 0, and switching to output 
+	// setting port to 0, and input.
+	// then switching to output 
 	// for those bits that should be pulled low
 	DDRA = 0;
 	PORTA = 0; 
@@ -34,9 +40,9 @@ void host_setup() {
 	// interrupt handling
 	// PD2 and PD3 are interrupt sources, PD2 is INT0 
 	// and used as host select change int
-	DDRD &= 0xf3;
+	DDRD &= 0xfb;
 	// no pullups
-	PORTD &= 0xf3;
+	PORTD &= 0xfb;
 
 	// configure int0 on falling edge
 	MCUCR = (MCUCR & 0xfc) | 0x02;
@@ -56,11 +62,20 @@ void host_setup() {
 	// split on two ports due to needed alt functions for PC0/1, PD2
 
 	// bits 0-3 are PC4-7, input with pullup
-	PORTC |= 0xf0;
 	DDRC &= 0x0f;
+	PORTC |= 0xf0;
 	// bits 4-7 are PD4-7, input with pullup
-	PORTD |= 0xf0;
 	DDRD &= 0x0f;
+	PORTD |= 0xf0;
+
+	// set PA0 to analog input,
+
+	// AREF = AVCC
+	// left adjust so we only need to use the
+	// high byte with 8 bit resolution
+	ADMUX = 0x60;
+	// enable ADC, single ended PA0
+	ADCSRA = 0x80;
 
 	sei();
 }
@@ -79,7 +94,7 @@ void host_setup() {
  *
  */
 ISR( INT0_vect ) {
-	DDRA = rowvals[PINB & 0x0f];
+	DDRA = rowvals[PINB & 0x0f] & 0xfe;
 	//PORTD ^= 0x01;
 }
 
@@ -101,6 +116,35 @@ void kbd_scan() {
 	}
 }
 
+void joy_scan() {
+	// prescaler 7 = 1/128 = 125kHz
+	ADCSRA = 0x87;
+
+	//start conversion
+	ADCSRA |= 1 << ADSC;
+
+	while (!(ADCSRA & 0x10)) {
+		// ADIF set
+	
+		// we use left adjust, so only high byte needed	
+		unsigned char val = ADCH;
+
+		// max value is 0xff
+		// mid value is 0x80
+		// low water we define as 0x40
+		// high water we set to 0xc0
+		if (val < 0x40) {
+			// set crsr down
+			rowvals[8] |= 0x10;
+		} else
+		if (val > 0xc0) {
+			// set crsr up
+			rowvals[9] |= 0x08;
+		}
+	}	
+
+}
+
 void main() {
 
 	host_setup();
@@ -110,6 +154,7 @@ void main() {
 
 	while (1) {
 		kbd_scan();
+		joy_scan();
 		_delay_ms(10);
 	}
 }
