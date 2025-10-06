@@ -45,8 +45,8 @@
       "drc_warnings",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0fffffff_fff7fffa",
-    "zone_display_mode": 0
+    "visible_layers": "00000000_00000000_0fffffff_fff7ffff",
+    "zone_display_mode": 1
   },
   "git": {
     "repo_type": "",

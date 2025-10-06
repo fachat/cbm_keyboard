@@ -603,19 +603,13 @@
           "group_by": false,
           "label": "Mouser",
           "name": "Mouser",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "True-components",
           "name": "True-components",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": true
         }
       ],
       "filter_string": "",
