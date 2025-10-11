@@ -29,6 +29,10 @@ void host_setup() {
 	// no pullups, set to output 0 when active to pull low
 	PORTB & 0x1f;
 
+	// PB4 is output to /RES when pulled low
+	PORTB |= 0x10;
+	DDRB |= 0x10;
+
 	// PA is column out, using open-collector
 	// no pullups. So, output is sent by
 	// setting port to 0, and input.
@@ -116,6 +120,16 @@ void kbd_scan() {
 	}
 }
 
+void check_res() {
+	// check RES
+	if (rowvals[9] & 0x20) {
+		// res low
+		PORTB &= 0xef;
+	} else {
+		PORTB |= 0x10;
+	}
+}
+
 void joy_scan() {
 	// prescaler 7 = 1/128 = 125kHz
 	ADCSRA = 0x87;
@@ -135,11 +149,16 @@ void joy_scan() {
 		// high water we set to 0xc0
 		if (val < 0x40) {
 			// set crsr down
-			rowvals[8] |= 0x10;
+			rowvals[1] |= 0x40;
+			// set ">" 
+			//rowvals[8] |= 0x10;
 		} else
 		if (val > 0xc0) {
 			// set crsr up
-			rowvals[9] |= 0x08;
+			rowvals[1] |= 0x40;
+			rowvals[8] |= 0x20;
+			// set "<" 
+			//rowvals[9] |= 0x08;
 		}
 	}	
 
@@ -155,6 +174,7 @@ void main() {
 	while (1) {
 		kbd_scan();
 		joy_scan();
+		check_res();
 		_delay_ms(10);
 	}
 }
