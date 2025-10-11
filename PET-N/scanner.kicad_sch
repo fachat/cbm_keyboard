@@ -3055,7 +3055,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "CBM-KEYB-PETN-3.0-20251006"
+	(text "CBM-KEYB-PETN-3.0A-20251011"
 		(exclude_from_sim no)
 		(at 231.14 172.212 0)
 		(effects
@@ -3067,7 +3067,7 @@
 		)
 		(uuid "0c678e6b-83ec-4403-8125-32e8ffd45a70")
 	)
-	(text "This AtMega translates keyboard maps\n- S0-S1 inputs are on port bits PB0-3, on a port\n  not written to. Reason is they can be read and\n  converted into a table index using ANDI #15\n- PB4 could in theory be used to extend the keyboard\n  mapping table\n- PD2 is falling edge triggered interrupt, fed from the\n  comparison between the S0-3 inputs and their delayed\n  version. \n- U6 and U4 delay by at least two sytem clocks cycles, to \n  ensure an interrupt is detected."
+	(text "This AtMega translates keyboard maps\n- S0-S1 inputs are on port bits PA0-3, on a port\n  not written to. Reason is they can be read and\n  converted into a table index using ANDI #15\n- PA4/5 could in theory be used to extend the keyboard\n  mapping table\n- PD2 is falling edge triggered interrupt, fed from the\n  comparison between the S0-3 inputs and their delayed\n  version. \n- U6 and U4 delay by at least two sytem clocks cycles, to \n  ensure an interrupt is detected."
 		(exclude_from_sim no)
 		(at 22.352 173.736 0)
 		(effects
@@ -5458,7 +5458,7 @@
 			)
 		)
 	)
-	(global_label "C5"
+	(global_label "C6"
 		(shape input)
 		(at 228.6 61.595 180)
 		(fields_autoplaced yes)
@@ -5546,7 +5546,7 @@
 			)
 		)
 	)
-	(global_label "C4"
+	(global_label "C5"
 		(shape input)
 		(at 228.6 64.135 180)
 		(fields_autoplaced yes)
@@ -5568,7 +5568,7 @@
 			)
 		)
 	)
-	(global_label "C0"
+	(global_label "C1"
 		(shape input)
 		(at 228.6 86.995 180)
 		(fields_autoplaced yes)
@@ -5590,7 +5590,7 @@
 			)
 		)
 	)
-	(global_label "C7"
+	(global_label "C8"
 		(shape input)
 		(at 228.6 56.515 180)
 		(fields_autoplaced yes)
@@ -5634,7 +5634,7 @@
 			)
 		)
 	)
-	(global_label "C6"
+	(global_label "C7"
 		(shape input)
 		(at 228.6 59.055 180)
 		(fields_autoplaced yes)
@@ -5722,7 +5722,7 @@
 			)
 		)
 	)
-	(global_label "C3"
+	(global_label "C4"
 		(shape input)
 		(at 228.6 79.375 180)
 		(fields_autoplaced yes)
@@ -5810,7 +5810,7 @@
 			)
 		)
 	)
-	(global_label "C2"
+	(global_label "C3"
 		(shape input)
 		(at 228.6 81.915 180)
 		(fields_autoplaced yes)
@@ -5942,7 +5942,7 @@
 			)
 		)
 	)
-	(global_label "C1"
+	(global_label "C2"
 		(shape input)
 		(at 228.6 84.455 180)
 		(fields_autoplaced yes)

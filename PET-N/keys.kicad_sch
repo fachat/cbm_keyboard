@@ -1818,7 +1818,7 @@
 		)
 		(uuid "36b23ba1-05a4-4b14-94d8-36963cae6931")
 	)
-	(text "RELEASES:\n* N-V1-R1 PCB Submitted 2020-12-18\n* N-V1-R2 PCB Updated 2021-03-31 \n* N-V3-R1 PCB Submitted 2025-10-05"
+	(text "RELEASES:\n* N-V1-R1 PCB Submitted 2020-12-18\n* N-V1-R2 PCB Updated 2021-03-31 \n* N-V3-R1 PCB Submitted 2025-10-11"
 		(exclude_from_sim no)
 		(at 100.838 193.04 0)
 		(effects
@@ -1866,7 +1866,7 @@
 		)
 		(uuid "51dbc123-dcb9-4138-bfbd-9f2e37a2514c")
 	)
-	(text "Solder JP1 and JP2 if original \n20 pin connector is used"
+	(text "Solder JP1 and JP2 if original \n20 pin connector is used (i.e\nnone of the controllers)"
 		(exclude_from_sim no)
 		(at 239.268 93.98 0)
 		(effects
@@ -1947,7 +1947,7 @@
 		)
 		(uuid "6f1cc801-8a82-4427-b35c-3eca764106c7")
 	)
-	(text "CBM-KEYB-PETN-3.0-20251005"
+	(text "CBM-KEYB-PETN-3.0A-20251011"
 		(exclude_from_sim no)
 		(at 232.156 173.228 0)
 		(effects
@@ -2161,7 +2161,7 @@
 	)
 	(text "CONNECTOR SWITCH"
 		(exclude_from_sim no)
-		(at 239.014 88.392 0)
+		(at 238.76 86.614 0)
 		(effects
 			(font
 				(size 2.2098 2.2098)

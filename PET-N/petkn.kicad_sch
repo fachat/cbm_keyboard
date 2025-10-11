@@ -11,7 +11,7 @@
 		(company "Steve J. Gray, André Fachat")
 	)
 	(lib_symbols)
-	(text "1. Original:\n   No ICs\n   Use original single row 20pin connector\n   Solder Jumper JP1 and JP2\n\n2. Full uPET with key scanner/mapper:\n   All ICs\n   Use 20pin IDC (2row) connector\n   Requires 3.3V and 5V supply and I2C for control\n\n3. IDC connector without mapper/leds\n   Only use U7 (4-to-10 mapper)\n   Use 20pin IDC (2row) connector\n   Requires 5V power supply only"
+	(text "1. Original:\n   No ICs/LEDs/Capacitors/Oscillator\n   Use original single row 20pin connector\n   Solder Jumpers JP1, JP2, and JC1..JC8\n\n2. Full uPET with key scanner and LEDs:\n   All SMD parts (ICs, capacitors, LEDs, ...)\n   Use 20pin IDC (2row) connector\n   Requires 3.3V and 5V supply and I2C for control\n\n3. IDC connector without key scanner/LEDs\n   Only use U7 (4-to-10 mapper), C9, C33\n   Use 20pin IDC (2row) connector\n   Requires 5V power supply only\n   Solder Jumpers JC1..JC8"
 		(exclude_from_sim no)
 		(at 33.782 115.57 0)
 		(effects
@@ -24,7 +24,7 @@
 		)
 		(uuid "0435caf2-9c4d-4d2c-8670-0dfb03a51053")
 	)
-	(text "All SMD parts are mounted on the back side\nof the PCB, so you can order them fully assembled\n(except for the keys).\nLEDs need to be mounted flipped, so they shine\nthrough the holes in the board"
+	(text "All SMD parts are mounted on the back side\nof the PCB, so you can order them fully assembled\n(except for the keys/joystick).\nLEDs need to be mounted flipped, so they shine\nthrough the holes in the board"
 		(exclude_from_sim no)
 		(at 33.528 181.356 0)
 		(effects
@@ -99,7 +99,7 @@
 		)
 		(uuid "d0de45b1-dfbc-489f-8a15-be1c13dc6ff7")
 	)
-	(text "CBM-KEYB-PETN-3.0-20251005"
+	(text "CBM-KEYB-PETN-3.0A-20251011"
 		(exclude_from_sim no)
 		(at 230.124 173.228 0)
 		(effects

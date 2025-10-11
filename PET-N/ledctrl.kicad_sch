@@ -1985,7 +1985,7 @@
 		)
 		(uuid "cba71ecc-8f95-4eae-95d4-da1a522b4239")
 	)
-	(text "CBM-KEYB-PETN-3.0-20251005"
+	(text "CBM-KEYB-PETN-3.0A-20251011"
 		(exclude_from_sim no)
 		(at 230.378 172.72 0)
 		(effects
