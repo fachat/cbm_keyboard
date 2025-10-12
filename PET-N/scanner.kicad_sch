@@ -3055,7 +3055,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "CBM-KEYB-PETN-3.0A-20251011"
+	(text "CBM-KEYB-PETN-3.0A-20251012"
 		(exclude_from_sim no)
 		(at 231.14 172.212 0)
 		(effects
@@ -8749,7 +8749,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 152.4 81.915 0)
 			(effects
 				(font

@@ -1,0 +1,122 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,165.493799,-83.849627,0.0,bottom
+C10,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,197.678198,-136.668872,90.0,bottom
+C11,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,181.473041,-136.818022,90.0,bottom
+C12,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,299.631601,-92.896089,180.0,bottom
+C13,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,118.078225,-137.114808,90.0,bottom
+C14,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,135.955247,-136.598762,90.0,bottom
+C15,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,279.898784,-141.3482,180.0,bottom
+C16,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,291.436268,-58.524627,270.0,bottom
+C17,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,279.943214,-138.684,180.0,bottom
+C18,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,98.417093,-136.197334,90.0,bottom
+C19,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,237.967473,-121.299077,0.0,bottom
+C2,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,170.555249,-102.766452,0.0,bottom
+C20,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,156.32283,-64.574979,0.0,bottom
+C21,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,98.528289,-63.97672,0.0,bottom
+C22,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,108.115457,-82.974115,0.0,bottom
+C23,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,113.743124,-101.990909,0.0,bottom
+C24,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,103.019642,-121.761046,0.0,bottom
+C25,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,333.624478,-63.821334,0.0,bottom
+C26,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,333.486512,-83.023698,0.0,bottom
+C27,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,333.606592,-102.329506,0.0,bottom
+C28,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,332.452416,-121.144482,0.0,bottom
+C29,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,333.004461,-140.631915,0.0,bottom
+C3,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,160.993718,-121.277797,0.0,bottom
+C30,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,252.59906,-136.369929,180.0,bottom
+C31,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,317.706172,-101.074168,270.0,bottom
+C32,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,295.199697,-92.944369,0.0,bottom
+C33,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,211.030112,-136.220924,90.0,bottom
+C4,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,251.275674,-64.131161,0.0,bottom
+C5,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,242.003387,-83.714527,0.0,bottom
+C6,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,247.080759,-102.756777,0.0,bottom
+C7,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,280.096518,-135.260214,0.0,bottom
+C8,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,102.775585,-136.354571,90.0,bottom
+C9,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,213.453699,-136.684053,90.0,bottom
+D1,1N4448,D_SOD-323_HandSoldering,259.179365,-128.893038,0.0,bottom
+J4,AVR-ISP-6,IDC-Header_2x03_P2.54mm_Vertical,303.779,-63.4905,90.0,top
+J7,AVR-ISP-6,IDC-Header_2x03_P2.54mm_Vertical,307.8575,-79.751,0.0,top
+SW1,"KP ""=""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,381.281,-140.656,0.0,bottom
+SW10,"KP ""0""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,324.131,-140.656,0.0,bottom
+SW11,R SHIFT,SW_Cherry_MX_2.00u_PCB_with_RGB_LED,275.401,-121.619,0.0,bottom
+SW12,""">""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,289.587,-83.4935,0.0,bottom
+SW14,"""]""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,280.062,-64.4435,0.0,bottom
+SW15,"""@""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,32.412,-64.4435,0.0,bottom
+SW16,L SHIFT,SW_Cherry_MX_2.00u_PCB_with_RGB_LED,46.763,-121.604,0.0,bottom
+SW17,"KP ""+""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,381.281,-121.606,0.0,bottom
+SW18,"KP ""2""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,343.181,-121.606,0.0,bottom
+SW2,"KP "".""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,343.181,-140.656,0.0,bottom
+SW20,"""?""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,246.788,-121.594,0.0,bottom
+SW21,,SW_Cherry_MX_1.00u_PCB_with_RGB_LED,208.688,-121.594,0.0,bottom
+SW22,"""N""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,170.588,-121.594,0.0,bottom
+SW23,"""V""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,132.488,-121.594,0.0,bottom
+SW24,"""X""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,94.388,-121.594,0.0,bottom
+SW25,"KP ""3""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,362.231,-121.606,0.0,bottom
+SW26,"KP ""1""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,324.131,-121.606,0.0,bottom
+SW27,RETURN,SW_Cherry_MX_1.50u_PCB_with_RGB_LED,280.316,-102.544,0.0,bottom
+SW28,""";""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,227.738,-121.594,0.0,bottom
+SW29,"""M""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,189.638,-121.594,0.0,bottom
+SW3,NC ($10),SW_Cherry_MX_1.25u_PCB_with_RGB_LED,234.85,-140.644,0.0,bottom
+SW30,"""B""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,151.538,-121.594,0.0,bottom
+SW31,"""C""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,113.438,-121.594,0.0,bottom
+SW32,"""Z""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,75.338,-121.594,0.0,bottom
+SW320,S LOCK,SW_Cherry_MX_1.50u_PCB_with_RGB_LED,42.064,-102.48,0.0,bottom
+SW33,"KP ""*""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,381.281,-102.556,0.0,bottom
+SW34,"KP ""5""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,343.181,-102.556,0.0,bottom
+SW36,""":""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,237.39,-102.544,0.0,bottom
+SW37,"""K""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,199.29,-102.544,0.0,bottom
+SW38,"""H""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,161.19,-102.544,0.0,bottom
+SW39,"""F""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,123.09,-102.544,0.0,bottom
+SW4,STOP,SW_Cherry_MX_1.00u_PCB_with_RGB_LED,256.44,-102.544,0.0,bottom
+SW40,"""S""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,84.99,-102.544,0.0,bottom
+SW41,"KP ""6""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,362.231,-102.556,0.0,bottom
+SW42,"KP ""4""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,324.131,-102.556,0.0,bottom
+SW44,"""L""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,218.34,-102.544,0.0,bottom
+SW45,"""J""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,180.24,-102.544,0.0,bottom
+SW46,"""G""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,142.14,-102.544,0.0,bottom
+SW47,"""D""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,104.04,-102.544,0.0,bottom
+SW48,"""A""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,65.94,-102.544,0.0,bottom
+SW49,"KP ""/""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,381.281,-83.5062,0.0,bottom
+SW5,"""<""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,270.537,-83.4935,0.0,bottom
+SW50,"KP ""8""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,343.181,-83.5062,0.0,bottom
+SW52,"""P""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,232.437,-83.4935,0.0,bottom
+SW53,"""I""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,194.337,-83.4935,0.0,bottom
+SW54,"""Y""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,156.237,-83.4935,0.0,bottom
+SW55,"""R""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,118.137,-83.4935,0.0,bottom
+SW56,"""W""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,80.037,-83.4935,0.0,bottom
+SW57,"KP ""9""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,362.231,-83.5062,0.0,bottom
+SW58,"KP ""7""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,324.131,-83.5062,0.0,bottom
+SW59,U ARROW,SW_Cherry_MX_1.00u_PCB_with_RGB_LED,251.487,-83.4935,0.0,bottom
+SW6,SPACE,SW_Cherry_MX_6.25u_PCB_with_RGB_LED,163.438,-140.644,0.0,bottom
+SW60,"""O""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,213.387,-82.5535,0.0,bottom
+SW61,"""U""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,175.287,-82.5535,0.0,bottom
+SW62,"""T""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,137.187,-82.5535,0.0,bottom
+SW63,"""E""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,99.087,-82.5535,0.0,bottom
+SW64,"""Q""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,60.987,-82.5535,0.0,bottom
+SW65,INS/DEL,SW_Cherry_MX_1.00u_PCB_with_RGB_LED,381.281,-63.5162,0.0,bottom
+SW66,UP/DOWN,SW_Cherry_MX_1.00u_PCB_with_RGB_LED,343.181,-63.5162,0.0,bottom
+SW67,NC ($0A),SW_Cherry_MX_1.50u_PCB_with_RGB_LED,89.6255,-139.704,0.0,bottom
+SW68,""")""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,222.912,-63.5035,0.0,bottom
+SW69,"""\""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,184.812,-63.5035,0.0,bottom
+SW7,"""[""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,261.012,-64.4435,0.0,bottom
+SW70,"""'""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,146.712,-64.4435,0.0,bottom
+SW71,"""$""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,108.612,-64.4435,0.0,bottom
+SW72,QUOTE,SW_Cherry_MX_1.00u_PCB_with_RGB_LED,70.512,-64.4435,0.0,bottom
+SW73,LEFT/RIGHT,SW_Cherry_MX_1.00u_PCB_with_RGB_LED,362.231,-64.4562,0.0,bottom
+SW74,CLR/HOME,SW_Cherry_MX_1.00u_PCB_with_RGB_LED,324.131,-64.4562,0.0,bottom
+SW75,B ARROW,SW_Cherry_MX_1.00u_PCB_with_RGB_LED,241.962,-64.4435,0.0,bottom
+SW76,"""(""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,203.862,-64.4435,0.0,bottom
+SW77,"""&""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,165.762,-64.4435,0.0,bottom
+SW78,"""%""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,127.662,-64.4435,0.0,bottom
+SW79,"""#""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,89.562,-64.4435,0.0,bottom
+SW8,OFF/RVS,SW_Cherry_MX_1.50u_PCB_with_RGB_LED,37.1745,-83.4935,0.0,bottom
+SW80,"""!""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,51.462,-64.4435,0.0,bottom
+SW9,"KP ""-""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,362.231,-140.656,0.0,bottom
+U1,LSF0204Q,TSSOP-14_4.4x5mm_P0.65mm,125.218325,-136.989526,90.0,bottom
+U2,ATmega32A-A,TQFP-44_10x10mm_P0.8mm,268.460718,-135.726713,180.0,bottom
+U3,74HCT85,SO-16_3.9x9.9mm_P1.27mm,204.940509,-136.65106,180.0,bottom
+U4,74LS174,SO-16_3.9x9.9mm_P1.27mm,142.890729,-136.390708,180.0,bottom
+U5,~,THB Miniature Thumbstick THB001P,303.3665,-132.333,180.0,top
+U6,74LS174,SO-16_3.9x9.9mm_P1.27mm,188.294127,-136.693029,180.0,bottom
+U7,74LS145,SO-16_3.9x9.9mm_P1.27mm,220.098129,-136.504477,180.0,bottom
+U8,ATmega32A-A,TQFP-44_10x10mm_P0.8mm,309.621671,-97.553716,180.0,bottom
+Y1,ASE-xxxMHz,Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm,279.580976,-132.223954,0.0,bottom
