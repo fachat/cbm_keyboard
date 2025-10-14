@@ -87,16 +87,16 @@ SW57,"KP ""9""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,362.231,-83.5062,0.0,bottom
 SW58,"KP ""7""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,324.131,-83.5062,0.0,bottom
 SW59,U ARROW,SW_Cherry_MX_1.00u_PCB_with_RGB_LED,251.487,-83.4935,0.0,bottom
 SW6,SPACE,SW_Cherry_MX_6.25u_PCB_with_RGB_LED,163.438,-140.644,0.0,bottom
-SW60,"""O""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,213.387,-82.5535,0.0,bottom
-SW61,"""U""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,175.287,-82.5535,0.0,bottom
-SW62,"""T""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,137.187,-82.5535,0.0,bottom
-SW63,"""E""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,99.087,-82.5535,0.0,bottom
-SW64,"""Q""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,60.987,-82.5535,0.0,bottom
-SW65,INS/DEL,SW_Cherry_MX_1.00u_PCB_with_RGB_LED,381.281,-63.5162,0.0,bottom
-SW66,UP/DOWN,SW_Cherry_MX_1.00u_PCB_with_RGB_LED,343.181,-63.5162,0.0,bottom
-SW67,NC ($0A),SW_Cherry_MX_1.50u_PCB_with_RGB_LED,89.6255,-139.704,0.0,bottom
-SW68,""")""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,222.912,-63.5035,0.0,bottom
-SW69,"""\""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,184.812,-63.5035,0.0,bottom
+SW60,"""O""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,213.387,-83.4935,0.0,bottom
+SW61,"""U""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,175.287,-83.4935,0.0,bottom
+SW62,"""T""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,137.187,-83.4935,0.0,bottom
+SW63,"""E""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,99.087,-83.4935,0.0,bottom
+SW64,"""Q""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,60.987,-83.4935,0.0,bottom
+SW65,INS/DEL,SW_Cherry_MX_1.00u_PCB_with_RGB_LED,381.281,-64.4562,0.0,bottom
+SW66,UP/DOWN,SW_Cherry_MX_1.00u_PCB_with_RGB_LED,343.181,-64.4562,0.0,bottom
+SW67,NC ($0A),SW_Cherry_MX_1.50u_PCB_with_RGB_LED,89.6255,-140.644,0.0,bottom
+SW68,""")""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,222.912,-64.4435,0.0,bottom
+SW69,"""\""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,184.812,-64.4435,0.0,bottom
 SW7,"""[""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,261.012,-64.4435,0.0,bottom
 SW70,"""'""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,146.712,-64.4435,0.0,bottom
 SW71,"""$""",SW_Cherry_MX_1.00u_PCB_with_RGB_LED,108.612,-64.4435,0.0,bottom

@@ -459,7 +459,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "CBM-KEYB-PETN-3.0A-20251011"
+	(text "CBM-KEYB-PETN-3.0A-20251014"
 		(exclude_from_sim no)
 		(at 230.886 172.72 0)
 		(effects

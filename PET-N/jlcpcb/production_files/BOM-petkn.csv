@@ -11,3 +11,4 @@ ATmega32A-A,"U2,U8",TQFP-44_10x10mm_P0.8mm,C5659,2
 74HCT85,U3,SO-16_3.9x9.9mm_P1.27mm,C5953,1
 74LS145,U7,SO-16_3.9x9.9mm_P1.27mm,C60829,1
 74LS174,"U4,U6",SO-16_3.9x9.9mm_P1.27mm,C6828,2
+Extended_PET_keyboard_connector,J1,PET_Extended_Keyboard_Connector,,1

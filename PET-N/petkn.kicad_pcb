@@ -36686,7 +36686,7 @@
 		(path "/3105255e-9d83-489e-9710-b7158ffedc39/8f53ae12-876d-4a0c-86f9-ab07385ffe0e")
 		(sheetname "/keys/")
 		(sheetfile "keys.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 3.332 -53.402)
 			(end 3.332 -20.382)
@@ -52381,7 +52381,7 @@
 		(uuid "f5dbaefd-d2c8-4380-9558-da49c9f1482d")
 	)
 	(gr_text "PET/CBM \"N\" KEYBOARD"
-		(at 200.406 130.556 0)
+		(at 199.1614 136.271 0)
 		(layer "F.SilkS")
 		(uuid "00000000-0000-0000-0000-00005ef7a18e")
 		(effects
@@ -52632,7 +52632,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "CBM-KEYB-PETN-3.0A-20251012"
+	(gr_text "CBM-KEYB-PETN-3.0A-20251014"
 		(at 129.794 139.6238 0)
 		(layer "F.SilkS")
 		(uuid "9ea923ee-5a74-408a-8753-fae842800e66")
