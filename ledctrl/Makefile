@@ -12,8 +12,8 @@ flash: led.hex
 	avrdude -c $(PROGDEV) $(DEVICE) -p m32 -B10 -U flash:w:led.hex -F
 
 fuses:
-	avrdude -c $(PROGDEV) $(DEVICE) -p m32 -B10 -U lfuse:r:con:h
-	avrdude -c $(PROGDEV) $(DEVICE) -p m32 -B10 -U lfuse:w:0xef:m
+	avrdude -c $(PROGDEV) $(DEVICE) -p m32 -B10 -U lfuse:r:con:h -F
+	avrdude -c $(PROGDEV) $(DEVICE) -p m32 -B10 -U lfuse:w:0xef:m -F
 
 led.lst: led.elf
 	avr-objdump -DrwC -s -m avr5 $< > $@

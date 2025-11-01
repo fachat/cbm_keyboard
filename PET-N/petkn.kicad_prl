@@ -25,7 +25,7 @@
       "otherItems": false,
       "pads": false,
       "text": true,
-      "tracks": false,
+      "tracks": true,
       "vias": false,
       "zones": false
     },
@@ -45,7 +45,7 @@
       "drc_warnings",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0fffffff_fff7fffa",
+    "visible_layers": "00000000_00000000_0fffffff_fff7ffff",
     "zone_display_mode": 0
   },
   "git": {

@@ -19,27 +19,21 @@ void host_setup() {
 	UCSRB = 0;
 	// JTAG needs to be disabled by HFUSE
 
-	// port B0-3 is select lines in from host
-	DDRB &= 0xf0;
+	// port A0-3 is select lines in from host
+	DDRA &= 0xf0;
 	// no pullups
-	PORTB &= 0xf0;
+	PORTA &= 0xf0;
+
+	// PB 0-7 are "open collector" outputs; 
+	// i.e. only set to output 0 when active, otherwise input
 	// PB 5-7 are SPI prog lines, doubling as output to Host
-	// test for moving PA0-7 to PB0-7
-	DDRB &= 0x1f;
+	DDRB &= 0x00;
 	// no pullups, set to output 0 when active to pull low
-	PORTB & 0x1f;
+	PORTB &= 0x00;
 
-	// PB4 is output to /RES when pulled low
-	PORTB |= 0x10;
-	DDRB |= 0x10;
-
-	// PA is column out, using open-collector
-	// no pullups. So, output is sent by
-	// setting port to 0, and input.
-	// then switching to output 
-	// for those bits that should be pulled low
-	DDRA = 0;
-	PORTA = 0; 
+	// PD3 is output to /RES when pulled low
+	PORTD |= 0x08;
+	DDRD |= 0x08;
 
 	// interrupt handling
 	// PD2 and PD3 are interrupt sources, PD2 is INT0 
@@ -55,10 +49,10 @@ void host_setup() {
 
 	// own keyboard scan
 
-	// row select bits 0/1
+	// row select bits 0/1 PD0/1
 	DDRD |= 0x03;
 	PORTD &= 0xfc;
-	// row select bits 2/3
+	// row select bits 2/3 PC2/3
 	DDRC |= 0x0c;
 	PORTC &= 0xf3;
 
@@ -77,8 +71,9 @@ void host_setup() {
 	// AREF = AVCC
 	// left adjust so we only need to use the
 	// high byte with 8 bit resolution
-	ADMUX = 0x60;
-	// enable ADC, single ended PA0
+	// select A7
+	ADMUX = 0x67;
+	// enable ADC
 	ADCSRA = 0x80;
 
 	sei();
@@ -98,7 +93,7 @@ void host_setup() {
  *
  */
 ISR( INT0_vect ) {
-	DDRA = rowvals[PINB & 0x0f] & 0xfe;
+	DDRB = rowvals[PINA & 0x0f];
 	//PORTD ^= 0x01;
 }
 
@@ -108,15 +103,17 @@ void kbd_scan() {
 		PORTD = (PORTD & 0xfc) | (row & 0x03);
 		PORTC = (PORTC & 0xf3) | (row & 0x0c);
 
+		_delay_us(10);
+
 		// read col values for row
 		unsigned char v = 0;
 		unsigned char ind = PIND;
 		unsigned char inc = PINC;
 		v = (ind & 0xf0) | ((inc >> 4) & 0x0f);
 
-		v |= 3; 
-
-		rowvals[row] = v ^ 255;
+		int fixed = row ? row-1 : 9
+;
+		rowvals[fixed] = v ^ 255;
 	}
 }
 
@@ -124,9 +121,9 @@ void check_res() {
 	// check RES
 	if (rowvals[9] & 0x20) {
 		// res low
-		PORTB &= 0xef;
+		PORTD &= 0xf7;
 	} else {
-		PORTB |= 0x10;
+		PORTD |= 0x08;
 	}
 }
 
@@ -173,7 +170,7 @@ void main() {
 
 	while (1) {
 		kbd_scan();
-		joy_scan();
+		//joy_scan();
 		check_res();
 		_delay_ms(10);
 	}
