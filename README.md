@@ -12,14 +12,33 @@ Keyboards can be seen in the PETindex [keyboard section](http://www.6502.org/use
 
 This keyboard is the typewriter-stlye keyboard used in most 40 column models, except for the originals with the chicklet keyboard.
 
-### PCB and support
+### PCB
 
-#### Open source by Steve Gray
+#### Open source PCB by Steve Gray
 
-For my builds I am using the N-type keyboard PCB by Steve Gray from his [MX replacement keyboards projects](http://cbmsteve.ca/mxkeyboards/index.html)
-
+For my builds I started by using the N-type keyboard PCB by Steve Gray from his [MX replacement keyboards projects](http://cbmsteve.ca/mxkeyboards/index.html)
 As Steve only has the PCB, I designed a 3D-printable base support for the PCB.
 It is available on tinkercad and the STL files are also available here.
+
+Based on that I created a new R3 version of the board that includes options for
+backlit LEDs and keyboard controllers allowing key re-mapping independent from
+the PET's own editor ROM. You can find it in [PET-N](PET-N)
+
+NOTE: In current R3.0 you need to fix some things:
+
+1. Connect the V33 and VCC33 lines - basically the oscillator for the Atmega controllers does not have power, so that needs to be supplied.
+2. There is an off-by-one error on the row multiplexer. It has rows R0-9, while the keys are connected to R1-10. For now you have to connect R0 and R10, and fix the issue in the controller software.
+
+#### Supports for PCB
+
+The PCB needs some kind of support to be mounted into the PET or the Ulti-/Micro-PET cases.
+There are two versions for Steve's and my derived PCB, the first one for the extended
+that caters for the different connector, and the one better suitable for the original
+PCB.
+
+* [New support structure extended PET-N keyboard](https://www.tinkercad.com/things/2KwSQVdno7K-sjg-keybd-full-support-r1)
+* [left part of the support](PET-Keyboard-Support-SJG-N-R1-left.stl)
+* [right part of the support](PET-Keyboard-Support-SJG-N-R1-right.stl)
 
 * [support structure for Steve's N-type keyboard at tinkercad](https://www.tinkercad.com/things/cUVlushPB3j-sjg-keybd-full-support-v07).
 * [left part of the support](PET-Keyboard-Support-SJG-N-v07-left.stl)
