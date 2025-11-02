@@ -24,6 +24,17 @@
 		)
 		(uuid "0435caf2-9c4d-4d2c-8670-0dfb03a51053")
 	)
+	(text "R3.0A:\n- add LED and keyboard controllers, and LED backlights\nR3.0B:\n- Temporarily Fix off-by-one on U7, Connect clock \n  oscillator to supply voltage"
+		(exclude_from_sim no)
+		(at 168.148 149.098 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "2503191f-1565-4414-9368-ff727eeba59e")
+	)
 	(text "All SMD parts are mounted on the back side\nof the PCB, so you can order them fully assembled\n(except for the keys/joystick).\nLEDs need to be mounted flipped, so they shine\nthrough the holes in the board"
 		(exclude_from_sim no)
 		(at 33.528 181.356 0)
@@ -99,7 +110,7 @@
 		)
 		(uuid "d0de45b1-dfbc-489f-8a15-be1c13dc6ff7")
 	)
-	(text "CBM-KEYB-PETN-3.0A-20251014"
+	(text "CBM-KEYB-PETN-3.0B-20251102"
 		(exclude_from_sim no)
 		(at 230.124 173.228 0)
 		(effects
@@ -110,6 +121,66 @@
 			)
 		)
 		(uuid "f45b7f26-b1be-49bf-a222-5c4837b4884a")
+	)
+	(polyline
+		(pts
+			(xy 141.605 129.54) (xy 141.605 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "010e3562-0e99-41e0-9f9f-5ec8cc06dc04")
+	)
+	(polyline
+		(pts
+			(xy 28.575 149.225) (xy 140.97 149.225)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "04d76c7b-3fc4-41b1-b20d-976983a44476")
+	)
+	(polyline
+		(pts
+			(xy 29.21 129.54) (xy 141.605 129.54)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "179209fb-58d1-4e08-88fe-9f6d962ab9da")
+	)
+	(polyline
+		(pts
+			(xy 28.575 134.62) (xy 140.97 134.62)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "71eb9c71-2258-4006-9fee-8dbd7e27578e")
+	)
+	(polyline
+		(pts
+			(xy 28.575 144.145) (xy 140.97 144.145)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "db3f37fe-eaf8-4604-a67c-7e325dff4666")
+	)
+	(polyline
+		(pts
+			(xy 28.575 139.7) (xy 140.97 139.7)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(uuid "dc19a1cd-c9e1-4089-abf6-4f1f691b8236")
 	)
 	(sheet
 		(at 185.42 97.79)
