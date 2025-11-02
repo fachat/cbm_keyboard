@@ -24,10 +24,12 @@ Based on that I created a new R3 version of the board that includes options for
 backlit LEDs and keyboard controllers allowing key re-mapping independent from
 the PET's own editor ROM. You can find it in [PET-N](PET-N)
 
-NOTE: In current R3.0 you need to fix some things:
+NOTE: In R3.0A you need to fix some things:
 
 1. Connect the V33 and VCC33 lines - basically the oscillator for the Atmega controllers does not have power, so that needs to be supplied.
 2. There is an off-by-one error on the row multiplexer. It has rows R0-9, while the keys are connected to R1-10. For now you have to connect R0 and R10, and fix the issue in the controller software.
+
+In the current R3.0B these two fixes have been applied, but the actual PCB is not tested yet (and probably never will). A future 3.1 fix this for good.
 
 #### Supports for PCB
 
