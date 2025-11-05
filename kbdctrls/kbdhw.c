@@ -98,50 +98,6 @@ ISR( INT0_vect ) {
 	//PORTD ^= 0x01;
 }
 
-static unsigned char pot2[] = { 1, 2, 4, 8, 16, 32, 64, 128 };
-
-void kbd_scan() {
-	unsigned char rvals[16];
-	memset(rvals, 0, 16);
-
-	int idx = 0;
-	unsigned char m;
-	int c;
-	int newidx;
-
-	for (unsigned char row = 0; row < 16; row++) {
-		// set row selector
-		PORTD = (PORTD & 0xfc) | (row & 0x03);
-		PORTC = (PORTC & 0xf3) | (row & 0x0c);
-
-		_delay_us(10);
-
-		// read col values for row
-		unsigned char v = 0;
-		unsigned char ind = PIND;
-		unsigned char inc = PINC;
-		v = (ind & 0xf0) | ((inc >> 4) & 0x0f);
-		v ^= 255;
-
-		int fixed = row ? row-1 : 9;
-		idx = fixed << 3;
-
-		for (c = 0; c < 8; c++) {
-
-			m = pot2[c];
-
-			if (v & m) {
-				// key is set
-				newidx = map_key(idx, 0, 0);
-				rvals[newidx >> 3] |= pot2[newidx & 7];
-			}
-			idx++;
-		}
-		//rowvals[fixed] = v;
-	}
-	memcpy(rowvals, rvals, 16);
-}
-
 void check_res() {
 	// check RES
 	if (rowvals[9] & 0x20) {
