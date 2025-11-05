@@ -1,6 +1,7 @@
 
 #include <avr/io.h>
 
+#include "defs.h"
 #include "led.h"
 
 /* commands have:

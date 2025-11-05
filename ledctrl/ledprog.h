@@ -9,4 +9,7 @@ enum {
 
 void prog_set(int chain, int led, int prog, char pars[COLSANDPARS]);
 
+void prog_advance();
+
+void prog_setup();
 

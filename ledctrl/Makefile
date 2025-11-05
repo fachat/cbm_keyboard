@@ -1,7 +1,7 @@
 
 all: led.lst
 
-OFILES=led.o i2c.o
+OFILES=led.o i2c.o buf.o ledprog.o
 
 MCU 	?= atmega32a
 PROGDEV	?= avrisp2
