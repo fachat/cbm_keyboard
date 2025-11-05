@@ -5,9 +5,12 @@
 #include <avr/interrupt.h>
 
 #include "kbdhw.h"
+#include "i2c.h"
 
 
 void main() {
+
+	i2c_setup(0x10);
 
 	host_setup();
 

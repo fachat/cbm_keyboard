@@ -3,6 +3,7 @@
 
 #include "kbdhw.h"
 #include "map.h"
+#include "i2c.h"
 
 
 extern unsigned char rowvals[16];
@@ -32,7 +33,7 @@ void kbd_scan() {
 	int origshift = shift;
 	int origctrl = ctrl;
 
-	for (unsigned char row = 0; row < 16; row++) {
+	for (int row = 0; row < 16; row++) {
 
 		unsigned char v = kbd_read(fix_row_rev(row));
 
@@ -65,6 +66,21 @@ void kbd_scan() {
 	} else
 	if (ctrl && !origctrl) {
 		rvals[1] |= 0x20;
+	}
+
+	// find out which keys are new
+	for (int row = 0; row < 10; row++) {
+		if (rvals[row] != rowvals[row]) {
+			m = rvals[row];
+			if ((m & rowvals[row]) != m) {
+				// newly set
+				for (c = 0; c < 8; c++) {
+					if ((m & pot2[c]) && !(rowvals[row] & pot2[c])) {
+						i2c_send(row * 8 + c);
+					} 
+				}
+			}
+		}
 	}
 
 	memcpy(rowvals, rvals, 16);

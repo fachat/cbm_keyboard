@@ -78,7 +78,7 @@ void buf_send() {
 		PORTD = 0;
 		__builtin_avr_delay_cycles(10);
 		i++;
-	} while (i < BUFLEN-1);
+	} while (i < BUFLEN);
 
 
 	sei();

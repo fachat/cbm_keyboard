@@ -30,16 +30,33 @@ void i2c_setup(int addr) {
 }
 
 void i2c_lp_cmd() {
-	int chain = rxbuf[1] / LEDSPERCHAIN;
-	int led = rxbuf[1] % LEDSPERCHAIN;
+
+	int idx = rxbuf[1];
+
+	int chain = idx / LEDSPERCHAIN;
+	int led = idx % LEDSPERCHAIN;
 
 	prog_set(chain, led, rxbuf[0], rxbuf+2);
 }
 
 void i2c_sp_cmd() {
-	char pars[] = { 255,0,0,0 };
-	int chain = rxbuf[1] / LEDSPERCHAIN;
-	int led = rxbuf[1] % LEDSPERCHAIN;
+	char pars[] = { 64,64,64,0 };
+
+	int idx = rxbuf[1];
+	if (idx == 29) {
+		idx = 67;
+	}
+	int chain = 7 - (idx % 8); //LEDSPERCHAIN;
+	int led = 9 - (idx / 8); //LEDSPERCHAIN;
+	// chain 2 has gaps ... need to translate the LED number
+	if (chain == 2) {
+		if (led > 1) {
+			led --;
+			if (led > 2) {
+				led -= 3;
+			}
+		}
+	}
 
 	switch(rxbuf[0]) {
 	case SP_KEYPRESS:
@@ -60,8 +77,10 @@ int i2c_handle_rx(unsigned char byt) {
 	}
 	if (rxp >= maxlen) {
 		if (rxbuf[0] == SP_KEYPRESS) {
+			//rxbuf[1] = 79 - rxbuf[1];
 			i2c_sp_cmd();
 		} else {
+			//rxbuf[1] = 79 - rxbuf[1];
 			i2c_lp_cmd();
 		}
 		rxp = 0;
