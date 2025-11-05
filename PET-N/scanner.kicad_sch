@@ -3055,7 +3055,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "CBM-KEYB-PETN-3.0A-20251014"
+	(text "CBM-KEYB-PETN-3.0B-20251102"
 		(exclude_from_sim no)
 		(at 231.14 172.212 0)
 		(effects
@@ -5524,6 +5524,28 @@
 			)
 		)
 	)
+	(global_label "R10"
+		(shape output)
+		(at 109.22 130.175 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36405a33-9026-4a1e-9e49-ae20d8072a79")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.2 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "R9"
 		(shape output)
 		(at 109.22 107.315 180)
@@ -5876,28 +5898,6 @@
 			)
 		)
 	)
-	(global_label "V33"
-		(shape output)
-		(at 52.07 113.665 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a6871994-54a4-4311-a24b-dac859d002c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 107.1722 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "R4"
 		(shape output)
 		(at 109.22 120.015 180)
@@ -5986,6 +5986,28 @@
 			)
 		)
 	)
+	(global_label "VCC33"
+		(shape input)
+		(at 52.07 113.665 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d45e8cc7-ba55-4190-90ac-87132aa9a302")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.07 105.2864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "R1"
 		(shape output)
 		(at 109.22 127.635 180)
@@ -6026,28 +6048,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "R0"
-		(shape output)
-		(at 109.22 130.175 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e6c23baf-68e5-4430-a37f-9bd77735de4f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.4095 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
