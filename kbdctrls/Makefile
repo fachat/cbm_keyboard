@@ -3,7 +3,7 @@ BASE=kbd
 
 all: $(BASE).lst
 
-OFILES= $(BASE).o kbdint.o
+OFILES= $(BASE).o kbdint.o kbdhw.o map.o
 
 MCU 	?= atmega32a
 PROGDEV	?= avrisp2
