@@ -22,7 +22,7 @@ void main() {
 	buf_from_rgb();
 	buf_send();
 
-#if 1
+#if 0
 	prog_set(0, 0, LP_LINDECAYLOOP, (char[]){ 255,0,0, 0});
 	prog_set(0, 1, LP_LINDECAYLOOP, (char[]){ 0,100,100, 0});
 	prog_set(0, 2, LP_LINDECAYLOOP, (char[]){ 100,100,0, 0});

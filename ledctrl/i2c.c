@@ -2,7 +2,7 @@
 #include <avr/io.h>
 
 #include "defs.h"
-#include "led.h"
+#include "ledprog.h"
 
 /* commands have:
  * 0: command byte
@@ -11,8 +11,10 @@
  * 5: parameter
  */
 
-#define	CMDLEN		6
-static char rxbuf[CMDLEN];
+#define	LP_CMDLEN		6
+#define	SP_CMDLEN		2
+
+static char rxbuf[LP_CMDLEN];
 static int rxp;
 
 void i2c_setup(int addr) {
@@ -27,18 +29,41 @@ void i2c_setup(int addr) {
 	rxp = 0;
 }
 
-void i2c_cmd() {
+void i2c_lp_cmd() {
 	int chain = rxbuf[1] / LEDSPERCHAIN;
 	int led = rxbuf[1] % LEDSPERCHAIN;
 
 	prog_set(chain, led, rxbuf[0], rxbuf+2);
 }
 
+void i2c_sp_cmd() {
+	char pars[] = { 255,0,0,0 };
+	int chain = rxbuf[1] / LEDSPERCHAIN;
+	int led = rxbuf[1] % LEDSPERCHAIN;
+
+	switch(rxbuf[0]) {
+	case SP_KEYPRESS:
+		prog_set(chain, led, LP_LINDECAY, pars);
+		break;
+	default:
+		break;
+	}
+}
+
 int i2c_handle_rx(unsigned char byt) {
-	rxbuf[rxp] = TWDR;
+	rxbuf[rxp] = byt;
 	rxp++;
-	if (rxp >= CMDLEN) {
-		i2c_cmd();
+
+	int maxlen = LP_CMDLEN;
+	if (rxbuf[0] == SP_KEYPRESS) {
+		maxlen = SP_CMDLEN;
+	}
+	if (rxp >= maxlen) {
+		if (rxbuf[0] == SP_KEYPRESS) {
+			i2c_sp_cmd();
+		} else {
+			i2c_lp_cmd();
+		}
 		rxp = 0;
 		return 0;
 	}
@@ -49,9 +74,9 @@ static int active = 0;
 
 int i2c_check() {
 
-
 	if (TWCR & (1<<TWINT)) {
-		prog_set(0,0, LP_LINDECAY, (char[]){ 32,0,0, 0});
+		// debug
+		//prog_set(0,0, LP_LINDECAY, (char[]){ 32,0,0, 0});
 		// we did get an interrupt
 		int stat = TWSR & 0xf8;
 
