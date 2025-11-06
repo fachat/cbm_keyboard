@@ -6,8 +6,11 @@
 #include "i2c.h"
 
 
+// output to the interrupt routine
 extern unsigned char rowvals[16];
 
+// raw values before mapping, to signal the right LEDs
+static unsigned char rawvals[16];
 
 static unsigned char pot2[] = { 1, 2, 4, 8, 16, 32, 64, 128 };
 
@@ -21,6 +24,7 @@ static inline int fix_row_rev(int row) {
 
 void kbd_scan() {
 	unsigned char rvals[16];
+	unsigned char hvals[16];
 	memset(rvals, 0, 16);
 
 	int idx = 0;
@@ -36,6 +40,9 @@ void kbd_scan() {
 	for (int row = 0; row < 16; row++) {
 
 		unsigned char v = kbd_read(fix_row_rev(row));
+
+		// hardware values - to signal to LED ctrl
+		hvals[row] = v;
 
 		idx = row << 3;
 
@@ -68,14 +75,16 @@ void kbd_scan() {
 		rvals[1] |= 0x20;
 	}
 
+	memcpy(rowvals, rvals, 16);
+
 	// find out which keys are new
 	for (int row = 0; row < 10; row++) {
-		if (rvals[row] != rowvals[row]) {
-			m = rvals[row];
-			if ((m & rowvals[row]) != m) {
+		if (hvals[row] != rawvals[row]) {
+			m = hvals[row];
+			if ((m & rawvals[row]) != m) {
 				// newly set
 				for (c = 0; c < 8; c++) {
-					if ((m & pot2[c]) && !(rowvals[row] & pot2[c])) {
+					if ((m & pot2[c]) && !(rawvals[row] & pot2[c])) {
 						i2c_send(row * 8 + c);
 					} 
 				}
@@ -83,7 +92,7 @@ void kbd_scan() {
 		}
 	}
 
-	memcpy(rowvals, rvals, 16);
+	memcpy(rawvals, hvals, 16);
 }
 
 
