@@ -17,6 +17,28 @@
 static char rxbuf[LP_CMDLEN];
 static int rxp;
 
+static int fix_idx(int idx, int *chain, int *led) {
+	if (idx < 0 || idx > 80) {
+		return -1;
+	}
+
+	if (idx == 29) {
+		idx = 67;
+	}
+	*chain = 7 - (idx & 7); 
+	*led = 9 - (idx >> 3); 
+	// chain 2 has gaps ... need to translate the LED number
+	if (*chain == 2) {
+		if (*led > 1) {
+			(*led) --;
+			if (*led > 2) {
+				(*led) -= 3;
+			}
+		}
+	}
+	return 0;
+}
+
 void i2c_setup(int addr) {
 
 	// enable pullups
@@ -31,39 +53,28 @@ void i2c_setup(int addr) {
 
 void i2c_lp_cmd() {
 
-	int idx = rxbuf[1];
+	int chain;
+	int led;
+	if (!fix_idx (rxbuf[1], &chain, &led)) {
 
-	int chain = idx / LEDSPERCHAIN;
-	int led = idx % LEDSPERCHAIN;
-
-	prog_set(chain, led, rxbuf[0], rxbuf+2);
+		prog_set(chain, led, rxbuf[0], rxbuf+2);
+	}
 }
 
 void i2c_sp_cmd() {
 	char pars[] = { 64,64,64,0 };
 
-	int idx = rxbuf[1];
-	if (idx == 29) {
-		idx = 67;
-	}
-	int chain = 7 - (idx % 8); //LEDSPERCHAIN;
-	int led = 9 - (idx / 8); //LEDSPERCHAIN;
-	// chain 2 has gaps ... need to translate the LED number
-	if (chain == 2) {
-		if (led > 1) {
-			led --;
-			if (led > 2) {
-				led -= 3;
-			}
-		}
-	}
+	int chain;
+	int led;
+	if (!fix_idx (rxbuf[1], &chain, &led)) {
 
-	switch(rxbuf[0]) {
-	case SP_KEYPRESS:
-		prog_set(chain, led, LP_LINDECAY, pars);
-		break;
-	default:
-		break;
+		switch(rxbuf[0]) {
+		case SP_KEYPRESS:
+			prog_set(chain, led, LP_LINDECAY, pars);
+			break;
+		default:
+			break;
+		}
 	}
 }
 
