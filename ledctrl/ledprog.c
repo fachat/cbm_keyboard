@@ -5,14 +5,14 @@
 #include <avr/interrupt.h>
 
 #include "defs.h"
-#include "led.h"
+#include "ledprog.h"
 
 // LED colours, one byte per color (r/g/b), one colorset per key
-unsigned char rgb[CHAINS][LEDSPERCHAIN][COLSANDPARS];
+unsigned char rgb[MAXLED][COLSANDPARS];
 
 // different programs can be set per LED
-unsigned char progs[CHAINS][LEDSPERCHAIN];
-unsigned char par[CHAINS][LEDSPERCHAIN][COLSANDPARS];
+unsigned char progs[MAXLED];
+unsigned char par[MAXLED][COLSANDPARS];
 
 /*
  * Program handling per LED
@@ -20,22 +20,23 @@ unsigned char par[CHAINS][LEDSPERCHAIN][COLSANDPARS];
  */
 void prog_setup() {
 
-	memset(rgb, 0, CHAINS * LEDSPERCHAIN * COLSANDPARS * sizeof(char));
-	memset(par, 0, CHAINS * LEDSPERCHAIN * COLSANDPARS * sizeof(char));
-	memset(progs, 0, CHAINS * LEDSPERCHAIN * sizeof(char));
+	memset(rgb, 0, MAXLED * COLSANDPARS * sizeof(char));
+	memset(par, 0, MAXLED * COLSANDPARS * sizeof(char));
+	memset(progs, 0, MAXLED * sizeof(char));
 }
 
-void lp_init_cols(int chain, int led, char pars[COLSANDPARS]) {
+void lp_init_cols(int key, char pars[COLSANDPARS]) {
 	for (int i = 0; i < COLSANDPARS; i++) {	
-		rgb[chain][led][i] = pars[i];
+		rgb[key][i] = pars[i];
 	}
 }
 
-void prog_set(int chain, int led, int prog, char pars[COLSANDPARS]) {
+void prog_set(int k, int prog, char pars[COLSANDPARS]) {
+	int chain, led;
 
-	progs[chain][led] = prog;
+	progs[k] = prog;
 	for (int i = 0; i < COLSANDPARS; i++) {	
-		par[chain][led][i] = pars[i];
+		par[k][i] = pars[i];
 	}
 
 	switch(prog) {
@@ -43,53 +44,51 @@ void prog_set(int chain, int led, int prog, char pars[COLSANDPARS]) {
 	case LP_LINDECAY:
 	case LP_LINDECAYLOOP:
 		// set LED colour to initial par value
-		lp_init_cols(chain, led, pars);
+		lp_init_cols(k, pars);
 		break;
 	}
 }
 
-int lp_lindecay(int chain, int led) {
+int lp_lindecay(int key) {
 
 	int f = 1;
 
 	for (int col = 0; col < COLS; col++) {
-		if (rgb[chain][led][col]) {
-			rgb[chain][led][col]--;
-			if (rgb[chain][led][col]) {
+		if (rgb[key][col]) {
+			rgb[key][col]--;
+			if (rgb[key][col]) {
 				f = 0;
 			}
 		}
 	}
 	// are all bits zero?
 	if (f) {
-		progs[chain][led] = LP_CONST;
+		progs[key] = LP_CONST;
 	}
 	return f;
 }
 
-int lp_lindecayloop(int chain, int led) {
+int lp_lindecayloop(int key) {
 
-	if (lp_lindecay(chain, led)) {
-		lp_init_cols(chain, led, par[chain][led]);
-		progs[chain][led] = LP_LINDECAYLOOP;
+	if (lp_lindecay(key)) {
+		lp_init_cols(key, par[key]);
+		progs[key] = LP_LINDECAYLOOP;
 	}
 }
 
 
 void prog_advance() {
 
-	for (int chain = 0; chain < CHAINS; chain++) {
-		for (int led = 0; led < LEDSPERCHAIN; led++) {
-			switch(progs[chain][led]) {
-			case LP_CONST:
-				break;
-			case LP_LINDECAY:
-				lp_lindecay(chain, led);
-				break;
-			case LP_LINDECAYLOOP:
-				lp_lindecayloop(chain, led);
-				break;
-			}
+	for (int key = 0; key < MAXLED; key++) {
+		switch(progs[key]) {
+		case LP_CONST:
+			break;
+		case LP_LINDECAY:
+			lp_lindecay(key);
+			break;
+		case LP_LINDECAYLOOP:
+			lp_lindecayloop(key);
+			break;
 		}
 	}
 }

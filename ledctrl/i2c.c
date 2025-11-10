@@ -3,6 +3,7 @@
 
 #include "defs.h"
 #include "ledprog.h"
+#include "kbdprog.h"
 
 /* commands have:
  * 0: command byte
@@ -16,28 +17,6 @@
 
 static char rxbuf[LP_CMDLEN];
 static int rxp;
-
-static int fix_idx(int idx, int *chain, int *led) {
-	if (idx < 0 || idx > 80) {
-		return -1;
-	}
-
-	if (idx == 29) {
-		idx = 67;
-	}
-	*chain = 7 - (idx & 7); 
-	*led = 9 - (idx >> 3); 
-	// chain 2 has gaps ... need to translate the LED number
-	if (*chain == 2) {
-		if (*led > 1) {
-			(*led) --;
-			if (*led > 2) {
-				(*led) -= 3;
-			}
-		}
-	}
-	return 0;
-}
 
 void i2c_setup(int addr) {
 
@@ -53,28 +32,18 @@ void i2c_setup(int addr) {
 
 void i2c_lp_cmd() {
 
-	int chain;
-	int led;
-	if (!fix_idx (rxbuf[1], &chain, &led)) {
-
-		prog_set(chain, led, rxbuf[0], rxbuf+2);
-	}
+	prog_set(rxbuf[1], rxbuf[0], rxbuf+2);
 }
 
 void i2c_sp_cmd() {
-	char pars[] = { 64,64,64,0 };
+	char pars[] = { 128,128,128,0 };
 
-	int chain;
-	int led;
-	if (!fix_idx (rxbuf[1], &chain, &led)) {
-
-		switch(rxbuf[0]) {
-		case SP_KEYPRESS:
-			prog_set(chain, led, LP_LINDECAY, pars);
-			break;
-		default:
-			break;
-		}
+	switch(rxbuf[0]) {
+	case SP_KEYPRESS:
+		kprog_set(rxbuf[1], LP_LINDECAY, pars);
+		break;
+	default:
+		break;
 	}
 }
 

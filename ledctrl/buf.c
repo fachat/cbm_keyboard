@@ -7,7 +7,6 @@
 #include "defs.h"
 #include "buf.h"
 
-#define	NUMLED		(CHAINS * LEDSPERCHAIN)
 
 // 8 chains of LEDs, 8 bits per color
 // Number of bytes is LEDSPERCHAIN * 3 colors * 8 bits 
@@ -17,7 +16,7 @@
 unsigned char buf[BUFLEN];
 
 // LED colours, one byte per color (r/g/b), one colorset per key
-extern unsigned char rgb[CHAINS][LEDSPERCHAIN][COLSANDPARS];
+extern unsigned char rgb[MAXLED][COLSANDPARS];
 
 
 /*
@@ -110,16 +109,26 @@ void buf_from_rgb() {
 			// all chains
 			for (int chain = 0; chain < CHAINS; chain++) {
 
+				int k = (LEDSPERCHAIN - led) * CHAINS - chain - 1;
+				if (chain == 2) {
+					if (led > 1) {
+						k -= CHAINS;
+					}
+					if (led > 2) {
+						k -= 3*CHAINS;
+					}
+				}
+
 				// gather color values per chain
 				switch(col) {
 				case 0:
-					sr[chain] = rgb[chain][led][1];
+					sr[chain] = rgb[k][1];
 					break;
 				case 1:
-					sr[chain] = rgb[chain][led][0];
+					sr[chain] = rgb[k][0];
 					break;
 				case 2:
-					sr[chain] = rgb[chain][led][2];
+					sr[chain] = rgb[k][2];
 					break;
 				}
 			}

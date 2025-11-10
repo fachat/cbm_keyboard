@@ -11,5 +11,5 @@
 #define PARS		1
 #define	COLSANDPARS	(COLS+PARS)
 
-
+#define	MAXLED		(CHAINS*LEDSPERCHAIN)
 
