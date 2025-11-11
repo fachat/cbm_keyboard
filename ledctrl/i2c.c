@@ -40,7 +40,12 @@ void i2c_sp_cmd() {
 
 	switch(rxbuf[0]) {
 	case SP_KEYPRESS:
-		kprog_set(rxbuf[1], LP_LINDECAY, pars);
+		//if (rxbuf[1] == 77) {	// SRQ key
+		if (rxbuf[1] == 74) {	// space key
+			kprog_set(rxbuf[1], KP_LOGO, pars);
+		} else {
+			kprog_set(rxbuf[1], KP_DILUTE, pars);
+		}
 		break;
 	default:
 		break;

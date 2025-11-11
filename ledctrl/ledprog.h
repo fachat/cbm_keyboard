@@ -9,6 +9,10 @@ enum {
 
 	// single command program
 	SP_KEYPRESS	= 64,	// just followed by the index to indicate a pressed key
+
+	// multi-key programs
+	KP_DILUTE	= 128,	// set initial value, then let it flow off 
+	KP_LOGO		= 129,	// C= logo on the keypad
 } progs_t;
 
 void prog_set(int k, int prog, char pars[COLSANDPARS]);

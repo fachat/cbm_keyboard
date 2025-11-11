@@ -27,7 +27,7 @@
  *	-
  */
 
-static unsigned char keyrels[MAXLED][6] = {
+static const unsigned char keyrels[MAXLED][6] = {
 	{  	-1,	8, 	16,	72,	65, 	-1	},	// 0 !
 	{	-1,	9,	17,	24,	8,	-1	},	// 1 #
 	{	-1,	10,	18,	25,	9,	-1	},	// 2 %
@@ -41,7 +41,7 @@ static unsigned char keyrels[MAXLED][6] = {
 	{	-1,	3,	26,	18,	2,	-1	},	// 10 '
 	{	-1,	4,	27,	19,	3,	-1	},	// 11 backslash
 	{	-1,	5,	28,	20,	4,	-1	},	// 12 )
-	{	-1,	74,	-1,	-1,	-1,	-1	},	// 13 ctrl
+	{	56,	74,	-1,	-1,	-1,	48	},	// 13 ctrl
 	{	-1,	7,	-1,	30,	6,	-1	},	// 14 crsr down
 	{	-1,	-1,	-1,	31,	7,	-1	},	// 15 del
 	{	8,	24,	32,	67,	72,	0	},	// 16 q
@@ -129,11 +129,44 @@ void kprog_setup() {
 	delcnt = 0;
 }
 
+
+static const unsigned char logo_white[] = {
+	7,14,22,38,54,78,71,
+	23,31
+};
+
+static const unsigned char logo_red[] = {
+	55,63
+};
+
+void kp_logo() {
+
+	unsigned char white[] = { 0,0,128, 0};
+	unsigned char red[] = { 128,0,0, 0};
+	
+	for (int i = 0; i < sizeof(logo_white); i++) {
+		prog_set(logo_white[i], LP_LINDECAY, white);
+	}
+	for (int i = 0; i < sizeof(logo_red); i++) {
+		prog_set(logo_red[i], LP_LINDECAY, red);
+	}
+}
+
+
 void kprog_set(int k, int prog, char pars[COLSANDPARS]) {
 	
-	kprog[k] = 1;
-	
-	prog_set(k, LP_LINDECAY, pars);
+
+	switch(prog) {
+	case KP_DILUTE:
+		kprog[k] = prog;
+		prog_set(k, LP_LINDECAY, pars);
+		break;
+	case KP_LOGO:	
+		kp_logo();
+		break;
+	default:
+		break;
+	}
 }
 
 void kp_dilute(int k, unsigned char src[COLSANDPARS], 
@@ -164,7 +197,7 @@ void kp_dilute_prog(int k) {
 
 	for (i = 0; i < 6; i++) {
 		if ((j = keyrels[k][i]) >= 0) {
-			kprog[j] = 1;
+			kprog[j] = KP_DILUTE;
 		}
 	}
 }
@@ -176,18 +209,23 @@ void kprog_advance() {
 		delcnt --;
 		return;
 	}
-	delcnt = 5;
+	delcnt = 6;
 	
 	memset(tmp, 0, MAXLED * COLSANDPARS * sizeof(unsigned char));
 	
 	for (int k = 0; k < MAXLED; k++) {
-		if (kprog[k]) {
+		switch (kprog[k]) {
+		case KP_DILUTE:
 			if (rgb[k][0] | rgb[k][1] | rgb[k][2]) {
 				// TODO switch on kprog
 				kp_dilute(k, rgb[k], tmp);
 			} else {
 				kprog[k] = 0;
 			}
+			break;
+		default:
+			kprog[k] = 0;
+			break;
 		}
 	}
 	for (int k = 0; k < MAXLED; k++) {
@@ -202,7 +240,7 @@ void kprog_advance() {
 
 		if (kprog[k]) {
 			// any color set?
-			prog_set(k, LP_LINDECAY, tmp[k]);
+			prog_set(k, LP_CONST, tmp[k]);
 		}
 	}
 }
