@@ -7,7 +7,8 @@
 #include "kbdhw.h"
 #include "map.h"
 
-unsigned char rowvals[16];
+unsigned char scanvals[16];
+static unsigned char rowvals[16];
 
 /*
  * Connection to the actual host
@@ -99,14 +100,17 @@ ISR( INT0_vect ) {
 }
 
 void check_res() {
+#if 0
 	// check RES
-	if (rowvals[9] & 0x20) {
+	if (rowvals[9] & 0x20) {	// CTRL key
 		// res low
 		PORTD &= 0xf7;
 	} else {
 		PORTD |= 0x08;
 	}
+#endif
 }
+
 
 void joy_scan() {
 	// prescaler 7 = 1/128 = 125kHz
@@ -127,19 +131,22 @@ void joy_scan() {
 		// high water we set to 0xc0
 		if (val < 0x40) {
 			// set crsr down
-			rowvals[1] |= 0x40;
+			scanvals[1] |= 0x40;
 			// set ">" 
-			//rowvals[8] |= 0x10;
+			//scanvals[8] |= 0x10;
 		} else
 		if (val > 0xc0) {
 			// set crsr up
-			rowvals[1] |= 0x40;
-			rowvals[8] |= 0x20;
+			scanvals[1] |= 0x40;
+			scanvals[8] |= 0x20;
 			// set "<" 
-			//rowvals[9] |= 0x08;
+			//scanvals[9] |= 0x08;
 		}
 	}	
-
 }
 
+void key_swap() {
+
+	memcpy(rowvals, scanvals, sizeof(rowvals));
+}
 

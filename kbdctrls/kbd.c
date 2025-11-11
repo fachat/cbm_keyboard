@@ -6,6 +6,7 @@
 
 #include "kbdhw.h"
 #include "i2c.h"
+#include "print.h"
 
 
 void main() {
@@ -19,8 +20,12 @@ void main() {
 
 	while (1) {
 		kbd_scan();
+		print_advance();
 		//joy_scan();
 		check_res();
+		print_advance();
+		key_swap();
+
 		_delay_ms(10);
 	}
 }

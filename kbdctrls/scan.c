@@ -7,7 +7,7 @@
 
 
 // output to the interrupt routine
-extern unsigned char rowvals[16];
+extern unsigned char scanvals[16];
 
 // raw values before mapping, to signal the right LEDs
 static unsigned char rawvals[16];
@@ -75,7 +75,7 @@ void kbd_scan() {
 		rvals[1] |= 0x20;
 	}
 
-	memcpy(rowvals, rvals, 16);
+	memcpy(scanvals, rvals, 16);
 
 	// find out which keys are new
 	for (int row = 0; row < 10; row++) {
