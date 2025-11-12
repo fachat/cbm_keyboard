@@ -150,3 +150,8 @@ void key_swap() {
 	memcpy(rowvals, scanvals, sizeof(rowvals));
 }
 
+void scan_clear() {
+
+	memset(scanvals, 0, sizeof(rowvals));
+}
+

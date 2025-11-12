@@ -1,4 +1,11 @@
 
+#include "map.h"
+
+static int map_enabled = 0;
+
+void map_enable(int enabled) {
+	map_enabled = enabled;
+}
 
 int map_key_slock(int idx, int *shift, int *ctrl) {
 
@@ -16,6 +23,7 @@ int map_key_slock(int idx, int *shift, int *ctrl) {
 
 int map_key_numbers(int idx, int *shift, int *ctrl) {
 
+	if (map_enabled == MAP_DIGITROW) 
 	switch (idx) {
 	case 0:	// '!'
 		if (*shift) {

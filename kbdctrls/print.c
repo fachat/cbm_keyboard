@@ -35,10 +35,22 @@ keyinfo_t ktab[] = {
 	{ 'x', 56 },
 	{ 'y', 26 },
 	{ 'z', 48 },
+	{ ' ', 74 },
+	{ 12, 53 },
+	{ '0', 70 },
+	{ '1', 54 },
+	{ '2', 62 },
+	{ '3', 55 },
+	{ '4', 38 },
+	{ '5', 46 },
+	{ '6', 39 },
+	{ '7', 22 },
+	{ '8', 30 },
+	{ '9', 23 },
 	{ 0, 0 },
 };
 
-static char *txtp = NULL;
+static const char *txtp = NULL;
 static int pos = 0;
 static int cnt = 0;
 static int trigger = 0;
@@ -49,7 +61,7 @@ void print_setup() {
 	cnt = 0;
 }
 
-void print_set(char *text) {
+void print_set(const char *text) {
 
 	txtp = text;
 	pos = 0;
@@ -58,6 +70,12 @@ void print_set(char *text) {
 
 static unsigned char print_char(char c) {
 	// find the actual key index from the (ascii) character
+	if (c & 128) {
+		// right shift
+		set_key_down(69);
+		c &= 127;
+	}
+
 	for (int i = 0; ktab[i].c; i++) {
 		if (ktab[i].c == c) {
 			return ktab[i].k;
@@ -68,29 +86,19 @@ static unsigned char print_char(char c) {
 
 void print_advance() {
 
-        // check RES                                 
-        if (scanvals[9] & 0x20) {        // CTRL key  
-		trigger = 1;
-        } else {
-		if (trigger) {
-			trigger = 0;
-			print_set("hello world");
-		}
-        }                                            
-
 	if (txtp) {
 		if (txtp[pos] == 0) {
 			txtp = NULL;
 			return;
 		}
 
-		if (cnt < 7) {
+		if (cnt < 2) {
 			set_key_down(print_char(txtp[pos]));
 			//set_key_down(27+pos);
 		}
 
 		cnt++;
-		if (cnt > 20) {
+		if (cnt > 3) {
 			cnt = 0;
 			pos++;
 		}

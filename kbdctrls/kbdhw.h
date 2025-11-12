@@ -46,3 +46,5 @@ void joy_scan();
 
 void key_swap();
 
+void scan_clear();
+
