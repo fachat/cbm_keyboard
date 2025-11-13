@@ -8,6 +8,8 @@
 #include "i2c.h"
 #include "print.h"
 #include "menu.h"
+#include "conf.h"
+#include "map.h"
 
 
 void main() {
@@ -20,8 +22,9 @@ void main() {
 
 	menu_setup();
 
-	// fake key for test
-	//rowvals[1] = 0x01;
+	// read config from eeprom
+	conf_setup();
+	map_enable(conf_get_map());
 
 	while (1) {
 

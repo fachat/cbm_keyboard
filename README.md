@@ -31,7 +31,66 @@ NOTE: In R3.0A you need to fix some things:
 
 In the current R3.0B these two fixes have been applied, but the actual PCB is not tested yet (and probably never will). A future 3.1 fix this for good.
 
-#### Supports for PCB
+### Programming the R3 PCB
+
+The R3 PCB has (optionally) two Atmega32a microcontrollers on board, that implement two functions:
+
+1. mapping keys between the keyboard and the host 
+2. controlling the LEDs.
+
+To program the Microcontrollers you need an AVR programming tool like the AVRisp MkII that I use, or similar, that can program via the SPI interface (plus Reset) on the 6 pin programming header (which exists separately for each of the two Microcontrollers)
+
+Both microcontrollers are connected to the I2C bus on the extended UPET keyboard interface.
+
+#### Functions of the keyboard controller
+
+Currently the keyboard controller maps the keys 1:1 from the keyboard matrix to the host keyboard interface.
+
+In addition it sends the pressed keys (hardware key index) via I2C to address 0x10 (which is the LED controller).
+
+Also, the keyboard mapping has these options:
+
+1. direct mapping - each key is directly mapped to the corresponding host key
+2. The top row of characters is remapped from the PET-N's characters (like $, %, etc) to the digits you'd normally expect in this place. The original chars are available with Shift, the originally shifted characters are available with Ctrl.
+
+Note that in the future more mappings may be implemented.
+
+Selection of the mapping is done by pressing the SRQ key a few seconds long. The keyboard will then send a menu text to the host that instructs the user how to switch the mapping.
+It is best if the menu is triggered e.g. on the BASIC prompt.
+
+The mapping is stored in the Atmega's EEPROM, and thus retained when the machine is switched off.
+
+#### Functions of the LED controller
+
+The LED controller listens on the I2C address 0x10 for commands.
+
+With these commands you can set the constant value of each key LED, but also trigger certain programs that involve either a single key, or multiple keys.
+For single keys you can let the colour slowly get dimmer until the LED is off, and then optionally restart with the original value.
+
+The DILUTE program tries to do a simulated flow of the colour from the given key to the surrounding keys. It is not as good and smooth as it could be as the 
+Atmega lacks memory to store the required precision of colour values.
+
+The LOGO just sends the logo onto the keypad, and then lets it decay.
+
+```
+        // single LED programs. Followed by index, three colours, and a parameter
+        LP_CONST        = 0,    // constant value, using the three parameters as RGB
+        LP_LINDECAY     = 1,    // linear decay (note may change hue while getting lower)
+        LP_LINDECAYLOOP = 2,    // linear decay with restart
+
+        // single command program
+        SP_KEYPRESS     = 64,   // just followed by the index to indicate a pressed key
+
+        // multi-key programs
+        KP_DILUTE       = 128,  // set initial value to given params, then let it flow off 
+        KP_LOGO         = 129,  // C= logo on the keypad
+```
+
+All commands except KEYPRESS expect the key index, three colours, and a parameter after the command, i.e. six bytes in total.
+KEYPRESS only has the index and thus requires only two bytes.
+
+
+### Supports for PCB
 
 The PCB needs some kind of support to be mounted into the PET or the Ulti-/Micro-PET cases.
 There are two versions for Steve's and my derived PCB, the first one for the extended

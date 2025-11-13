@@ -3,6 +3,7 @@
 #include "print.h"
 #include "map.h"
 #include "menu.h"
+#include "conf.h"
 
 enum {
 	MENU_INIT	= 0,
@@ -36,12 +37,16 @@ int p1_enter() {
 
 int p1_enabled() {
 	map_enable(MAP_DIGITROW);
+	conf_set_map(MAP_DIGITROW);
+	conf_commit();
 	print_set(msg_p1_enable);
 	return MENU_INIT;
 }
 
 int p1_disabled() {
 	map_enable(MAP_NONE);
+	conf_set_map(MAP_NONE);
+	conf_commit();
 	print_set(msg_p1_disable);
 	return MENU_INIT;
 }
