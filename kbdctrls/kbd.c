@@ -29,7 +29,7 @@ void main() {
 	while (1) {
 
 		kbd_scan();
-#if 0
+
 		//joy_scan();
 		check_res();
 
@@ -40,7 +40,7 @@ void main() {
 
 		// print output to host
 		print_advance();
-#endif
+
 		// copy over the input to the host
 		key_swap();
 
