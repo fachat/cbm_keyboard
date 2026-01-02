@@ -36,11 +36,11 @@ static inline void set_key_up(int idx) {
 	scanvals[idx/8] &= 255 - (1<< (idx%8));
 }
 
+void set_reset(int reset);
+
 void host_setup();
 
-void kbd_scan();
-
-void check_res();
+void kbd_scan(int *reset);
 
 void joy_scan();
 

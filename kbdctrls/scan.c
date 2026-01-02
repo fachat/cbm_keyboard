@@ -1,6 +1,7 @@
 
 #include <string.h>
 
+#include "scan.h"
 #include "kbdhw.h"
 #include "map.h"
 #include "i2c.h"
@@ -14,15 +15,43 @@ static unsigned char rawvals[16];
 
 static unsigned char pot2[] = { 1, 2, 4, 8, 16, 32, 64, 128 };
 
-static inline int fix_row(int row) {
-	return row ? row - 1 : 9;
-}
 
 static inline int fix_row_rev(int row) {
 	return row != 9 ? row + 1 : 0;
 }
 
-void kbd_scan() {
+static void check_res(int slock, int *reset) {
+        static int count = 0;
+
+        // check RES
+        if (slock) {        // SHIFT LOCK key
+                count ++;
+                if (count > 200) {
+                        // res low
+                        *reset = 1;
+                }
+        } else {
+                count = 0;
+                *reset = 0;
+        }
+}
+
+static void handle_slock(int slock, int *shift) {
+	static int lock = 0;
+	static int locklock = 0;
+
+	if (slock && (locklock == 0)) {
+		lock = 1-lock;
+		locklock = 1;
+		i2c_send_slock(67, lock);
+	} else
+	if (slock == 0) {
+		locklock = 0;
+	}
+	*shift |= lock;
+}
+
+void kbd_scan(int *reset) {
 	unsigned char rvals[16];
 	unsigned char hvals[16];
 	memset(rvals, 0, 16);
@@ -36,6 +65,10 @@ void kbd_scan() {
 	int ctrl = kbd_read(fix_row_rev(1)) & 0x20;
 	int origshift = shift;
 	int origctrl = ctrl;
+
+	int slock = kbd_read(fix_row_rev(8)) & 0x08;
+	check_res(slock, reset);
+	handle_slock(slock, &shift);
 
 	for (int row = 0; row < 16; row++) {
 
@@ -52,7 +85,7 @@ void kbd_scan() {
 
 			if (v & m) {
 				// key is set
-				newidx = map_key(idx, &shift, &ctrl);
+				newidx = map_key(idx, &shift, &ctrl, reset);
 				rvals[newidx >> 3] |= pot2[newidx & 7];
 			}
 			idx++;

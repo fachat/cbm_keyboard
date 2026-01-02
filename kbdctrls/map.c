@@ -7,7 +7,7 @@ void map_enable(int enabled) {
 	map_enabled = enabled;
 }
 
-int map_key_slock(int idx, int *shift, int *ctrl) {
+static int map_key_slock(int idx, int *shift, int *ctrl) {
 
 	if (idx == 67) {
 		// new shift lock
@@ -21,7 +21,7 @@ int map_key_slock(int idx, int *shift, int *ctrl) {
  * standard map
  */
 
-int map_key_numbers(int idx, int *shift, int *ctrl) {
+static int map_key_numbers(int idx, int *shift, int *ctrl) {
 
 	if (map_enabled == MAP_DIGITROW) 
 	switch (idx) {
@@ -139,8 +139,7 @@ int map_key_numbers(int idx, int *shift, int *ctrl) {
 	return idx;
 }
 
-
-int map_key(int idx, int *shift, int *ctrl) {
+int map_key(int idx, int *shift, int *ctrl, int *reset) {
 	idx = map_key_slock(idx, shift, ctrl);
 	idx = map_key_numbers(idx, shift, ctrl);
 	return idx;

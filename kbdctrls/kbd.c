@@ -13,6 +13,7 @@
 
 
 void main() {
+	int reset = 0;
 
 	i2c_setup(0x10);
 
@@ -28,10 +29,11 @@ void main() {
 
 	while (1) {
 
-		kbd_scan();
+		kbd_scan(&reset);
+
+		set_reset(reset);
 
 		//joy_scan();
-		check_res();
 
 		if (menu_advance()) {
 			// menu has taken over, so no output to host

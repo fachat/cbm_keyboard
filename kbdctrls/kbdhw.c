@@ -99,19 +99,21 @@ ISR( INT0_vect ) {
 	//PORTD ^= 0x01;
 }
 
-void check_res() {
-#if 0
-	// check RES
-	if (rowvals[9] & 0x20) {	// CTRL key
+/*
+ * set the RES line active to reset the host
+ */
+void set_reset(int reset) {
+	if (reset) {
 		// res low
 		PORTD &= 0xf7;
 	} else {
 		PORTD |= 0x08;
 	}
-#endif
 }
 
-
+/*
+ * scan the joystick
+ */
 void joy_scan() {
 	// prescaler 7 = 1/128 = 125kHz
 	ADCSRA = 0x87;

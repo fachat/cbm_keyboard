@@ -53,6 +53,7 @@ void i2c_setup(int addr) {
 
 static int i2c_send_int() {
 
+cli();
 	TWCR 	= (1<<TWINT) | (1<<TWSTA) | (1<<TWEN);
 	
 	if (i2c_wait()) {
@@ -85,7 +86,7 @@ static int i2c_send_int() {
 			return -1;
 		}
 	}
-
+sei();
 	return 0;
 }
 
@@ -94,6 +95,26 @@ int i2c_send(int idx) {
 	txbuf[0] = 64;	//SP_KEYPRESS
 	txbuf[1] = idx;
 	txlen = 2;
+
+	_delay_ms(1);
+
+	i2c_send_int();
+
+
+	TWCR = (1<<TWINT) | (1<<TWEN) | (1<<TWSTO);
+
+	//i2c_wait();
+}
+
+int i2c_send_slock(int idx, int slock) {
+
+	txbuf[0] = 0;	//SP_CONST
+	txbuf[1] = idx;
+	txbuf[2] = slock ? 255 : 0;
+	txbuf[3] = 0;	
+	txbuf[4] = 0;	
+	txbuf[5] = 0;	
+	txlen = 6;
 
 	_delay_ms(1);
 
