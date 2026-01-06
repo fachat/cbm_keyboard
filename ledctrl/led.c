@@ -29,8 +29,8 @@ void main() {
 	prog_set(1, LP_LINDECAYLOOP, (char[]){ 0,100,100, 0});
 	prog_set(2, LP_LINDECAYLOOP, (char[]){ 100,100,0, 0});
 	prog_set(3, LP_CONST, (char[]){ 128,0,0, 0});
+	kprog_set(64, KP_DILUTE, (char[]){ 128,0,0, 0});
 #endif
-	kprog_set(3, LP_CONST, (char[]){ 128,0,0, 0});
 
 	while (1) {
 

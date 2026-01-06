@@ -15,10 +15,13 @@
 #define	LP_CMDLEN		6
 #define	SP_CMDLEN		2
 
-static char rxbuf[LP_CMDLEN];
+static unsigned char rxbuf[LP_CMDLEN];
 static int rxp;
+static int active = 0;
 
 void i2c_setup(int addr) {
+
+	active = 0;
 
 	// enable pullups
 	PORTC	= 3;	
@@ -33,10 +36,17 @@ void i2c_setup(int addr) {
 void i2c_lp_cmd() {
 
 	prog_set(rxbuf[1], rxbuf[0], rxbuf+2);
+#if 0
+	if (rxbuf[0] < 128) {
+		prog_set(rxbuf[1], rxbuf[0], rxbuf+2);
+	} else {
+		prog_set(rxbuf[1], rxbuf[0], rxbuf+2);
+	}
+#endif
 }
 
 void i2c_sp_cmd() {
-	char pars[] = { 128,128,128,0 };
+	char pars[] = { 128,128,128,2 };
 
 	switch(rxbuf[0]) {
 	case SP_KEYPRESS:
@@ -52,14 +62,22 @@ void i2c_sp_cmd() {
 	}
 }
 
+static int i2c_handle_start() {
+	rxp = 0;
+	return 1;
+}
+
 int i2c_handle_rx(unsigned char byt) {
 	rxbuf[rxp] = byt;
 	rxp++;
 
+	// first byte determines packet length
 	int maxlen = LP_CMDLEN;
 	if (rxbuf[0] == SP_KEYPRESS) {
 		maxlen = SP_CMDLEN;
 	}
+
+	// handle data
 	if (rxp >= maxlen) {
 		if (rxbuf[0] == SP_KEYPRESS) {
 			//rxbuf[1] = 79 - rxbuf[1];
@@ -74,7 +92,6 @@ int i2c_handle_rx(unsigned char byt) {
 	return 1;
 }
 
-static int active = 0;
 
 int i2c_check() {
 
@@ -88,9 +105,7 @@ int i2c_check() {
 		case 0x60:
 		case 0x68:
 			// write to own address rx'd and ACK'd
-			rxp = 0;
-			TWCR 	= (1<<TWEN) | (1<<TWEA) | (1<<TWINT); 
-			active = 1;
+			active = i2c_handle_start();
 			break;
 		case 0xA8:
 		case 0xB0:
@@ -105,17 +120,21 @@ int i2c_check() {
 		case 0x80:
 		case 0x88:
 			// data byte received and ACK'd
-			active = i2c_handle_rx(TWDR);
-			TWCR 	= (1<<TWEN) | (1<<TWEA) | (1<<TWINT); 
+			if (active) {
+				active = i2c_handle_rx(TWDR);
+			}
 			if (stat == 0x90 || stat == 0x98) {
 				active = 0;
 			}
 			break;
 		case 0xa0:
 			// STOP / repeated START
-			TWCR |= (1<<TWINT);
+			active = 0;
+			break;
+		default:
 			break;
 		}
+		TWCR 	= (1<<TWEN) | (1<<TWEA) | (1<<TWINT); 
 	}
 	return active;
 }

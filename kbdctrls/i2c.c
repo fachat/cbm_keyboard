@@ -23,10 +23,10 @@ static inline int i2c_wait() {
 	uint32_t c = 0;
 	while (!(TWCR & (1<<TWINT)))
 	{
-//		c++;
-//		if (c > 100000) {
-//			return -1;
-//		}
+		c++;
+		if (c > 100000) {
+			return -1;
+		}
 	}
 	return 0;
 }

@@ -34,16 +34,16 @@ void lp_init_cols(int key, char pars[COLSANDPARS]) {
 void prog_set(int k, int prog, char pars[COLSANDPARS]) {
 	int chain, led;
 
-	progs[k] = prog;
-	for (int i = 0; i < COLSANDPARS; i++) {	
-		par[k][i] = pars[i];
-	}
 
 	switch(prog) {
 	case LP_CONST:
 	case LP_LINDECAY:
 	case LP_LINDECAYLOOP:
 		// set LED colour to initial par value
+		progs[k] = prog;
+		for (int i = 0; i < COLSANDPARS; i++) {	
+			par[k][i] = pars[i];
+		}
 		lp_init_cols(k, pars);
 		break;
 	}
