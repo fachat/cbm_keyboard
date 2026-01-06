@@ -35,12 +35,13 @@ void i2c_setup(int addr) {
 
 void i2c_lp_cmd() {
 
-	prog_set(rxbuf[1], rxbuf[0], rxbuf+2);
 #if 0
+	prog_set(rxbuf[1], rxbuf[0], rxbuf+2);
+#else
 	if (rxbuf[0] < 128) {
 		prog_set(rxbuf[1], rxbuf[0], rxbuf+2);
 	} else {
-		prog_set(rxbuf[1], rxbuf[0], rxbuf+2);
+		kprog_set(rxbuf[1], rxbuf[0], rxbuf+2);
 	}
 #endif
 }
