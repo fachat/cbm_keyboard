@@ -1514,6 +1514,10 @@
     [
       "6e2ccdbf-53c4-4588-b1e1-a06c6f77deee",
       "joystick"
+    ],
+    [
+      "ec43c8d3-5460-4a1b-a32f-0e2b09b685ff",
+      "connector"
     ]
   ],
   "text_variables": {}

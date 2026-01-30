@@ -459,21 +459,21 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "CBM-KEYB-PETN-3.0A-20251014"
+	(text "CBM-KEYB-PETN-3.1A-20260130"
 		(exclude_from_sim no)
-		(at 230.886 172.72 0)
+		(at 229.87 175.26 0)
 		(effects
 			(font
-				(size 4 4)
+				(size 3.048 3.048)
 				(thickness 0.9)
 				(bold yes)
 			)
 		)
-		(uuid "5d80c9bb-91a9-476a-a8c2-1bf3cf5dae07")
+		(uuid "bd827d0e-056a-4a83-8c19-886c6c54fa56")
 	)
-	(text "(C) 2020,2021 Steve J. Gray\n(C) 2025 André Fachat"
+	(text "(C) 2020, 2021 Steve J. Gray\n(C) 2025, 2026 André Fachat"
 		(exclude_from_sim no)
-		(at 249.682 181.61 0)
+		(at 248.666 184.15 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -481,7 +481,7 @@
 				(bold yes)
 			)
 		)
-		(uuid "728820dd-d676-4d47-9692-3730adfa5fd5")
+		(uuid "c90d3a4e-7d1d-4ba1-bd1f-954729f09b80")
 	)
 	(junction
 		(at 125.73 115.57)

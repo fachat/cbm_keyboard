@@ -13,10 +13,10 @@
 	(lib_symbols)
 	(text "1. Original:\n   No ICs/LEDs/Capacitors/Oscillator\n   Use original single row 20pin connector\n   Solder Jumpers JP1, JP2, and JC1..JC8\n\n2. Full uPET with key scanner and LEDs:\n   All SMD parts (ICs, capacitors, LEDs, ...)\n   Use 20pin IDC (2row) connector\n   Requires 3.3V and 5V supply and I2C for control\n\n3. IDC connector without key scanner/LEDs\n   Only use U7 (4-to-10 mapper), C9, C33\n   Use 20pin IDC (2row) connector\n   Requires 5V power supply only\n   Solder Jumpers JC1..JC8"
 		(exclude_from_sim no)
-		(at 33.782 115.57 0)
+		(at 28.575 105.41 0)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.54 2.54)
 				(thickness 0.6)
 				(bold yes)
 			)
@@ -37,22 +37,22 @@
 	)
 	(text "All SMD parts are mounted on the back side\nof the PCB, so you can order them fully assembled\n(except for the keys/joystick).\nLEDs need to be mounted flipped, so they shine\nthrough the holes in the board"
 		(exclude_from_sim no)
-		(at 33.528 181.356 0)
+		(at 31.115 173.355 0)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.54 2.54)
 				(thickness 0.375)
 			)
 			(justify left)
 		)
 		(uuid "3b7709b8-3a1b-48e6-8fda-4e587123b164")
 	)
-	(text "Commodore PET N-type keyboard re-creation with 3 additional, optional features:\n- LED lights per key (controllable by I2C)\n- Keyboard re-mapping (controllable by I2C)\n- New, simpler to use 20-pin IDC connector"
+	(text "Commodore PET N-type keyboard re-creation with 4 additional, optional features:\n- LED lights per key (controllable by I2C)\n- Keyboard re-mapping (controllable by I2C)\n- New, simpler to use 20-pin IDC connector\n- Diodes to avoid mirroring"
 		(exclude_from_sim no)
-		(at 33.274 46.736 0)
+		(at 27.94 38.735 0)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.54 2.54)
 				(thickness 0.6)
 				(bold yes)
 			)
@@ -62,10 +62,10 @@
 	)
 	(text "Assembly Options:"
 		(exclude_from_sim no)
-		(at 33.274 70.358 0)
+		(at 29.21 67.31 0)
 		(effects
 			(font
-				(size 6 6)
+				(size 5.08 5.08)
 				(thickness 1.2)
 				(bold yes)
 			)
@@ -73,7 +73,20 @@
 		)
 		(uuid "5ff403e4-db50-4e91-9042-affaa4c29fa4")
 	)
-	(text "(C) 2020,2021 Steve J. Gray\n(C) 2025 André Fachat"
+	(text "RELEASES:\n* N-V1-R1 PCB Submitted 2020-12-18\n* N-V1-R2 PCB Updated 2021-03-31 \n* N-V3-R1 PCB Submitted 2025-10-11\n* PETN-3.1A 2026-01-30"
+		(exclude_from_sim no)
+		(at 133.35 76.2 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+				(thickness 0.4013)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "7535b9c7-fcf7-40d5-9831-86937639d0e3")
+	)
+	(text "(C) 2020, 2021 Steve J. Gray\n(C) 2025, 2026 André Fachat"
 		(exclude_from_sim no)
 		(at 248.92 182.118 0)
 		(effects
@@ -85,9 +98,20 @@
 		)
 		(uuid "8ba7a6da-1130-4faa-b4f5-26e54e9a4934")
 	)
+	(text "R4: 1U x 14\nR3: 1.5U, 1U x 13\nR2: 1.5U, 1U x 11, 1.5U\nR1: 2U, 1U x 10, 2U\nR1: 9U (spacebar)\n* Bottom 2 Rows have\n   same profile on modern\n   keycaps"
+		(exclude_from_sim no)
+		(at 213.36 69.215 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac0cc088-d1dc-43bc-b90d-a53294c24578")
+	)
 	(text "Assembly Hints:"
 		(exclude_from_sim no)
-		(at 33.528 162.814 0)
+		(at 30.48 154.305 0)
 		(effects
 			(font
 				(size 4 4)
@@ -99,10 +123,10 @@
 	)
 	(text "Commodore PET N-type Keyboard"
 		(exclude_from_sim no)
-		(at 32.512 27.94 0)
+		(at 27.94 21.59 0)
 		(effects
 			(font
-				(size 6 6)
+				(size 5.08 5.08)
 				(thickness 1.2)
 				(bold yes)
 			)
@@ -110,12 +134,23 @@
 		)
 		(uuid "d0de45b1-dfbc-489f-8a15-be1c13dc6ff7")
 	)
-	(text "CBM-KEYB-PETN-3.0B-20251102"
+	(text "Standard \"N\" layout with the following changes:\n- SPACEBAR now 6.25U. Two keys added beside it.\n- SHIFTLOCK is configurable\n- Jumpers to make extra keys work as SPACEBAR or Alternate\n"
+		(exclude_from_sim no)
+		(at 207.01 30.48 0)
+		(effects
+			(font
+				(size 1.5494 1.5494)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5f1cd80-6d8a-4b77-b8fa-a9d8338a4843")
+	)
+	(text "CBM-KEYB-PETN-3.1A-20260130"
 		(exclude_from_sim no)
 		(at 230.124 173.228 0)
 		(effects
 			(font
-				(size 4 4)
+				(size 3.048 3.048)
 				(thickness 0.9)
 				(bold yes)
 			)
@@ -131,56 +166,6 @@
 			(type default)
 		)
 		(uuid "010e3562-0e99-41e0-9f9f-5ec8cc06dc04")
-	)
-	(polyline
-		(pts
-			(xy 28.575 149.225) (xy 140.97 149.225)
-		)
-		(stroke
-			(width 1)
-			(type solid)
-		)
-		(uuid "04d76c7b-3fc4-41b1-b20d-976983a44476")
-	)
-	(polyline
-		(pts
-			(xy 29.21 129.54) (xy 141.605 129.54)
-		)
-		(stroke
-			(width 1)
-			(type solid)
-		)
-		(uuid "179209fb-58d1-4e08-88fe-9f6d962ab9da")
-	)
-	(polyline
-		(pts
-			(xy 28.575 134.62) (xy 140.97 134.62)
-		)
-		(stroke
-			(width 1)
-			(type solid)
-		)
-		(uuid "71eb9c71-2258-4006-9fee-8dbd7e27578e")
-	)
-	(polyline
-		(pts
-			(xy 28.575 144.145) (xy 140.97 144.145)
-		)
-		(stroke
-			(width 1)
-			(type solid)
-		)
-		(uuid "db3f37fe-eaf8-4604-a67c-7e325dff4666")
-	)
-	(polyline
-		(pts
-			(xy 28.575 139.7) (xy 140.97 139.7)
-		)
-		(stroke
-			(width 1)
-			(type solid)
-		)
-		(uuid "dc19a1cd-c9e1-4089-abf6-4f1f691b8236")
 	)
 	(sheet
 		(at 185.42 97.79)
@@ -388,6 +373,48 @@
 			(project "petkn"
 				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 255.905 122.555)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ec43c8d3-5460-4a1b-a32f-0e2b09b685ff")
+		(property "Sheetname" "connector"
+			(at 255.905 121.8434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector.kicad_sch"
+			(at 255.905 130.7596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd"
+					(page "7")
 				)
 			)
 		)
