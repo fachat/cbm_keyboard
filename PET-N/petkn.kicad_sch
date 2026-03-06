@@ -13,7 +13,7 @@
 	(lib_symbols)
 	(text "1. Original:\n   No ICs/LEDs/Capacitors/Oscillator\n   Use original single row 20pin connector\n   Solder Jumpers JP1, JP2, and JC1..JC8\n\n2. Full uPET with key scanner and LEDs:\n   All SMD parts (ICs, capacitors, LEDs, ...)\n   Use 20pin IDC (2row) connector\n   Requires 3.3V and 5V supply and I2C for control\n\n3. IDC connector without key scanner/LEDs\n   Only use U7 (4-to-10 mapper), C9, C33\n   Use 20pin IDC (2row) connector\n   Requires 5V power supply only\n   Solder Jumpers JC1..JC8"
 		(exclude_from_sim no)
-		(at 28.575 105.41 0)
+		(at 29.21 106.68 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -37,7 +37,7 @@
 	)
 	(text "All SMD parts are mounted on the back side\nof the PCB, so you can order them fully assembled\n(except for the keys/joystick).\nLEDs need to be mounted flipped, so they shine\nthrough the holes in the board"
 		(exclude_from_sim no)
-		(at 31.115 173.355 0)
+		(at 29.845 182.245 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -47,7 +47,7 @@
 		)
 		(uuid "3b7709b8-3a1b-48e6-8fda-4e587123b164")
 	)
-	(text "Commodore PET N-type keyboard re-creation with 4 additional, optional features:\n- LED lights per key (controllable by I2C)\n- Keyboard re-mapping (controllable by I2C)\n- New, simpler to use 20-pin IDC connector\n- Diodes to avoid mirroring"
+	(text "Commodore PET N-type keyboard re-creation with additional, optional features:\n- LED lights per key (controllable by I2C)\n- Keyboard re-mapping (controllable by I2C)\n- New, simpler to use 20-pin IDC connector\n- Diodes to avoid mirroring"
 		(exclude_from_sim no)
 		(at 27.94 38.735 0)
 		(effects
@@ -111,7 +111,7 @@
 	)
 	(text "Assembly Hints:"
 		(exclude_from_sim no)
-		(at 30.48 154.305 0)
+		(at 29.21 163.195 0)
 		(effects
 			(font
 				(size 4 4)

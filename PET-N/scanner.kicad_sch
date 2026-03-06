@@ -3259,6 +3259,12 @@
 		(uuid "d6c6ef4d-1d84-4eab-9fc8-f8c4e14f6791")
 	)
 	(junction
+		(at 208.28 159.385)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcbd20d1-29da-46e9-8821-1f5a1410917a")
+	)
+	(junction
 		(at 247.65 36.195)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3269,16 +3275,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f03580d4-6ddc-4cf6-b809-b9c14b33aaa5")
-	)
-	(wire
-		(pts
-			(xy 144.78 81.915) (xy 148.59 81.915)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03f61632-c280-43fc-a662-f5e0cdb01179")
 	)
 	(wire
 		(pts
@@ -3622,6 +3618,16 @@
 	)
 	(wire
 		(pts
+			(xy 188.595 154.305) (xy 191.77 154.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31706d99-3936-4e25-9072-f1656b6a982e")
+	)
+	(wire
+		(pts
 			(xy 66.04 131.445) (xy 63.5 131.445)
 		)
 		(stroke
@@ -3722,6 +3728,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 159.385) (xy 208.28 161.925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eca0d08-7036-41ae-aa7b-b1cb07d33afe")
+	)
+	(wire
+		(pts
 			(xy 87.63 62.865) (xy 105.41 62.865)
 		)
 		(stroke
@@ -3739,6 +3755,16 @@
 			(type default)
 		)
 		(uuid "42720c09-2340-4064-8787-4bc0c692e3fc")
+	)
+	(wire
+		(pts
+			(xy 208.28 154.305) (xy 208.28 159.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "428309e3-8fc4-47ac-b598-a06b5b2cdb18")
 	)
 	(wire
 		(pts
@@ -3779,6 +3805,16 @@
 			(type default)
 		)
 		(uuid "46701443-ff28-44ff-8588-e1fb57583b42")
+	)
+	(wire
+		(pts
+			(xy 188.595 147.955) (xy 188.595 154.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "469c766b-2e29-4f9f-bbb0-ba755821eb18")
 	)
 	(wire
 		(pts
@@ -4592,7 +4628,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 81.915) (xy 206.375 81.915)
+			(xy 161.925 83.185) (xy 206.375 83.185)
 		)
 		(stroke
 			(width 0)
@@ -4652,7 +4688,7 @@
 	)
 	(wire
 		(pts
-			(xy 206.375 81.915) (xy 206.375 66.675)
+			(xy 206.375 83.185) (xy 206.375 66.675)
 		)
 		(stroke
 			(width 0)
@@ -4732,6 +4768,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 147.955) (xy 188.595 147.955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba062047-1280-487c-a94c-809572766b91")
+	)
+	(wire
+		(pts
 			(xy 248.92 45.085) (xy 246.38 45.085)
 		)
 		(stroke
@@ -4739,16 +4785,6 @@
 			(type default)
 		)
 		(uuid "bc9bb04c-2e2f-405d-99f4-8cd4199918f0")
-	)
-	(wire
-		(pts
-			(xy 208.28 147.955) (xy 184.15 147.955)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bccec1c5-6dbc-4bc4-922d-025876929a61")
 	)
 	(wire
 		(pts
@@ -4902,6 +4938,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 154.305) (xy 208.28 154.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d142deea-009d-4509-b0d2-6e1187c7bce5")
+	)
+	(wire
+		(pts
 			(xy 35.56 57.785) (xy 35.56 29.845)
 		)
 		(stroke
@@ -4929,16 +4975,6 @@
 			(type default)
 		)
 		(uuid "d556d709-c633-4fd0-b07a-efccf6dd753e")
-	)
-	(wire
-		(pts
-			(xy 208.28 161.925) (xy 208.28 147.955)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5a4d07e-9477-4100-919a-4e3d3c8628a9")
 	)
 	(wire
 		(pts
@@ -5139,6 +5175,16 @@
 			(type default)
 		)
 		(uuid "e4357e44-360f-4b85-9b78-978185ffaccd")
+	)
+	(wire
+		(pts
+			(xy 198.12 159.385) (xy 208.28 159.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b94c0f-80c3-4916-804d-8dabcab2ab35")
 	)
 	(wire
 		(pts
@@ -5480,6 +5526,28 @@
 			)
 		)
 	)
+	(global_label "{slash}RESSCAN"
+		(shape input)
+		(at 198.12 159.385 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2bc6e7e4-77c9-416b-ab42-b8968e068ec7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.9314 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 200.66 94.615 180)
@@ -5788,9 +5856,9 @@
 			)
 		)
 	)
-	(global_label "{slash}RES"
-		(shape input)
-		(at 144.78 81.915 180)
+	(global_label "{slash}RESOUT"
+		(shape output)
+		(at 161.925 83.185 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5800,7 +5868,7 @@
 		)
 		(uuid "7d30aa8f-eb0d-44f3-93fd-1b8708ad6467")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.49 81.915 0)
+			(at 151.0064 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6698,6 +6766,74 @@
 			(project "petkn"
 				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/517ec251-9cce-431a-9802-232702808e0f"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4448")
+		(at 195.58 154.305 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c733b0d-a6a9-4498-b19e-e8e5a90eaca0")
+		(property "Reference" "D78"
+			(at 195.58 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4448"
+			(at 195.58 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 195.58 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4448TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 195.58 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 195.58 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f1a1104-0c79-4acd-a1a7-b3ce6c8c8bd7")
+		)
+		(pin "2"
+			(uuid "e11e5510-174a-43bb-b82f-90a71278bdba")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/517ec251-9cce-431a-9802-232702808e0f"
+					(reference "D78")
 					(unit 1)
 				)
 			)
@@ -8718,74 +8854,6 @@
 			(project "petkn"
 				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/517ec251-9cce-431a-9802-232702808e0f"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Diode_AKL:1N4448")
-		(at 152.4 81.915 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa6be613-4d72-4303-948f-b1c6765f4494")
-		(property "Reference" "D1"
-			(at 152.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4448"
-			(at 152.4 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 152.4 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.octopart.com/1N4448TR-ON-Semiconductor-datasheet-42765246.pdf"
-			(at 152.4 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 152.4 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0f39ccf-7a8d-4a70-8949-ea8587785733")
-		)
-		(pin "2"
-			(uuid "95308e2b-bc44-4086-9699-3e51daf33fde")
-		)
-		(instances
-			(project ""
-				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/517ec251-9cce-431a-9802-232702808e0f"
-					(reference "D1")
 					(unit 1)
 				)
 			)

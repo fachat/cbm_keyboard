@@ -1572,6 +1572,232 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_Diode_AKL:1N4448"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4448"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.octopart.com/1N4448TR-ON-Semiconductor-datasheet-42765246.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode 1N4448"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4448_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4448_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 1.778 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4448_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "1N4448_1_2"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 0)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "csa_petio_v1-eagle-import:LSF0204Q"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2320,6 +2546,12 @@
 		(uuid "9b4dafab-4fb7-42c9-98cb-17a826e383f2")
 	)
 	(junction
+		(at 95.25 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1e899f7-88a1-4d5a-b7a6-7adca9066a25")
+	)
+	(junction
 		(at 256.54 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2491,7 +2723,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 191.135) (xy 95.25 177.165)
+			(xy 95.25 191.135) (xy 95.25 184.15)
 		)
 		(stroke
 			(width 0)
@@ -2811,6 +3043,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.725 184.15) (xy 95.25 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b8a7cc-ed6b-45cf-98b5-44928a996f16")
+	)
+	(wire
+		(pts
 			(xy 234.95 106.68) (xy 256.54 106.68)
 		)
 		(stroke
@@ -2901,16 +3143,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 177.165) (xy 71.12 177.165)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "338a890d-b6c1-43e6-9b4d-af41ad08bb9e")
-	)
-	(wire
-		(pts
 			(xy 265.43 109.22) (xy 270.51 109.22)
 		)
 		(stroke
@@ -2998,6 +3230,16 @@
 			(type default)
 		)
 		(uuid "40a8707e-0273-44c9-9b20-670919314fa9")
+	)
+	(wire
+		(pts
+			(xy 93.98 177.165) (xy 95.25 177.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "424a98eb-4fd4-47f5-90ee-2fc1fbca4cea")
 	)
 	(wire
 		(pts
@@ -3361,6 +3603,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 177.165) (xy 86.36 177.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e32643-98f9-46ea-b74e-748c061e701c")
+	)
+	(wire
+		(pts
 			(xy 180.34 44.45) (xy 193.04 44.45)
 		)
 		(stroke
@@ -3578,6 +3830,16 @@
 			(type default)
 		)
 		(uuid "b2aed789-4d89-494a-a0bb-e17b8b2c6b8f")
+	)
+	(wire
+		(pts
+			(xy 95.25 184.15) (xy 95.25 177.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7166b5f-7930-4ae1-8376-3a587f617382")
 	)
 	(wire
 		(pts
@@ -4406,6 +4668,28 @@
 		(uuid "c68fd947-04fd-4781-9050-033a19b8e39b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 81.1372 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{slash}RESLED"
+		(shape input)
+		(at 85.725 184.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c696ff5e-cead-44bb-88cb-aaf84e0faa01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.9879 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6049,6 +6333,74 @@
 			(project "petkn"
 				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4448")
+		(at 90.17 177.165 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9afe9786-2570-41fe-8481-59b70a0d22ef")
+		(property "Reference" "D79"
+			(at 90.17 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4448"
+			(at 90.17 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 90.17 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.octopart.com/1N4448TR-ON-Semiconductor-datasheet-42765246.pdf"
+			(at 90.17 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 90.17 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94a19b3f-1381-44b8-b4bd-8af9c8cf1e51")
+		)
+		(pin "2"
+			(uuid "856b5ec3-ed03-4cfd-b4c7-3c1f55768642")
+		)
+		(instances
+			(project "petkn"
+				(path "/a0727808-af70-4056-b2ee-ab828c2acfbd/a39429aa-8c2f-45e6-a7a0-8f38ed5853cf"
+					(reference "D79")
 					(unit 1)
 				)
 			)
