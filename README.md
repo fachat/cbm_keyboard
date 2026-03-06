@@ -169,9 +169,9 @@ not break away when printing.
 
 For your convenience there is an open project at PCBWay to print the key caps, see the links.
 
-* [Keycaps for resin printing](https://www.tinkercad.com/things/5lsn5LsNa8Z-commodore-pet-caps-for-n-keyboard-m3-resin)
-* [Master file for keycaps](https://www.tinkercad.com/things/d6KLWAxGR4K-master-commodore-pet-caps-for-n-keyboard)
-* [Open project at PCBWay 3D printing](https://www.pcbway.com/project/shareproject/Commodore_PET_N_type_keycaps_c1c2d1a0.html)
+* [Keycaps for resin printing](https://www.tinkercad.com/things/7a94wJbLJPW-commodore-pet-caps-for-n-type-ulti-keyboard-resin?sharecode=oM7332wY6SwB6DUj0fZoZttCZ-khZDpZEqtmBmInKJo)
+* [Master file for keycaps](https://www.tinkercad.com/things/clKxMCUccgg-master-commodore-pet-caps-for-n-ulti-keyboard-support-cuts)
+[//] # * [Open project at PCBWay 3D printing](https://www.pcbway.com/project/shareproject/Commodore_PET_N_type_keycaps_c1c2d1a0.html)
 
 ### Switches
 
