@@ -1,6 +1,6 @@
 #!/bin/sh
 
-awk -F , ' 
+LC_NUMERIC=C awk -F , ' 
 /^SW21/ { print $1 ",," $4 "," $5-0.1 "," $6-4.9 "," $7 ",bottom"; next }
 /^SW6,/ { print $1 "," $2 "," $3 "," $4-0.1 "," $5-3.96 "," $6 ",bottom"; next }
 /^SW11/ { print $1 "," $2 "," $3 "," $4-0.1 "," $5-3.97 "," $6 ",bottom"; next }
