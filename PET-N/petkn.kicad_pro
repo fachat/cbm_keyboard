@@ -855,26 +855,6 @@
         [
           "copper_edge_clearance|97343800|84690500|22496ffe-ad44-41ca-a342-4f322f1c3ae0|4a9fb80d-5ae7-416a-b659-5f7d7b22c729",
           ""
-        ],
-        [
-          "starved_thermal|211244800|122340500|dbe6753b-9386-4b8a-854f-99b67868e43e|5c03995d-947d-4192-82fb-1c52e79d7eb7|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|237406800|141390500|dbe6753b-9386-4b8a-854f-99b67868e43e|a6b5e676-a761-4cbf-a1e5-01ae06442ed4|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|278530976|133048954|dbe6753b-9386-4b8a-854f-99b67868e43e|ebf59034-56c8-4512-8df9-dc2c41282471|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|308358820|81522320|dbe6753b-9386-4b8a-854f-99b67868e43e|262d7557-5d0e-4ce6-89bf-cb055d649820|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|326687800|65203200|dbe6753b-9386-4b8a-854f-99b67868e43e|a578b5b9-75a0-474d-96ca-6b29da2bad84|B.Cu",
-          ""
         ]
       ],
       "meta": {
