@@ -33,7 +33,7 @@ void main() {
 
 		set_reset(reset);
 
-		//joy_scan();
+		joy_scan();
 
 		if (menu_advance()) {
 			// menu has taken over, so no output to host

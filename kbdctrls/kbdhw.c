@@ -116,7 +116,18 @@ void set_reset(int reset) {
  */
 void joy_scan() {
 	// prescaler 7 = 1/128 = 125kHz
-	ADCSRA = 0x87;
+	ADCSRA = 0x07;
+
+	// --------------------------------------------
+	// measure up/down
+
+	ADMUX = 0x67;
+
+	// disable interrupt flag
+	ADCSRA |= 1 << ADIF;
+
+	// enable conversion
+	ADCSRA |= 1 << ADEN;
 
 	//start conversion
 	ADCSRA |= 1 << ADSC;
@@ -132,17 +143,49 @@ void joy_scan() {
 		// low water we define as 0x40
 		// high water we set to 0xc0
 		if (val < 0x40) {
-			// set crsr down
-			scanvals[1] |= 0x40;
-			// set ">" 
-			//scanvals[8] |= 0x10;
+			// set crsr right
+			scanvals[0] |= 0x80;
 		} else
 		if (val > 0xc0) {
+			// set crsr left
+			scanvals[0] |= 0x80;
+			scanvals[8] |= 0x20;
+		}
+	}
+	
+	// --------------------------------------------
+	// measure left/right
+
+	ADCSRA = 0x07;
+
+	ADMUX = 0x66;
+
+	// disable interrupt flag
+	ADCSRA |= 1 << ADIF;
+
+	ADCSRA |= 1 << ADEN;
+
+	//start conversion
+	ADCSRA |= 1 << ADSC;
+
+	while (!(ADCSRA & 0x10)) {
+		// ADIF set
+	
+		// we use left adjust, so only high byte needed	
+		unsigned char val = ADCH;
+
+		// max value is 0xff
+		// mid value is 0x80
+		// low water we define as 0x40
+		// high water we set to 0xc0
+		if (val < 0x40) {
 			// set crsr up
 			scanvals[1] |= 0x40;
 			scanvals[8] |= 0x20;
-			// set "<" 
-			//scanvals[9] |= 0x08;
+		} else
+		if (val > 0xc0) {
+			// set crsr down
+			scanvals[1] |= 0x40;
 		}
 	}	
 }
