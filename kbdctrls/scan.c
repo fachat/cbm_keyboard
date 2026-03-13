@@ -20,6 +20,11 @@ static inline int fix_row_rev(int row) {
 	return row != 9 ? row + 1 : 0;
 }
 
+// shift lock status
+static int lock = 0;
+// change detection on slock
+static int locklock = 0;
+
 static void check_res(int slock, int *reset) {
         static int count = 0;
 
@@ -29,6 +34,9 @@ static void check_res(int slock, int *reset) {
                 if (count > 200) {
                         // res low
                         *reset = 1;
+			// reset shift lock
+			locklock = 1;
+			lock = 0;
                 }
         } else {
                 count = 0;
@@ -37,8 +45,6 @@ static void check_res(int slock, int *reset) {
 }
 
 static void handle_slock(int slock, int *shift) {
-	static int lock = 0;
-	static int locklock = 0;
 
 	if (slock && (locklock == 0)) {
 		lock = 1-lock;
