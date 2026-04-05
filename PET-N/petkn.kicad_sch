@@ -73,7 +73,7 @@
 		)
 		(uuid "5ff403e4-db50-4e91-9042-affaa4c29fa4")
 	)
-	(text "RELEASES:\n* N-V1-R1 PCB Submitted 2020-12-18\n* N-V1-R2 PCB Updated 2021-03-31 \n* N-V3-R1 PCB Submitted 2025-10-11\n* PETN-3.1A 2026-01-30"
+	(text "RELEASES:\n* N-V1-R1 PCB Submitted 2020-12-18\n* N-V1-R2 PCB Updated 2021-03-31 \n* N-V3-R1 PCB Submitted 2025-10-11\n* PETN-3.1A 2026-01-30\n* PETN-3.1B 2026-04-05 (add orientation \n  markers for the LEDs)"
 		(exclude_from_sim no)
 		(at 133.35 76.2 0)
 		(effects
@@ -145,7 +145,7 @@
 		)
 		(uuid "d5f1cd80-6d8a-4b77-b8fa-a9d8338a4843")
 	)
-	(text "CBM-KEYB-PETN-3.1A-20260130"
+	(text "CBM-KEYB-PETN-3.1B-20260405"
 		(exclude_from_sim no)
 		(at 230.124 173.228 0)
 		(effects

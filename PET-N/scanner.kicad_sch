@@ -3202,7 +3202,7 @@
 		)
 		(uuid "9b7406d2-658e-4c96-859b-5dc0bc6d2099")
 	)
-	(text "CBM-KEYB-PETN-3.1A-20260130"
+	(text "CBM-KEYB-PETN-3.1B-20260405"
 		(exclude_from_sim no)
 		(at 231.14 175.26 0)
 		(effects
