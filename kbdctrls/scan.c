@@ -15,10 +15,17 @@ static unsigned char rawvals[16];
 
 static unsigned char pot2[] = { 1, 2, 4, 8, 16, 32, 64, 128 };
 
-
+#ifdef REV30
 static inline int fix_row_rev(int row) {
 	return row != 9 ? row + 1 : 0;
 }
+#else
+static inline int fix_row_rev(int row) {
+	return row;
+}
+#endif
+
+static int lock = 0;
 
 // shift lock status
 static int lock = 0;
@@ -43,6 +50,7 @@ static void check_res(int slock, int *reset) {
                 *reset = 0;
         }
 }
+
 
 static void handle_slock(int slock, int *shift) {
 
