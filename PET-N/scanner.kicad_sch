@@ -3414,6 +3414,16 @@
 	)
 	(wire
 		(pts
+			(xy 225.425 132.715) (xy 233.68 132.715)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00349faf-cd0a-4710-9014-8f7f685d508d")
+	)
+	(wire
+		(pts
 			(xy 246.38 150.495) (xy 246.38 154.305)
 		)
 		(stroke
@@ -3941,6 +3951,16 @@
 			(type default)
 		)
 		(uuid "45a2d4e6-7bd9-4b19-a25f-da8b7ccca05b")
+	)
+	(wire
+		(pts
+			(xy 225.425 130.175) (xy 233.68 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45db6b26-6230-420b-ad99-e9d99527f65a")
 	)
 	(wire
 		(pts
@@ -6025,6 +6045,50 @@
 		(uuid "7d30aa8f-eb0d-44f3-93fd-1b8708ad6467")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.0064 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IRQOUT"
+		(shape output)
+		(at 225.425 130.175 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "838c29af-34da-43e0-a3b5-b8b0e9c64f56")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.2601 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NMIOUT"
+		(shape output)
+		(at 225.425 132.715 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "866a1741-28b4-41a1-ae8b-74a892ffb545")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.0787 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
