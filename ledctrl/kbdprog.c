@@ -3,6 +3,7 @@
 #include <util/delay.h>
 #include <avr/io.h>
 #include <avr/interrupt.h>
+#include <avr/pgmspace.h>
 
 #include "defs.h"
 #include "ledprog.h"
@@ -27,7 +28,7 @@
  *	-
  */
 
-static const unsigned char keyrels[MAXLED][6] = {
+static const unsigned char keyrels[MAXLED][6] PROGMEM = {
 	{  	-1,	8, 	16,	72,	65, 	-1	},	// 0 !
 	{	-1,	9,	17,	24,	8,	-1	},	// 1 #
 	{	-1,	10,	18,	25,	9,	-1	},	// 2 %
@@ -110,6 +111,11 @@ static const unsigned char keyrels[MAXLED][6] = {
 	{	63,	-1,	-1,	-1,	71,	-1	}	// 79 =
 };
 
+static inline unsigned char getKeyrel(int x, int y) {
+	return pgm_read_byte(&keyrels[x][y]);
+}
+
+
 // kprog state, one per key
 unsigned char kprog[MAXLED];
 unsigned char tmp[MAXLED][COLSANDPARS];
@@ -180,7 +186,7 @@ void kp_dilute(int k, unsigned char src[COLSANDPARS],
 	b = src[2] >> 3;
 
 	for (i = 0; i < 6; i++) {
-		if ((j = keyrels[k][i]) >= 0) {
+		if ((j = getKeyrel(k,i)) >= 0) {
 			trg[j][0] += r;
 			trg[j][1] += g;
 			trg[j][2] += b;
@@ -196,7 +202,7 @@ void kp_dilute_prog(int k) {
 	int i,j;
 
 	for (i = 0; i < 6; i++) {
-		if ((j = keyrels[k][i]) >= 0) {
+		if ((j = getKeyrel(k,i)) >= 0) {
 			kprog[j] = KP_DILUTE;
 		}
 	}
